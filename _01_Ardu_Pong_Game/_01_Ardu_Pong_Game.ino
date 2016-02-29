@@ -12,14 +12,13 @@
      We will use an counter, 74HC138N & 
      a cool code!!!Enjoy good & have fun!!!
  *MCU:              Arduino - @16MHz           http://www.arduino.cc/
- *NFC.Board:       NFC Module Matriz HS2088BS  http://www.soldafria.com.br/matriz-de-leds-vermelho-anodo-8x8-hs-2088bs-hs-23088-p-3638.html
+ *MATRIZ Board:     Matriz HS2088BS  http://www.soldafria.com.br/matriz-de-leds-vermelho-anodo-8x8-hs-2088bs-hs-23088-p-3638.html
  *Connections:
      See: you.tube Video : https://youtu.be/ydJrrRyvgU8
   Notes: 
   * In a timer interrupt (timer2, 1kHz) the display routine is 
      called, outputting the global imageMem buffer. 
   * Autoplay can be defined for a static demo.
-  
   */
   
 #define AUTOPLAY true
