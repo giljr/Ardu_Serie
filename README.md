@@ -23,6 +23,10 @@ Project Kinect LaserGun V 0.1: Arduino - Testing Laser - Jun 2014
 01 # arduSerie - Pong Game w/ IC 74HC138!!! - file: 01_Ardu_Pong_Game.ino
                   https://youtu.be/ydJrrRyvgU8?list=PLK3PeNcUzb8TwZuXZJgREj5nDbQxRLW_a
 
+02 # ardu_serie - 8 Digit 7 Segment Display  - file: _8Digit_00.ino
+                   https://youtu.be/CKetrf3Mv9s
+                   
 03 # arduSerie - DIY 4 x 4 16-Key Numeric Keypad TEST!! file: keypad_testing00.ino
+                  https://youtu.be/cVpLxHNI_x8
 
 
