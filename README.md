@@ -32,7 +32,8 @@ Project Kinect LaserGun V 0.1: Arduino - Testing Laser - Jun 2014
 04 # arduSerie - 04 # ArduSerie - E-Osci v1.0 Right Now!!!
                   https://youtu.be/anycAJkGeY8
                  
- 05 # arduSerie - DD_ARD_YU v1.0 - Digital Dimmer ARDuino for YoU!!! file 1: 
-                   https://youtu.be/-1Vl_qlzZng                      file 2: ac_light_dimmer_adapt_02.ino
-                                                                     file 3:
+ 05 # arduSerie - DD_ARD_YU v1.0 - Digital Dimmer ARDuino for YoU!!! https://youtu.be/-1Vl_qlzZng   
+                                                                     file 1: Dimmer_Digital.ino
+                                                                     file 2: ac_light_dimmer_adapt_02.ino
+                                                                     file 3: 
 
