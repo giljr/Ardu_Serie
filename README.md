@@ -42,3 +42,5 @@ Project Kinect LaserGun V 0.1: Arduino - Testing Laser - Jun 2014
                                                                file 2: _06_arduSerie_sketch_02.ino
                                                                file 3: _06_arduSerie_sketch_03.ino
                                                                file 4: _06_arduSerie_sketch_04.ino
+                                                               
+07 # arduSerie - Rotary Encoder Basics For Arduino  https://youtu.be/6ok3mH7tmN4  file 2: _07_arduSerie_RotaryEncoderBasicsWArduino.ino
