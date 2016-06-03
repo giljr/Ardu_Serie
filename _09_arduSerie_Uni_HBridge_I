@@ -27,6 +27,7 @@
    Based on http://tronixlabs.com.au/news/tutorial-serial-i2c-backpack-for-hd44780compatible-lcd-modules-with-arduino/
    Tutorial - Serial I2C backpack for HD44780-compatible LCD modules with Arduino and http://playground.arduino.cc/Code/Timer1
  Web: http://jungletronics.blogspot.com.br/2016/06/09-arduserie-uni-h-bridge-module-for_3.html
+ 
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License v3 as published by
    the Free Software Foundatio
