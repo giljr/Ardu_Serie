@@ -19,6 +19,8 @@
    Based on Rotary Encoder Tutorial with Arduino Code
    Code by Kevin Darrah https://youtu.be/HQuLZHsGZdI
 
+   WEB: http://jungletronics.blogspot.com.br/2016/05/07-arduserie-rotary-encoder-basics-for.html
+   
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License v3 as published by
    the Free Software Foundatio
