@@ -1,3 +1,5 @@
+//WEB: http://jungletronics.blogspot.com.br/2016/05/07-arduserie-rotary-encoder-basics-for.html
+
 import processing.serial.*;
 Serial myPort;        // The serial port
 int colla=0, omy = 2, colla2= 215, colla3 = 255, omy2=2, omy3 = 2;//all do the color stuff
