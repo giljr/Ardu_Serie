@@ -19,6 +19,7 @@
   * In a timer interrupt (timer2, 1kHz) the display routine is 
      called, outputting the global imageMem buffer. 
   * Autoplay can be defined for a static demo.
+  WEB: http://jungletronics.blogspot.com.br/2015/10/arduino-matrix-led-display-ping-pong.html
   */
   
 #define AUTOPLAY true
