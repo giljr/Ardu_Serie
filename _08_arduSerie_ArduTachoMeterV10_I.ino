@@ -20,6 +20,8 @@
    Based on http://bildr.org/
    Tutorial:Line Sensing. QRE1113 Reflectance Sensor + Arduino
 
+ WEB: http://jungletronics.blogspot.com.br/2016/05/08-arduserie-ardu-tacho-meter-v10.html
+ 
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License v3 as published by
    the Free Software Foundatio
