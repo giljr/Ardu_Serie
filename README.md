@@ -47,3 +47,5 @@ Project Kinect LaserGun V 0.1: Arduino - Testing Laser - Jun 2014
 
 08 # arduSerie - Ardu Tacho Meter v1.0 https://youtu.be/mesFtKku4bU   file 1: _08_arduSerie_ArduTachoMeterV10_I.ino
                                                                       file 2: _08_arduSerie_ArduTachoMeterV10_II.ino
+
+09 # arduSerie - Uni H-Bridge Module For Arduino    https://youtu.be/J3uOs2HWvRI  file 1:  _09_arduSerie_Uni_HBridge_I.ino
