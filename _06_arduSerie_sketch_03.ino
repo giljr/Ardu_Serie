@@ -21,6 +21,7 @@
    Based on tutorial Analog MuxDemux library
    Code by ajfisher https://github.com/ajfisher
 
+   WEB: http://jungletronics.blogspot.com.br/2016/05/06-arduserie-expanding-arduinos-pin-w.html
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License v3 as published by
    the Free Software Foundation.
