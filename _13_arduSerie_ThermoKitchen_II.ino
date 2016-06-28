@@ -125,7 +125,6 @@ void setup()
 void loop()
 {
    // Switch on the backlight
-
   
   lcd.home ();
   // Do a little animation by writing to the same location
