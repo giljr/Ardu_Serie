@@ -49,3 +49,6 @@ Project Kinect LaserGun V 0.1: Arduino - Testing Laser - Jun 2014
                                                                       file 2: _08_arduSerie_ArduTachoMeterV10_II.ino
 
 09 # arduSerie - Uni H-Bridge Module For Arduino    https://youtu.be/J3uOs2HWvRI  file 1:  _09_arduSerie_Uni_HBridge_I.ino
+
+13 # arduSerie - Arduino 1-Wire Thermocouple in the kitchen - file 1: _13_arduSerie_ThermoKitchen_I.ino
+file 2: _13_arduSerie_ThermoKitchen_II.ino file 3: _13_arduSerie_ThermoKitchen_III.ino Final file: _13_arduSerie_ThermoKitchen_Final.ino 
