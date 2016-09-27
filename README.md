@@ -54,3 +54,5 @@ Project Kinect LaserGun V 0.1: Arduino - Testing Laser - Jun 2014
 file 2: _13_arduSerie_ThermoKitchen_II.ino file 3: _13_arduSerie_ThermoKitchen_III.ino Final file: _13_arduSerie_ThermoKitchen_Final.ino 
 
 15 #arduSerie - Arduino Ripple Board w/ PCF8591P - file 1: _15_arduSerie_sketch_01.PCF8591_NoCalibration.ino  file 2: _15_arduSerie_sketch_02_PCF8591_Calibration.ino  file 3: _15_arduSerie_sketch_03_PCF8591_readAnalog.ino   official vid: https://youtu.be/oNpPBxcHSXw
+
+16 #arduSerie - Arduino Headless Setup  & ESP 8266 (WIFI cheap chip!) - file: _16_arduSerie_sketch_01.HelloServer_Json.ino - vid: 
