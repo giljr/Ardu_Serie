@@ -9,6 +9,7 @@
        - board found on Arduino IDE Exemples
      (connect everything on ESP8266 to access examples)
    Description:
+     This prints a json to console.
      Here we use the two platforms independently. 
      Aarduino reading the SHARP GPY0A41SK0F sensor and 
      go ESP8266 serving web page to flash an LED connected to gpio2.
@@ -44,8 +45,12 @@ void setup()
 
 void loop()
 {
-
   reading = analogRead(myir);
   delay(100);
-  Serial.println(reading);
+  Serial.print("{\"arduino\":{\"reading\":\"");
+  Serial.print(reading);
+  Serial.println("\"}}");
+  
+  //{"arduino":{"reading":"148"}}
+
 }
