@@ -5,11 +5,9 @@
      Flavour I - 
      Hex File: _16_arduSerie_sketch_01.HelloServer_Json.ino
    Revision History:
-     20160924:
-       - board found on Raspberry Pi for Dummies Book - Sean McManus & Mike Cook
-         http://goo.gl/swCq7E
-         http://goo.gl/AuTTkS
-         http://goo.gl/mKElBN
+     20160927:
+       - board found on Arduino IDE Exemples
+      (connect everything on ESP8266 to access examples)
    Description:
       Send off via i2c digital numbers from 0 to 255 to obtain the corresponding analog output
       on pin Aout; This code DO NOT CALIBRATE PCF8591P DAC(See Flavour II for calibrate procedures);
