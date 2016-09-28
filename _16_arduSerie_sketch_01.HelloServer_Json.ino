@@ -8,22 +8,17 @@
      20160927:
        - board found on Arduino IDE Exemples
       (connect everything on ESP8266 to access examples)
+      
    Description:
-      Send off via i2c digital numbers from 0 to 255 to obtain the corresponding analog output
-      on pin Aout; This code DO NOT CALIBRATE PCF8591P DAC(See Flavour II for calibrate procedures);
-      DAC output voltage doesn’t quite match the actual voltage measured by your Arduino.
-      That should be expected!! The datasheet for the PCF8591 shows several sources of potential
-      error in the analog output.  Among them is an offset error that be as much as 50 mV.
-      Address: 000
-
-   MCU:              Arduino 1.6.12 - @16MHz       http://www.arduino.cc/
-   MCU:              Raspberry Pi   - Model B https://www.raspberrypi.org/
-  IC Chip:           ESP8266 - SDK         https://github.com/pfalcon/esp-open-sdk
+        Simple web page that sends messages to two addresses urls.
+        It is a hello world of webserver to ESP8266!!!
+        
+   MCU:                  Arduino 1.6.12 - @16MHz       http://www.arduino.cc/
+   IC Chip:              ESP8266 - SDK                 https://github.com/pfalcon/esp-open-sdk
   
    Connections:
-      See google ++ slides:
-      & Officil you.tube channel vid:
-
+      See Officil you.tube channel vids: http://goo.gl/unfHZA
+      
    Based on:   Renato Aloi's SerieLink - Curso Arduino Express Aula 14 - ESP8266 Part I and II (seriallink.com.br)
    https://youtu.be/c4u_JbbvzxE
    Code by esp-community HelloServer
@@ -40,7 +35,7 @@
 #include <ESP8266mDNS.h>
 
 const char* ssid = "colibri";
-const char* password = "**********"; //***change to your wifi pswd***
+const char* password = "**********";//change it!!!
 
 ESP8266WebServer server(80);
 
