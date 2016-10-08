@@ -57,3 +57,5 @@ file 2: _13_arduSerie_ThermoKitchen_II.ino file 3: _13_arduSerie_ThermoKitchen_I
 
 16 #arduSerie - Arduino Headless Setup  & ESP 8266 (WIFI cheap chip!) - file: _16_arduSerie_sketch_01.HelloServer_Json.ino
 file 2: _16_arduSerie_sketch_03.WiFiWebServer.ino - file 3 : _16_arduSerie_sketch_04_Ir_Test.ino IV  vid: 
+
+18 #arduSerie - Speed Bluetooth Configuration - file: _18_arduSerie_sketch_01.ConfigBT.ino vid:  page: 
