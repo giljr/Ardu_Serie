@@ -59,4 +59,5 @@ file 2: _13_arduSerie_ThermoKitchen_II.ino file 3: _13_arduSerie_ThermoKitchen_I
 file 2: _16_arduSerie_sketch_03.WiFiWebServer.ino - file 3 : _16_arduSerie_sketch_04_Ir_Test.ino IV  vid: 
 
 18 #arduSerie - Speed Bluetooth Configuration - file: _18_arduSerie_sketch_01.ConfigBT.ino vid:  page: 
+
 20 #arduSerie - Your First NodeMCU/Lua Script Flash on ESP8266!!!- file - _20_arduSerie_lua_01.HelloWorld.lua vid: https://youtu.be/2bdtj6Fbgxo page: https://goo.gl/UFykwS
