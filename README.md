@@ -53,12 +53,12 @@ Project Kinect LaserGun V 0.1: Arduino - Testing Laser - Jun 2014
 13 # arduSerie - Arduino 1-Wire Thermocouple in the kitchen - file 1: _13_arduSerie_ThermoKitchen_I.ino
 file 2: _13_arduSerie_ThermoKitchen_II.ino file 3: _13_arduSerie_ThermoKitchen_III.ino Final file: _13_arduSerie_ThermoKitchen_Final.ino 
 
-15 #arduSerie - Arduino Ripple Board w/ PCF8591P - file 1: _15_arduSerie_sketch_01.PCF8591_NoCalibration.ino  file 2: _15_arduSerie_sketch_02_PCF8591_Calibration.ino  file 3: _15_arduSerie_sketch_03_PCF8591_readAnalog.ino   official vid: https://youtu.be/oNpPBxcHSXw
+15 #arduSerie - Arduino Ripple Board w/ PCF8591P - file 1: _15_arduSerie_sketch_01.PCF8591_NoCalibration.ino  file 2: _15_arduSerie_sketch_02_PCF8591_Calibration.ino  file 3: _15_arduSerie_sketch_03_PCF8591_readAnalog.ino   official vid: https://youtu.be/oNpPBxcHSXw  page: https://goo.gl/5F73MG
 
 16 #arduSerie - Arduino Headless Setup  & ESP 8266 (WIFI cheap chip!) - file: _16_arduSerie_sketch_01.HelloServer_Json.ino
-file 2: _16_arduSerie_sketch_03.WiFiWebServer.ino - file 3 : _16_arduSerie_sketch_04_Ir_Test.ino IV  vid: 
+file 2: _16_arduSerie_sketch_03.WiFiWebServer.ino - file 3 : _16_arduSerie_sketch_04_Ir_Test.ino IV  official vid: https://youtu.be/hH8t4iPAVJI  official page: https://goo.gl/AW4utX 
 
-18 #arduSerie - Speed Bluetooth Configuration - file: _18_arduSerie_sketch_01.ConfigBT.ino vid:  page: 
+18 #arduSerie - Speed Bluetooth Configuration - file: _18_arduSerie_sketch_01.ConfigBT.ino vid: https://youtu.be/lvLnOyy7pbo page: https://goo.gl/uGj7I9
 
 20 #arduSerie - Your First NodeMCU/Lua Script Flash on ESP8266!!!- file - _20_arduSerie_lua_01.HelloWorld.lua vid: https://youtu.be/2bdtj6Fbgxo page: https://goo.gl/UFykwS
 
