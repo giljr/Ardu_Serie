@@ -63,3 +63,6 @@ file 2: _16_arduSerie_sketch_03.WiFiWebServer.ino - file 3 : _16_arduSerie_sketc
 20 #arduSerie - Your First NodeMCU/Lua Script Flash on ESP8266!!!- file - _20_arduSerie_lua_01.HelloWorld.lua vid: https://youtu.be/2bdtj6Fbgxo page: https://goo.gl/UFykwS
 
 21 #arduSerie - Making Ideas Shine with Johnny-Five!!!- file1: _21_arduSerie_Johnny_Five_helloBOARD_00.js file2: _21_arduSerie_Johnny_Five_helloLED_00.js file3: _21_arduSerie_Johnny_Five_helloLED_01.js file4: _21_arduSerie_Johnny_Five_helloSERVO_00.js file5: _21_arduSerie_Johnny_Five_helloSERVO_01.js file6: _21_arduSerie_Johnny_Five_helloSERVO_02 vid1: https://youtu.be/Io9BnlIla2k vid2: https://youtu.be/1ReWRJP-6Ig page: https://goo.gl/UTsGrD 
+
+
+100 #arduSerie - J3 Solar Tracker Turret V1.0 - a 100th YouTube Video!!! DEscription: "This is a Awesome Solar Tracker Turret v1.0, based on Arduino Sun Tracker Turret © CC0 (https://create.arduino.cc/projecthub/robotgeek-projects-team/arduino-sun-tracker-turret-06cba9?utm_source=newsletter&utm_campaign=Nov15&utm_medium=banner&utm_content=solartr)." file - _100_kidSerie_sketch_solarTracker.ino	 vid: https://goo.gl/unfHZA  page: https://goo.gl/ZAnbBz
