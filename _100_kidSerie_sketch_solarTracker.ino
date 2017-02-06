@@ -6,18 +6,12 @@
      Hex File: _100_kidSerie_sketch_solarTracker.ino
    Revision History:
      20161219:
-       - from github adafruit/Adafruit_MQTT_Library
-  https://github.com/adafruit/Adafruit_MQTT_Library/blob/master/examples/mqtt_esp8266/mqtt_esp8266.ino
-  https://learn.adafruit.com/mqtt-adafruit-io-and-you/intro-to-adafruit-mqtt
-
    Description:
      This is a Awesome Solar Tracker Turret v1.0, based on Arduino Sun Tracker Turret © CC0.
      https://create.arduino.cc/projecthub/robotgeek-projects-team/arduino-sun-tracker-turret-06cba9?utm_source=newsletter&utm_campaign=Nov15&utm_medium=banner&utm_content=solartr
-
    MCU:                  Arduino 1.6.12 - @16MHz       http://www.arduino.cc/
    Servos:               9 g                           http://www.dx.com/p/2-9g-servos-bracket-sensor-mount-pan-tilt-kit-for-gyro-translucent-blue-214081#.WFhA2PkrLDc
    LDR                   4x                            http://www.instructables.com/id/How-to-Use-a-Light-Dependent-Resistor-LDR/
-
    Connections:
       See Official youtube channel vids:
    Based on:   Arduino Sun Tracker Turret © CC0
