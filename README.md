@@ -70,3 +70,16 @@ file 2: _16_arduSerie_sketch_03.WiFiWebServer.ino - file 3 : _16_arduSerie_sketc
 23 #arduSerie - HowTo Control Devices With PID Library - Description: "This is the goal: we have to control the speed of an exhaust fan by the pid method. We will use the Arduino PID Library by Brett Beauregard and Front-End v03 using Processing.org version 3.1."  file1: _23_arduSerie_ArduTachoMeterV2_I.ino file2: _23_arduSerie_ArduTachoMeterV2_II.ino  file3: _23_arduSerie_ArduTachoMeterV2_IV.ino file4: _23_arduSerie_ArduTachoMeterV2_V.ino file5: _23_arduSerie_ArduTachoMeterV2_VI.ino file6:_23_arduSerie_ArduTachoMeterV2_VII file7: _23_arduSerie_DarkTube.ino file8: _23_arduSerie_DarkTube_Processing_pde (modify this name)  vid: https://youtu.be/BrjnD3IeRKs page: https://goo.gl/tgtW9B  
 
 24 #arduSerie - abC Project: Arduino, Bluetooth and Compass V1.0 - Description: "We will implement a compass connected to the arduino via bluetooth. We used the HC-06 bluetooth dongle, GY-85 board, which sensor used are only HMC5883L out of three."  file1: _24_arduSerie_Arduino_Bluetooth.ino - How Bluetooth Work file2:_24_arduSerie_Arduino_Bluetooth.ino  file3: _24_arduSerie_Arduino_Bluetooth.ino  file4: _24_Arduino_Compass_BT_Processing.pde vid: https://goo.gl/unfHZA page: https://goo.gl/gHFGIi
+
+25 #arduSerie - Ping-Pong Game Explained!!! Simulation on Atmel Studio 7   - Description: "Learn:  
+. Configuration of the Timer Interrupt;
+. How a cool Code works inside;
+. Analyzing & Dividing code to conquer;
+. Calculate the Overflow Timer  on Arduino Helped by Atmel Studio 7 Simulator !!! vid: https://youtu.be/X6yPxE8C60s page : https://goo.gl/aAKGuD"  file1: _25_RowColumnsScanning.ino  file2: _25_bitwise_pong_game_00.ino file3: _25_bitwise_pong_game_01.ino file4: _25_bitwise_pong_game_03.ino
+
+26 #arduSerie - How to load programs to an Arduino UNO from Atmel Studio 7  - Description: "So you want to have a friendly IDE to encode your projects in arduino? Meet Atmel Studio 7!!! a powerfull IDE for your Arduino's Project. page : https://goo.gl/PSxDth" vid: https://youtu.be/hbPcWfWOJZY  file1: _26_arduSerie_atmelStudio_00.ino
+
+27 #arduSerie - - Description: "On this video I’ll tell you how an Arduino’s blink program works in assembly, trying this in the simulator on Atmel Studio 7 IDE and more... page: https://goo.gl/7qKbqS" vid: https://youtu.be/pInCtpDUz98 file1: _25_RowColumnsScanning.ino  file2: _25_bitwise_pong_game_00.ino file3: _25_bitwise_pong_game_01.ino file4: _25_bitwise_pong_game_03.ino
+
+28 #arduSerie - Arduino & SoundCard Oscilloscope: Pong Game - How It Works - Description: "Let's take a closer look at this cool code with the help of an Sound Card Oscilloscope from Christian Zeitnitz (https://www.zeitnitz.eu/scope_en).
+Visit page : https://goo.gl/ON9NIr"  vid: https://youtu.be/Syas7W4Jft8  file1: _25_RowColumnsScanning.ino  file2: _25_bitwise_pong_game_00.ino file3: _25_bitwise_pong_game_01.ino file4: _25_bitwise_pong_game_03.ino
