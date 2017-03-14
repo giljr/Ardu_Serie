@@ -79,7 +79,7 @@ file 2: _16_arduSerie_sketch_03.WiFiWebServer.ino - file 3 : _16_arduSerie_sketc
 
 26 #arduSerie - How to load programs to an Arduino UNO from Atmel Studio 7  - Description: "So you want to have a friendly IDE to encode your projects in arduino? Meet Atmel Studio 7!!! a powerfull IDE for your Arduino's Project. page : https://goo.gl/PSxDth" vid: https://youtu.be/hbPcWfWOJZY  file1: _26_arduSerie_atmelStudio_00.ino
 
-27 #arduSerie - - Description: "On this video I’ll tell you how an Arduino’s blink program works in assembly, trying this in the simulator on Atmel Studio 7 IDE and more... page: https://goo.gl/7qKbqS" vid: https://youtu.be/pInCtpDUz98 file1: _25_RowColumnsScanning.ino  file2: _25_bitwise_pong_game_00.ino file3: _25_bitwise_pong_game_01.ino file4: _25_bitwise_pong_game_03.ino
+27 #arduSerie - Meeting Assembly — Hello World Arduino on Atmel Studio 7  - Description: "On this video I’ll tell you how an Arduino’s blink program works in assembly, trying this in the simulator on Atmel Studio 7 IDE and more... page: https://goo.gl/7qKbqS" vid: https://youtu.be/pInCtpDUz98 file1: _25_RowColumnsScanning.ino  file2: _25_bitwise_pong_game_00.ino file3: _25_bitwise_pong_game_01.ino file4: _25_bitwise_pong_game_03.ino
 
 28 #arduSerie - Arduino & SoundCard Oscilloscope: Pong Game - How It Works - Description: "Let's take a closer look at this cool code with the help of an Sound Card Oscilloscope from Christian Zeitnitz (https://www.zeitnitz.eu/scope_en).
 Visit page : https://goo.gl/ON9NIr"  vid: https://youtu.be/Syas7W4Jft8  file1: _25_RowColumnsScanning.ino  file2: _25_bitwise_pong_game_00.ino file3: _25_bitwise_pong_game_01.ino file4: _25_bitwise_pong_game_03.ino
