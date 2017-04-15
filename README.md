@@ -83,3 +83,6 @@ file 2: _16_arduSerie_sketch_03.WiFiWebServer.ino - file 3 : _16_arduSerie_sketc
 
 28 #arduSerie - Arduino & SoundCard Oscilloscope: Pong Game - How It Works - Description: "Let's take a closer look at this cool code with the help of an Sound Card Oscilloscope from Christian Zeitnitz (https://www.zeitnitz.eu/scope_en).
 Visit page : https://goo.gl/ON9NIr"  vid: https://youtu.be/Syas7W4Jft8  file1: _25_RowColumnsScanning.ino  file2: _25_bitwise_pong_game_00.ino file3: _25_bitwise_pong_game_01.ino file4: _25_bitwise_pong_game_03.ino
+
+29 #arduSerie - ATtiny85 Easy Flashing Through Arduino : Programming ATtiny85 in 10 steps - Description: How to program ATtiny85. Here, I summarized everything for you in 10 steps and less than 10 minutes away... Visit page: http://highlowtech.org/?p=1695
+GitHub: https://gist.github.com/giljr/36cc2261eaa052cba83fc98c77502673 file: _29_Blink_Flash_ATTINY85.ino
