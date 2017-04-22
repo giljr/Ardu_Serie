@@ -86,3 +86,6 @@ Visit page : https://goo.gl/ON9NIr"  vid: https://youtu.be/Syas7W4Jft8  file1: _
 
 29 #arduSerie - ATtiny85 Easy Flashing Through Arduino : Programming ATtiny85 in 10 steps - Description: How to program ATtiny85. Here, I summarized everything for you in 10 steps and less than 10 minutes away... Visit page: http://highlowtech.org/?p=1695
 GitHub: https://gist.github.com/giljr/36cc2261eaa052cba83fc98c77502673 file: _29_Blink_Flash_ATTINY85.ino
+
+30 #arduSerie - Fast Rainbow Circuit : Three PWM Signal w/ ATtiny85 - Description: Getting 3 PWM from ATtiny85 and drive RGB LED in a round-fashion mode like rainbow is not a trivial task. But anyway, let’s jump straight to the codes. Here they are:... Visit page: https://goo.gl/ltXjBC GitHub: https://github.com/giljr/Ardu_Serie  file1: _30_ATTINY_pwmGraphicGeneration.ino   file2: _30_arduSerie_ATTiny85_one_PWM_output.ino   file3: 	_30_arduSerie_ATTiny85_two_PWM_output.ino   file4: _30_arduSerie_ATTiny85_three_PWM_output.ino  file5: _30_arduSerie_ATTiny85_four_PWM_output.ino
+
