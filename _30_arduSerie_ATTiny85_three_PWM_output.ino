@@ -54,8 +54,8 @@ void setup() {
   /*
     Control Register A for Timer/Counter-0 (Timer/Counter-0 is configured using two registers: A and B)
     TCCR0A is 8 bits: [COM0A1:COM0A0:COM0B1:COM0B0:unused:unused:WGM01:WGM00]
-    3<<COM0A0: sets bits COM0A0 and COM0A1, which (in Fast PWM mode) clears OC0A on compare-match, and clear OC0A at BOTTOM (inverting mode)
-    3<<COM0B0: sets bits COM0B0 and COM0B1, which (in Fast PWM mode) clears OC0B on compare-match, and clear OC0B at BOTTOM (inverting mode)
+    3<<COM0A0: sets bits COM0A0 and COM0A1, which (in Fast PWM mode) sets OC0A on compare-match, and clear OC0A at BOTTOM (inverting mode)
+    3<<COM0B0: sets bits COM0B0 and COM0B1, which (in Fast PWM mode) sets OC0B on compare-match, and clear OC0B at BOTTOM (inverting mode)
     3<<WGM00: sets bits WGM00 and WGM01, which (when combined with WGM02 from TCCR0B below) enables Fast PWM mode
   */
   TCCR0A = 3 << COM0A0 | 3 << COM0B0 | 3 << WGM00;
