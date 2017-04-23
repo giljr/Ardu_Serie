@@ -1,7 +1,7 @@
 /*
   Project name:
      Fast Rainbow Circuit #arduSerie 30
-     Flavour II - Generate a Graphics from interruptions routine
+     Flavour V - Generate a Graphics from interruptions routine
      Hex File: _30_ATTINY_pwmGraphicGeneration.ino
   
   Revision History:
@@ -10,11 +10,11 @@
   Description:
      Using interruption to get analogue data to graphic
                
-  MCU:                  Arduino 1.6.12 - @16MHz       http://www.arduino.cc/
+  MCU:                  Arduino 1.8.2 - @16MHz       http://www.arduino.cc/
   MCU:                  ATtiny85  is an 8-bit AVR Microcontroller with 8K ISP flash memory
    
   Connections:
-      See Official youtube channel vids: TODO[linkto youtube vid goes here]
+      See Official youtube channel vids: https://goo.gl/mh6TgX
       
   Graphics:
    https://docs.google.com/spreadsheets/d/1HCfaC4OAW71nOij7Lnwlgr5VIIuTOLhIANSV1ZYkAMM/edit?usp=sharing
