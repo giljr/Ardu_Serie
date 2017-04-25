@@ -13,6 +13,8 @@
 
   MCU:                  Arduino 1.6.12 - @16MHz       http://www.arduino.cc/
   MCU:                  ATtiny85  is an 8-bit AVR Microcontroller with 8K ISP flash memory
+  
+  Datasheet: http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf
 
   Connections:
       See Official Jungletronics blog: https://goo.gl/mh6TgX
@@ -39,9 +41,10 @@ const int Red = 1;
 void setup() {
 
   /*
+    DDRB — Port B Data Direction Register
     Port B Data Direction Register (controls the mode of all pins within port B)
     DDRB is 8 bits: [unused:unused:DDB5:DDB4:DDB3:DDB2:DDB1:DDB0]
-    1<<DDB0: sets bit DDB0 (data-direction, port B, pin 0), which puts PB0 (port B, pin 0) in output mode
+    1<<DDB4: sets bit DDB4 (data-direction, port B, 4th pin), which puts pin 3 on ATtiny85 in output mode;
   */
   DDRB  |= (1 << DDB0);
 
