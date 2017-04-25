@@ -50,6 +50,7 @@ void setup() {
     DDRB — Port B Data Direction Register
     Port B Data Direction Register (controls the mode of all pins within port B)
     DDRB is 8 bits: [unused:unused:DDB5:DDB4:DDB3:DDB2:DDB1:DDB0]
+    1<<DDB3: sets bit DDB3 (data-direction, port B, 3th pin), which puts pin 2 on ATtiny85 in output mode;
     1<<DDB4: sets bit DDB4 (data-direction, port B, 4th pin), which puts pin 3 on ATtiny85 in output mode;
     1<<DDB1: sets bit DDB1 (data-direction, port B, 1th pin), which puts pin 6 on ATtiny85 in output mode;
     1<<DDB0: sets bit DDB0 (data-direction, port B, 0th pin), which puts pin 5 on ATtiny85 in output mode (Item 10.4.3 datasheet);
