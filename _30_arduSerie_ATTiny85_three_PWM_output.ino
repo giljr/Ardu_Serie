@@ -43,43 +43,49 @@ volatile uint8_t* Port[] = {&OCR0A, &OCR0B, &OCR1B};
 void setup() {
 
   /*
+    DDRB — Port B Data Direction Register
     Port B Data Direction Register (controls the mode of all pins within port B)
     DDRB is 8 bits: [unused:unused:DDB5:DDB4:DDB3:DDB2:DDB1:DDB0]
-    1<<DDB4: sets bit DDB4 (data-direction, port B, pin 4), which puts PB4 (port B, pin 4) in output mode
-    1<<DDB1: sets bit DDB1 (data-direction, port B, pin 1), which puts PB1 (port B, pin 1) in output mode
-    1<<DDB0: sets bit DDB0 (data-direction, port B, pin 0), which puts PB0 (port B, pin 0) in output mode
+    1<<DDB4: sets bit DDB4 (data-direction, port B, 4th pin), which puts pin 3 on ATtiny85 in output mode;
+    1<<DDB1: sets bit DDB1 (data-direction, port B, 1th pin), which puts pin 6 on ATtiny85 in output mode;
+    1<<DDB0: sets bit DDB0 (data-direction, port B, 0th pin), which puts pin 5 on ATtiny85 in output mode (Item 10.4.3 datasheet);
   */
   DDRB  |= (1 << DDB4) | (1 << DDB1) | (1 << DDB0);
 
   /*
+    TCCR0A — Timer/Counter Control Register A
     Control Register A for Timer/Counter-0 (Timer/Counter-0 is configured using two registers: A and B)
-    TCCR0A is 8 bits: [COM0A1:COM0A0:COM0B1:COM0B0:unused:unused:WGM01:WGM00]
-    3<<COM0A0: sets bits COM0A0 and COM0A1, which (in Fast PWM mode) sets OC0A on compare-match, and clear OC0A at BOTTOM (inverting mode)
-    3<<COM0B0: sets bits COM0B0 and COM0B1, which (in Fast PWM mode) sets OC0B on compare-match, and clear OC0B at BOTTOM (inverting mode)
-    3<<WGM00: sets bits WGM00 and WGM01, which (when combined with WGM02 from TCCR0B below) enables Fast PWM mode
+    TCCR0A is 8 bits:[COM0A1:COM0A0:COM0B1:COM0B0:unused:unused:WGM01:WGM00]
+    3<<COM0A0: sets bits COM0A0 and COM0A1, which (in Fast PWM mode) sets OC0A on compare-match, and clear OC0A at BOTTOM — inverting mode;
+    3<<COM0B0: sets bits COM0B0 and COM0B1, which (in Fast PWM mode) sets OC0B on compare-match, and clear OC0B at BOTTOM — inverting mode (Table 11–3 datasheet);
+    3<<WGM00: sets bits WGM00 and WGM01, which (when combined with WGM02 from TCCR0B below) enables Fast PWM mode (Table 11–5 datasheet)
   */
   TCCR0A = 3 << COM0A0 | 3 << COM0B0 | 3 << WGM00;
 
   /*
+    TCCR0B — Timer/Counter Control Register B
     Control Register B for Timer/Counter-0 (Timer/Counter-0 is configured using two registers: A and B)
     TCCR0B is 8 bits: [FOC0A:FOC0B:unused:unused:WGM02:CS02:CS01:CS00]
-    0<<WGM02: bit WGM02 remains clear, which (when combined with WGM00 and WGM01 from TCCR0A above) enables Fast PWM mode
-    3<<CS00: sets bits CS00 and CS01 (leaving CS02 clear), which tells Timer/Counter-0 to use a prescalar 64
+    0<<WGM02: bit WGM02 remains clear, which (when combined with WGM00 and WGM01 from TCCR0A above) enables Fast PWM mode (Table 11–5 datasheet);
+    3<<CS00: sets bits CS00 and CS01 (leaving CS02 clear), which tells Timer/Counter-0 to use a prescalar 64 (Table 11–6 datasheet).
   */
   TCCR0B = 0 << WGM02 | 3 << CS00;
 
   /*
+    TCCR1 — Timer/Counter1 Control Register
     TCCR1 is 8 bits: [CTC1:PWM1A:COM1A1:COM1A0:CS13:CS12:CS11:CS10]
-    0<<PWM1A: bit PWM1A remains clear, which prevents Timer/Counter-1 from using pin OC1A (which is shared with OC0B) pin 6
-    3<<COM1A0: sets bits COM1A0, COM1A1 compare match with compare register A in Timer/Counter1 - OC1A
-    7<<CS10: sets bit CS10, CS11 and CS12 which tells Timer/Counter-1  to use a prescalar of 64
+    0<<PWM1A: bit PWM1A remains clear, which prevents Timer/Counter-1 from using pin OC1A (which is shared with OC0B) pin 6;
+    3<<COM1A0: sets bits COM1A0, COM1A1 compare match with compare register A in Timer/Counter1 — OC1A (Table 12–1 datasheet); 
+    7<<CS10: sets bit CS10, CS11 and CS12 which tells Timer/Counter-1 to use a prescalar of 64 ( Table 12–5 datasheet).
   */
   TCCR1 = 0 << PWM1A | 3 << COM1A0 | 7 << CS10;
 
   /*
+    GTCCR — General Timer/Counter1 Control Register
     GTCCR is 8 bits: [TSM:PWM1B:COM1B1:COM1B0:FOC1B:FOC1A:PSR1:PSR0]
     1<<PWM1B: sets bit PWM1B which enables the use of OC1B on pin 3
-    3<<COM1B0: sets bit COM1B0 and COM1B1, which (when in PWM mode) sets OC1B on compare-match, and clears at BOTTOM
+    3<<COM1B0: sets bit COM1B0 and COM1B1, which (when in PWM mode) sets the OC1B output line.
+    Note that the corresponding direction control bit must be set (one) in order to control an output pin ( Item 12.3.2 datasheet).
   */
   GTCCR = 1 << PWM1B | 3 << COM1B0;
 }
