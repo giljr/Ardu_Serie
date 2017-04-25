@@ -13,6 +13,8 @@
 
   MCU:                  Arduino 1.6.12 - @16MHz       http://www.arduino.cc/
   MCU:                  ATtiny85  is an 8-bit AVR Microcontroller with 8K ISP flash memory
+  
+  Datasheet: http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf
 
   Connections:
       See Official Jungletronics blog: https://goo.gl/mh6TgX
@@ -76,7 +78,7 @@ void setup() {
     TCCR1 is 8 bits: [CTC1:PWM1A:COM1A1:COM1A0:CS13:CS12:CS11:CS10]
     0<<PWM1A: bit PWM1A remains clear, which prevents Timer/Counter-1 from using pin OC1A (which is shared with OC0B) pin 6;
     3<<COM1A0: sets bits COM1A0, COM1A1 compare match with compare register A in Timer/Counter1 — OC1A (Table 12–1 datasheet); 
-    7<<CS10: sets bit CS10, CS11 and CS12 which tells Timer/Counter-1 to use a prescalar of 64 ( Table 12–5 datasheet).
+    7<<CS10: sets bit CS10, CS11 and CS12 which tells Timer/Counter-1 to use a prescalar of 64 (Table 12–5 datasheet).
   */
   TCCR1 = 0 << PWM1A | 3 << COM1A0 | 7 << CS10;
 
@@ -85,7 +87,7 @@ void setup() {
     GTCCR is 8 bits: [TSM:PWM1B:COM1B1:COM1B0:FOC1B:FOC1A:PSR1:PSR0]
     1<<PWM1B: sets bit PWM1B which enables the use of OC1B on pin 3
     3<<COM1B0: sets bit COM1B0 and COM1B1, which (when in PWM mode) sets the OC1B output line.
-    Note that the corresponding direction control bit must be set (one) in order to control an output pin ( Item 12.3.2 datasheet).
+    Note that the corresponding direction control bit must be set (one) in order to control an output pin (Item 12.3.2 datasheet).
   */
   GTCCR = 1 << PWM1B | 3 << COM1B0;
 }
