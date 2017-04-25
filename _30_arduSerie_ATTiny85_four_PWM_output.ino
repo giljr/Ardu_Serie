@@ -13,6 +13,8 @@
 
   MCU:                  Arduino 1.6.12 - @16MHz       http://www.arduino.cc/
   MCU:                  ATtiny85  is an 8-bit AVR Microcontroller with 8K ISP flash memory
+  
+  Datasheet: http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf
 
   Connections:
       See Official Jungletronics blog: https://goo.gl/mh6TgX
@@ -45,28 +47,31 @@ volatile uint8_t* Port[] = {&OCR0A, &OCR0B, &OCR1A, &OCR1B};
 void setup() {
 
   /*
+    DDRB — Port B Data Direction Register
     Port B Data Direction Register (controls the mode of all pins within port B)
     DDRB is 8 bits: [unused:unused:DDB5:DDB4:DDB3:DDB2:DDB1:DDB0]
-    1<<DDB4: sets bit DDB4 (data-direction, port B, pin 4), which puts PB4 (port B, pin 4) in output mode
-    1<<DDB1: sets bit DDB1 (data-direction, port B, pin 1), which puts PB1 (port B, pin 1) in output mode
-    1<<DDB0: sets bit DDB0 (data-direction, port B, pin 0), which puts PB0 (port B, pin 0) in output mode
+    1<<DDB4: sets bit DDB4 (data-direction, port B, 4th pin), which puts pin 3 on ATtiny85 in output mode;
+    1<<DDB1: sets bit DDB1 (data-direction, port B, 1th pin), which puts pin 6 on ATtiny85 in output mode;
+    1<<DDB0: sets bit DDB0 (data-direction, port B, 0th pin), which puts pin 5 on ATtiny85 in output mode (Item 10.4.3 datasheet);
   */
   DDRB  |= (1 << DDB3) | (1 << DDB4) | (1 << DDB1) | (1 << DDB0);
 
   /*
+    TCCR0A — Timer/Counter Control Register A
     Control Register A for Timer/Counter-0 (Timer/Counter-0 is configured using two registers: A and B)
-    TCCR0A is 8 bits: [COM0A1:COM0A0:COM0B1:COM0B0:unused:unused:WGM01:WGM00]
-    3<<COM0A0: sets bits COM0A0 and COM0A1, which (in Fast PWM mode) sets OC0A on compare-match, and clear OC0A at BOTTOM (inverting mode)
-    3<<COM0B0: sets bits COM0B0 and COM0B1, which (in Fast PWM mode) setrs OC0B on compare-match, and clear OC0B at BOTTOM (inverting mode)
-    3<<WGM00: sets bits WGM00 and WGM01, which (when combined with WGM02 from TCCR0B below) enables Fast PWM mode
+    TCCR0A is 8 bits:[COM0A1:COM0A0:COM0B1:COM0B0:unused:unused:WGM01:WGM00]
+    3<<COM0A0: sets bits COM0A0 and COM0A1, which (in Fast PWM mode) sets OC0A on compare-match, and clear OC0A at BOTTOM — inverting mode;
+    3<<COM0B0: sets bits COM0B0 and COM0B1, which (in Fast PWM mode) sets OC0B on compare-match, and clear OC0B at BOTTOM — inverting mode (Table 11–3 datasheet);
+    3<<WGM00: sets bits WGM00 and WGM01, which (when combined with WGM02 from TCCR0B below) enables Fast PWM mode (Table 11–5 datasheet)
   */
   TCCR0A = 3 << COM0A0 | 3 << COM0B0 | 3 << WGM00;
 
   /*
+    TCCR0B — Timer/Counter Control Register B
     Control Register B for Timer/Counter-0 (Timer/Counter-0 is configured using two registers: A and B)
     TCCR0B is 8 bits: [FOC0A:FOC0B:unused:unused:WGM02:CS02:CS01:CS00]
-    0<<WGM02: bit WGM02 remains clear, which (when combined with WGM00 and WGM01 from TCCR0A above) enables Fast PWM mode
-    3<<CS00: sets bits CS00 and CS01 (leaving CS02 clear), which tells Timer/Counter-0 to use a prescalar 64
+    0<<WGM02: bit WGM02 remains clear, which (when combined with WGM00 and WGM01 from TCCR0A above) enables Fast PWM mode (Table 11–5 datasheet);
+    3<<CS00: sets bits CS00 and CS01 (leaving CS02 clear), which tells Timer/Counter-0 to use a prescalar 64 (Table 11–6 datasheet).
   */
   TCCR0B = 0 << WGM02 | 3 << CS00;
 
@@ -92,7 +97,7 @@ void setup() {
      1<<TOIE1:  When the TOIE1 bit is set (one) and the I-bit in the Status Register is set (one),
                 the Timer/Counter1 Overflow interrupt is enabled.
   */
-  TIMSK = TIMSK | 1 << OCIE1A | 1 << TOIE1;
+  TIMSK | = 1 << OCIE1A | 1 << TOIE1;
 }
 
   /*
