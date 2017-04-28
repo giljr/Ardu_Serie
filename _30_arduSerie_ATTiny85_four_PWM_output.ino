@@ -11,7 +11,7 @@
      Getting 4 PWM from ATtiny85 and drive RGB LED in a round-fashion mode like raibow.
      That is no trivial task. Read the comments and this post, please: https://goo.gl/mh6TgX
 
-  MCU:                  Arduino 1.6.12 - @16MHz       http://www.arduino.cc/
+  MCU:                  Arduino 1.6.4 - @16MHz       http://www.arduino.cc/
   MCU:                  ATtiny85  is an 8-bit AVR Microcontroller with 8K ISP flash memory
   
   Datasheet: http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf
