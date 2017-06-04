@@ -93,5 +93,5 @@ GitHub: https://gist.github.com/giljr/36cc2261eaa052cba83fc98c77502673 file: _29
 
 32 #arduSerie - Sonar Judge The Distance Circuit: Circuito ‘Golpe de Vista’ - Description: How about that, sound and vibrate your cell? There you are! Here is a Golpe de Vista circuit for building garages that are getting tighter and tighter: Visit page: https://goo.gl/BhLG8C GDrive: https://drive.google.com/open?id=0B8iMbc-iQqlUU0FoY21iaFNHY1E  file1: _32_arduSerie_sketch_01.No_Bluetooth.ino.ino   file2: _32_arduSerie_sketch_02.With_Bluetooth.ino
 
-33 #arduSerie - nRF24L0 — Popular RF module using with Arduino ! Radio Hello World Sketches - Description: We provide easy to follow build instructions fro 2 radios, ready to use code examples and a friendly breadboard!: Visit page: https://goo.gl/H8i0rT GDrive:  file1: _33_nRF24L01_SimpleTransmitRadio.ino  file2:  _33_nRF24L01_SimpleReceiveRadio.ino
+33 #arduSerie - nRF24L0 — Popular RF module using with Arduino ! Radio Hello World Sketches - Description: We provide easy to follow build instructions fro 2 radios, ready to use code examples and a friendly breadboard!: Visit page: https://goo.gl/H8i0rT GDrive: https://drive.google.com/open?id=0B8iMbc-iQqlUeUxBYTNJYVBQbEE file1: _33_nRF24L01_SimpleTransmitRadio.ino  file2:  _33_nRF24L01_SimpleReceiveRadio.ino
 
