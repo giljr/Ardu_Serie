@@ -95,3 +95,5 @@ GitHub: https://gist.github.com/giljr/36cc2261eaa052cba83fc98c77502673 file: _29
 
 33 #arduSerie - nRF24L0 — Popular RF module using with Arduino ! Radio Hello World Sketches - Description: We provide easy to follow build instructions set up for 2 radios, ready to use code examples and a friendly breadboard!: Visit page: https://goo.gl/H8i0rT GDrive: https://drive.google.com/open?id=0B8iMbc-iQqlUeUxBYTNJYVBQbEE file1: _33_nRF24L01_SimpleTransmitRadio.ino  file2:  _33_nRF24L01_SimpleReceiveRadio.ino
 
+34 #arduSerie - GY-85 — A quick datasheet study ADXL335 How it Works - Description: In this post we will unlock the accelerometer — ADXL335— off the board: Visit page: https://goo.gl/rdL4uY GDrive: https://drive.google.com/drive/folders/0B8iMbc-iQqlUQUZrOGhkRmluOG8?usp=sharing file1: _34_Sensor_ADXL345_Template.ino  file2: _34_accelerometer_code.ino   file3: _34_gyroscope_code.ino   File4: _34_magnetometer_code.ino 
+
