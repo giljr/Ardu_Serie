@@ -1,5 +1,5 @@
-// ARDUINO PSEUDOCODE FOR 3-AXIS SENSORS
-#define SENSOR 0x69; // Device add in which is also included the 8th bit for selectting the mode, read in this case
+// ARDUINO six-steps PSEUDOCODE FOR 3-AXIS SENSORS ADXL345 
+#include <Wire.h>
 /*
   ADXL345 Datasheet: https://goo.gl/uOZc2b
   Table 16. Register Map Address
@@ -13,38 +13,60 @@
   0x36  54 DATAZ0   R   00000000  Z-Axis Data 0.
   0x37  55 DATAZ1   R   00000000  Z-Axis Data 1.
 */
-#include <wire.h>
-void setup() {
-  // 1 - Which device (address) are you interest in?
-  // Initialize the wire library
+#define SENSOR 0x53 // Device add in which is also included the 8th bit for selectting the mode, read in this case
+#define Power_Register 0x2D
+#define X_Axis_Register_DATAX0 0x32 // Hexadecima address for the DATAX0 internal register.
+#define X_Axis_Register_DATAX1 0x33 // Hexadecima address for the DATAX1 internal register.
+#define Y_Axis_Register_DATAY0 0x34
+#define Y_Axis_Register_DATAY1 0x35
+#define Z_Axis_Register_DATAZ0 0x36
+#define Z_Axis_Register_DATAZ1 0x37
+
+int  DataReturned_x0, DataReturned_x1, DataModified_x_out;
+float x;
+
+void setup(){
+                                        // Initialize the wire library baudrate: 9600
   Wire.begin(9600);
-  // begin transmission
-  Wire.beginTransmission(SENSOR);
-  // 2 - Which Register do you want to talk to?
-  Wire.write(0x2D); // Power-saving features control
-  // Register 0x2D POWER_CTL is 8 bits: [unused:unused:Link:AUTO_SLEEP:Measure:Sleep:Wakeup1:Wakeup0]
-  // 3 - What do you want to transmit? Enable measurement
-  Wire.write(8);   // bit D3 high for measuring enable: 8d - 00001000b
-  // end Transmission
-  Wire.endTransmission();
+  Serial.begin(9600);
+  delay(100);
+                                        // 1 - Which device (address) are you interest in ?                                   
+  Wire.beginTransmission(SENSOR);       // Begin transmission with the chosen chip
+                                        // 2 - Which Register do you want to talk to ?
+  Wire.write(Power_Register);           // Power-saving features control
+                                        // Register 0x2D POWER_CTL is 8 bits: [unused:unused:Link:AUTO_SLEEP:Measure:Sleep:Wakeup1:Wakeup0]
+                                        // 3 - What do you want to transmit? Enable measurement
+  Wire.write(8);                        // bit D3 high for measuring enable: 8d - 00001000b
+  
+  Wire.endTransmission();               // end Transmission
 }
 
 void loop() {
-  // begin transmission
-  Wire.beginTransmission(SENSOR);
-  // 4 -What do you want to ask the specific register ?
-  Wire.write(Required_Register_DATA_0);
-  Wire.write(Required_Register_DATA_1);
-  // end Transmission
-  Wire.endTransmission();
-  // 5 - Now wait for the data looping in a while !
-  Wire.requestFrom(Sensor_Address, 2);
+  
+ //-------------------------------------REAPEAT THIS PIECE OF CODE FOR EACH AXIS---------------------------------------//
+  
+  Wire.beginTransmission(SENSOR);       // begin transmission
+                                        // 4 -What do you want to ask about the specific register ?
+  Wire.write(X_Axis_Register_DATAX0);   // Requiring Register DATA_0 
+  Wire.write(X_Axis_Register_DATAX1);   // Requiring Register DATA_1
+                                        
+  Wire.endTransmission();               // end Transmission
+                                        // 5 - Now wait for the data looping in a while ...
+  Wire.requestFrom(SENSOR, 2);
   if (Wire.available() <= 2) {
-    DataReturned_0 = Wire.read();
-    DataReturned_1 = Wire.read();
-    // 6 - Now how do you want the configuration of the three axes ?
-    //  now read the data and do as the datasheet says.
-    DataReturned_1 = DataReturned_1 << 8;
-    DataReturned_1_out = DataReturned_0 + DataReturned_1;
-    Data_actual = DataReturned_1_out / 256.0;
+    DataReturned_x0 = Wire.read();
+    DataReturned_x1 = Wire.read();
+                                        // 6 - Now how do you want the configuration of the three axes ?
+                                        //  now read the data and do as the datasheet says.
+    DataReturned_x1    = DataReturned_x1 << 8;
+    DataModified_x_out = DataReturned_x0 + DataReturned_x1;
+    x = DataModified_x_out / 256.0;
+    
+    //----------------------------------------------------------------------------------------------------------------//
+  
   }
+                                        // Prints the data on the Serial Monitor
+  Serial.print("x = ");
+  Serial.println(x);
+}
+  
