@@ -97,3 +97,5 @@ GitHub: https://gist.github.com/giljr/36cc2261eaa052cba83fc98c77502673 file: _29
 
 34 #arduSerie - GY-85 — A quick datasheet study ADXL335 How it Works - Description: In this post we will unlock the accelerometer — ADXL335— off the board: Visit page: https://goo.gl/rdL4uY GDrive: https://drive.google.com/drive/folders/0B8iMbc-iQqlUQUZrOGhkRmluOG8?usp=sharing file1: _34_Sensor_ADXL345_Template.ino  file2: _34_accelerometer_code.ino   file3: _34_gyroscope_code.ino   File4: _34_magnetometer_code.ino 
 
+35 #arduSerie - J3 Balacing Car - Parts I 2 & 3- Description: A robot that balancing itself! A Awesome project based on Your Arduino Balancing Robot (YABR) by Joop Brokking. Visit page: https://goo.gl/R25hLc  GDrive: https://drive.google.com/open?id=0B8iMbc-iQqlUUENFdmVwUzd6azA  file1: 	_35_Balancing_Robot_00.ino   file2: _35_Balancing_Robot_5_Butts_01.ino   file3: _35_ProMini_StepDownConverter_DRV8825_StepperMotor_02.ino   File4: _35_ProMini_StepDownConverter_DRV8825_StepperMotor_BatMon_03.ino
+
