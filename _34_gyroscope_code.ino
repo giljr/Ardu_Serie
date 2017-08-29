@@ -1,4 +1,5 @@
 /*
+   DEVICE: L3G4200D  Gyroscope  https://www.elecrow.com/download/L3G4200_AN3393.pdf
    Project name: GY-85 — A quick datasheet study #arduSerie 34
      ITG3205 How it Works
      Flavour II - Gyro code
