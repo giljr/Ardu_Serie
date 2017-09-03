@@ -125,6 +125,6 @@ void readFrom(int DEVICE, byte address, int num, byte buff[]) {
     buff[i] = Wire.read();                      // receive a byte
     i++;
   }
-  Wire.endTransmission();                       // end transmission.
+  Wire.endTransmission();                       // end transmission
 
 }
