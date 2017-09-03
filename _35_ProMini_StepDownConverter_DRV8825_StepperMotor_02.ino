@@ -7,6 +7,7 @@
      Aug, 2017
        - Medium webpage: https://goo.gl/gHFGIi   &  https://goo.gl/rdL4uY
    Description:
+         Simple code to put the engine Nema 17 running in full throtte.
          In this code we walked towards a balancing, two-wheeled car that balances itself!
          The series of several text and codes are based on the work of Joop Brokking
          who published an Awesome project name 'Your Arduino Balancing Robot (YABR)'
