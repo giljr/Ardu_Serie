@@ -1,6 +1,6 @@
 //visit Jungletronics: https://goo.gl/vFQzhC
 // FILE: _35_GY85_HMC5883L_Magnetometer_08.ino
-//DATASHEET
+//DATASHEET 
 //https://aerocontent.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Defense_Brochures-documents/HMC5883L_3-Axis_Digital_Compass_IC.pdf
 /* Arduino Compass
 
