@@ -4,7 +4,7 @@
      Flavour VI - Working with Accelerometer fo GY-85 Board
      Hex File: _35_GY85_ADXL345_Accelerometer_06.ino 
    Revision History:
-     Sept, 2017
+     Sept, 2017 
        - Medium webpage: https://goo.gl/R25hLc  & https://goo.gl/dReMhG
    Description:
          In this code we initialize the ADXL345 at address 0x53 and proceed with the chip configurations 
