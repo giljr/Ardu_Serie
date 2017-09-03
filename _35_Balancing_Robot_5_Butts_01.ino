@@ -39,7 +39,7 @@ void loop()
   int buttonPress = ctrlButton( analogRead( BUTTON ) );
   //Serial.println(analogRead( BUTTON ) );
   //Serial.println(buttonPress);
-  //delay(100);
+  //delay(100); 
 
   if ( buttonPress == 1 ) {
     // 1/2 Step
