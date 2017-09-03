@@ -165,5 +165,5 @@ void writeTo(int DEVICE, byte address, byte val) {
    buff[i] = Wire.read();                       // receive a byte
    i++;
  }
-   Wire.endTransmission();                      //end transmission
+   Wire.endTransmission();                      //end transmission.
 }
