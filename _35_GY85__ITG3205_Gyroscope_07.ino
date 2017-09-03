@@ -4,7 +4,7 @@
      Flavour VI - Working with gyroelerometer fo GY-85 Board
      Hex File: _35_GY85_ITG3205_Gyroscope_07.ino
    Revision History:
-     Sept, 2017
+     Sept, 2017 
        - Medium webpage: https://goo.gl/R25hLc  & https://goo.gl/dReMhG
    Description:
          In this code we initialize the ITG3205 at address 0x69 and proceed with the chip configurations 
