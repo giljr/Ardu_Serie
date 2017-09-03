@@ -2,7 +2,7 @@
    Project name: JayThree Balancing Car Project #arduSerie 35
      Awesome project based on Your Arduino Balancing Robot (YABR) by Joop Brokking
      Flavour VI - Working with Accelerometer fo GY-85 Board
-     Hex File: _35_GY85_ADXL345_Accelerometer_06.ino
+     Hex File: _35_GY85_ADXL345_Accelerometer_06.ino 
    Revision History:
      Sept, 2017
        - Medium webpage: https://goo.gl/R25hLc  & https://goo.gl/dReMhG
