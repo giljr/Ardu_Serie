@@ -7,7 +7,7 @@
      Sept, 2017
        - Medium webpage: https://goo.gl/R25hLc  & https://goo.gl/dReMhG
    Description:
-         This code scans all devices connected to the i2c bus. Serves to test the J3BC v1.0 project
+         This code scans all devices connected to the i2c bus. Serves to test the J3BC v1.0 project.
    MCU:                  Pro Mini Atmega328 16MHz 5V @16MHz -  https://www.sparkfun.com/products/11113
    IDE:                  Arduino 1.8.3 - http://www.arduino.cc/
    Nunchuk Controller:   https://goo.gl/6T3Dvs
