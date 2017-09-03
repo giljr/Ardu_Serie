@@ -4,7 +4,7 @@
      Flavour III - Working Code 3
      Hex File: _35_ProMini_StepDownConverter_DRV8825_StepperMotor_BatMon_03.ino
    Revision History:
-     Aug, 2017
+     Aug, 2017 
        - Medium webpage: https://goo.gl/gHFGIi   &  https://goo.gl/rdL4uY
    Description:
          In this code we walked towards a balancing, two-wheeled car that balances itself!
