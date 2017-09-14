@@ -6,11 +6,14 @@
      Hex File: _34_gyroscope_code.ino
    Revision History:
      Jun, 2017
-       - Medium webpage: https://goo.gl/rdL4uY
+       v 1.0 - Medium webpage: https://goo.gl/rdL4uY
+     Sept, 2017
+       v 1.1 - Removed: if (Wire.available() <= 1) will always true - it can be removed 
+               Thanks to https://github.com/Koepel
    Description:
          In this code we will unlock the accelerometer — ADXL335— off the GY-85 board!
    MCU:                  Arduino 1.8.2 - @16MHz       http://www.arduino.cc/
-   ADXL335:              ADXL335 - GY-85 Datasheet    https://goo.gl/uOZc2b
+   L3G4200D  Gyroscope:  Datasheet http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00265057.pdf
    Connections:
       See Official youtube channel vids: https://goo.gl/unfHZA
    Based on:  MEMS Accelerometer Gyroscope Magnetometer & Arduino
@@ -62,53 +65,53 @@ void loop()
   Wire.write(Gyro_gX0);
   Wire.endTransmission();
   Wire.requestFrom(Gyro, 1);
-  if (Wire.available() <= 1)
-  {
+  //if (Wire.available() <= 1)
+  //{
     gX0 = Wire.read();
-  }
+  //}
   Wire.beginTransmission(Gyro); // transmit to device
   Wire.write(Gyro_gX1);
   Wire.endTransmission();
   Wire.requestFrom(Gyro, 1);
-  if (Wire.available() <= 1)
-  {
+  //if (Wire.available() <= 1)
+  //{
     gX1 = Wire.read();
-  }
+  //}
   //---- Y-Axis
   Wire.beginTransmission(Gyro); // transmit to device
   Wire.write(Gyro_gY0);
   Wire.endTransmission();
   Wire.requestFrom(Gyro, 1);
-  if (Wire.available() <= 1)
-  {
+  //if (Wire.available() <= 1)
+  //{
     gY0 = Wire.read();
-  }
+  //}
   Wire.beginTransmission(Gyro); // transmit to device
   Wire.write(Gyro_gY1);
   Wire.endTransmission();
   Wire.requestFrom(Gyro, 1);
-  if (Wire.available() <= 1)
-  {
+  //if (Wire.available() <= 1)
+  //{
     gY1 = Wire.read();
-  }
+  //}
 
   //---- Z-Axis
   Wire.beginTransmission(Gyro); // transmit to device
   Wire.write(Gyro_gZ0);
   Wire.endTransmission();
   Wire.requestFrom(Gyro, 1);
-  if (Wire.available() <= 1)
-  {
+  //if (Wire.available() <= 1)
+  //{
     gZ0 = Wire.read();
-  }
+  //}
   Wire.beginTransmission(Gyro); // transmit to device
   Wire.write(Gyro_gZ1);
   Wire.endTransmission();
   Wire.requestFrom(Gyro, 1);
-  if (Wire.available() <= 1)
-  {
+  //if (Wire.available() <= 1)
+  //{
     gZ1 = Wire.read();
-  }
+  //}
 
   //---------- X - Axis
 
