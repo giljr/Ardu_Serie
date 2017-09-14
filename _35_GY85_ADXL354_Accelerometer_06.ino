@@ -5,7 +5,9 @@
      Hex File: _35_GY85_ADXL345_Accelerometer_06.ino 
    Revision History:
      Sept, 2017 
-       - Medium webpage: https://goo.gl/R25hLc  & https://goo.gl/dReMhG
+        v 1.0 - Medium webpage: https://goo.gl/R25hLc  & https://goo.gl/dReMhG
+        v 1.1 - Remove Wire.beginTransmission() and Wire.endTransmission() from reading data, cause it is 
+               encapsulated by Wire.requestFrom() - Thanks to https://github.com/Koepel
    Description:
          In this code we initialize the ADXL345 at address 0x53 and proceed with the chip configurations 
          and get the values of axis x, y and z in raw data. This code is very concise and easy to understand. 
@@ -117,7 +119,10 @@ void readFrom(int DEVICE, byte address, int num, byte buff[]) {
   Wire.write(address);                          // sends address to read from
   Wire.endTransmission();                       // end transmission
 
-  Wire.beginTransmission(DEVICE);               // start transmission to ACC
+  // Wire.beginTransmission(DEVICE);             // start transmission to ACC
+  // Removed in Sept 14, 2017: Thanks to https://github.com/Koepel
+  // Wire.requestFrom() does a complete I2C transaction on its own
+  // Wire.beginTransmission() and Wire.endTransmission() are only used when writing data
   Wire.requestFrom(DEVICE, num);                // request 6 bytes from ACC
   int i = 0;
   while(Wire.available())                       // ACC may send less than requested (abnormal)
@@ -125,6 +130,6 @@ void readFrom(int DEVICE, byte address, int num, byte buff[]) {
     buff[i] = Wire.read();                      // receive a byte
     i++;
   }
-  Wire.endTransmission();                       // end transmission
+  //Wire.endTransmission();                       // end transmission. Perfect Koepel! Thank you very much for your comments!
 
 }
