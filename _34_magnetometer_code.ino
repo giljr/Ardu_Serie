@@ -5,7 +5,10 @@
      Hex File: _34_magnetometer_code.ino
    Revision History:
      Jun, 2017
-       - Medium webpage: https://goo.gl/gHFGIi   &  https://goo.gl/rdL4uY
+       v 1.0 - Medium webpage: https://goo.gl/gHFGIi   &  https://goo.gl/rdL4uY
+     Sept, 2017
+       v 1.1 - Removed: if (Wire.available() <= 1) will always true - it can be removed 
+               Thanks to https://github.com/Koepel
    Description:
          In this code we will unlock the accelerometer — HMC5883L— off the GY-85 board!
    MCU:                  Arduino 1.8.2 - @16MHz       http://www.arduino.cc/
@@ -58,53 +61,53 @@ void loop() {
   Wire.write(Magnetometer_mX1);
   Wire.endTransmission();
   Wire.requestFrom(Magnetometer, 1);
-  if (Wire.available() <= 1)
-  {
+  //if (Wire.available() <= 1)
+  //{
     mX0 = Wire.read();
-  }
+  //}
   Wire.beginTransmission(Magnetometer); // transmit to device
   Wire.write(Magnetometer_mX0);
   Wire.endTransmission();
   Wire.requestFrom(Magnetometer, 1);
-  if (Wire.available() <= 1)
-  {
+  //if (Wire.available() <= 1)
+  //{
     mX1 = Wire.read();
-  }
+  //}
   // — — Y-Axis
   Wire.beginTransmission(Magnetometer); // transmit to device
   Wire.write(Magnetometer_mY1);
   Wire.endTransmission();
   Wire.requestFrom(Magnetometer, 1);
-  if (Wire.available() <= 1)
-  {
+  //if (Wire.available() <= 1)
+  //{
     mY0 = Wire.read();
-  }
+  //}
   Wire.beginTransmission(Magnetometer); // transmit to device
   Wire.write(Magnetometer_mY0);
   Wire.endTransmission();
   Wire.requestFrom(Magnetometer, 1);
-  if (Wire.available() <= 1)
-  {
+  //if (Wire.available() <= 1)
+  //{
     mY1 = Wire.read();
-  }
+  //}
 
   // — — Z-Axis
   Wire.beginTransmission(Magnetometer); // transmit to device
   Wire.write(Magnetometer_mZ1);
   Wire.endTransmission();
   Wire.requestFrom(Magnetometer, 1);
-  if (Wire.available() <= 1)
-  {
+  //if (Wire.available() <= 1)
+  //{
     mZ0 = Wire.read();
-  }
+  //}
   Wire.beginTransmission(Magnetometer); // transmit to device
   Wire.write(Magnetometer_mZ0);
   Wire.endTransmission();
   Wire.requestFrom(Magnetometer, 1);
-  if (Wire.available() <= 1)
-  {
+  //if (Wire.available() <= 1)
+  //{
     mZ1 = Wire.read();
-  }
+  //}
 
   // — — X-Axis
   mX1 = mX1 << 8;
