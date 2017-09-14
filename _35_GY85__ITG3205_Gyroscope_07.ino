@@ -60,8 +60,8 @@ void initGyro()
    CLK_SEL Select device clock source
 
    Register 62 – Power Management - pg 27
-   [B7]    [B6]   [B5]   [B4]   [B3]      [B2  B1   B0]
-   H_RESET SLEEP  STBY   _XG    STBY_YG   STBY  */
+   [B7]    [B6]   [B5]       [B4]      [B3]      [B2  B1   B0]
+   H_RESET SLEEP  STBY_XG    STBY_YG   STBY_ZG   CLK_SEL       */
    writeTo(GYRO, PWR_MGM,    0B00000000);       //  int osc, no rst, no sleep, normal mode
  /*SMPLRT_DIV Formula:
    The gyros outputs are sampled internally at either 1kHz or 8kHz, determined by the DLPF_CFG
