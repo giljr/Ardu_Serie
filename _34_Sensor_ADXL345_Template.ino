@@ -1,3 +1,7 @@
+//Edited: 
+//Sept, 2017
+//       v 1.1 - Removed: if (Wire.available() <= 1) will always true - it can be removed 
+//               Thanks to https://github.com/Koepel
 // ARDUINO six-steps PSEUDOCODE FOR 3-AXIS SENSORS ADXL345 
 #include <Wire.h>
 /*
@@ -15,8 +19,8 @@
 */
 #define SENSOR 0x53 // Device add in which is also included the 8th bit for selectting the mode, read in this case
 #define Power_Register 0x2D
-#define X_Axis_Register_DATAX0 0x32 // Hexadecima address for the DATAX0 internal register.
-#define X_Axis_Register_DATAX1 0x33 // Hexadecima address for the DATAX1 internal register.
+#define X_Axis_Register_DATAX0 0x32 // Hexadecimal address for the DATAX0 internal register.
+#define X_Axis_Register_DATAX1 0x33 // Hexadecimal address for the DATAX1 internal register.
 #define Y_Axis_Register_DATAY0 0x34
 #define Y_Axis_Register_DATAY1 0x35
 #define Z_Axis_Register_DATAZ0 0x36
@@ -53,7 +57,7 @@ void loop() {
   Wire.endTransmission();               // end Transmission
                                         // 5 - Now wait for the data looping in a while ...
   Wire.requestFrom(SENSOR, 2);
-  if (Wire.available() <= 2) {
+  //if (Wire.available() <= 2) {
     DataReturned_x0 = Wire.read();
     DataReturned_x1 = Wire.read();
                                         // 6 - Now how do you want the configuration of the three axes ?
@@ -64,7 +68,7 @@ void loop() {
     
     //----------------------------------------------------------------------------------------------------------------//
   
-  }
+  //}
                                         // Prints the data on the Serial Monitor
   Serial.print("x = ");
   Serial.println(x);
