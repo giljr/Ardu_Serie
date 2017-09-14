@@ -1,15 +1,18 @@
 /*
    Project name: GY-85 — A quick datasheet study #arduSerie 34
-     ADXL335 How it Works
+     ADXL345 How it Works
      Flavour I - Accelerometer code
      Hex File: _34_accelerometer_code.ino
    Revision History:
      Jun, 2017
-       - Medium webpage: https://goo.gl/rdL4uY
+       v 1.0 - Medium webpage: https://goo.gl/rdL4uY
+     Sept, 2017
+       v 1.1 - Removed: if (Wire.available() <= 1) will always true - it can be removed 
+               Thanks to https://github.com/Koepel
    Description:
          In this code we will unlock the accelerometer — ADXL335— off the GY-85 board!
    MCU:                  Arduino 1.8.2 - @16MHz       http://www.arduino.cc/
-   ADXL335:              ADXL335 - GY-85 Datasheet    https://goo.gl/uOZc2b
+   ADXL345:              ADXL345 - GY-85 Datasheet    https://goo.gl/uOZc2b
    Connections:
       See Official youtube channel vids: https://goo.gl/unfHZA
    Based on:  MEMS Accelerometer Gyroscope Magnetometer & Arduino
@@ -54,7 +57,7 @@ void loop() {
   Wire.write(X_Axis_Register_DATAX1);
   Wire.endTransmission(); // Ends the transmission and transmits the data from the two registers
   Wire.requestFrom(ADXAddress, 2); // Request the transmitted two bytes from the two registers
-  if (Wire.available() <= 2) { //
+  //if (Wire.available() <= 2) { //
     X0 = Wire.read(); // Reads the data from the register
     X1 = Wire.read();
     /* Converting the raw data of the X-Axis into X-Axis Acceleration
@@ -64,33 +67,33 @@ void loop() {
     X1 = X1 << 8;
     X_out = X0 + X1;
     Xa = X_out / 256.0; // Xa = output value from -1 to +1, Gravity acceleration acting on the X-Axis
-  }
+  //}
   // Y-Axis
   Wire.beginTransmission(ADXAddress);
   Wire.write(Y_Axis_Register_DATAY0);
   Wire.write(Y_Axis_Register_DATAY1);
   Wire.endTransmission();
   Wire.requestFrom(ADXAddress, 2);
-  if (Wire.available() <= 2) {
+  //if (Wire.available() <= 2) {
     Y0 = Wire.read();
     Y1 = Wire.read();
     Y1 = Y1 << 8;
     Y_out = Y0 + Y1;
     Ya = Y_out / 256.0;
-  }
+  //}
   // Z-Axis
   Wire.beginTransmission(ADXAddress);
   Wire.write(Z_Axis_Register_DATAZ0);
   Wire.write(Z_Axis_Register_DATAZ1);
   Wire.endTransmission();
   Wire.requestFrom(ADXAddress, 2);
-  if (Wire.available() <= 2) {
+  //if (Wire.available() <= 2) {
     Z0 = Wire.read();
     Z1 = Wire.read();
     Z1 = Z1 << 8;
     Z_out = Z0 + Z1;
     Za = Z_out / 256.0;
-  }
+  //}
   // Prints the data on the Serial Monitor
   Serial.print("Xa= ");
   Serial.print(Xa);
