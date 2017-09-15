@@ -90,8 +90,7 @@ void initGyro()
    0                Load zeros into Bit 1 of the Interrupt Configuration register
    RAW_RDY_EN       Enable interrupt when data is available
    
-   
-   Register 22 – DLPF, Full Scale - pg 24
+   Register 23 – INT_CFG, Interrupt Configuration - pg 26
    [B7]    [B6]   [B5]          [B4]               [B3]   [B2]        [B1]   [B0]
     ACTL   OPEN   LATCH_INT_EN  INT_ ANYRD_2CLEAR   0     ITG_RDY_EN   0     RAW_  RDY_ EN */
    writeTo(GYRO, INT_CFG,    0B00000000);       // logic high, push-pull, no latch, no int
