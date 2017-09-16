@@ -1,13 +1,14 @@
 /*
    Project name: JayThree Balancing Car Project #arduSerie 35
      Awesome project based on Your Arduino Balancing Robot (YABR) by Joop Brokking
-     Flavour VI - Working with gyroelerometer fo GY-85 Board
-     Hex File: _35_ArduinoNunchukDemo_09.ino
+     Flavour XII - Working with WiiNunchunk for J3 Balancing Car Project
+     Ino File: _35_Sending_Serial_Counter_12.ino
    Revision History:
      Sept, 2017
        - Medium webpage: https://goo.gl/R25hLc  & https://goo.gl/dReMhG
    Description:
-         Simple code to send counting data to the serial. 
+         Simple code to send counting data to the serial from Arduino UNO.
+         Needs other simple code for receiving data in Arduino Mini.
 Simple code to send nunch data to the serial
    MCU:                  Pro Mini Atmega328 16MHz 5V @16MHz -  https://www.sparkfun.com/products/11113
    IDE:                  Arduino 1.8.3 - http://www.arduino.cc/
