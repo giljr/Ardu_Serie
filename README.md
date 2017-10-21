@@ -117,5 +117,11 @@ This code receives the data that arrives at the serial of the Arduino Pro Mini.
 File11: _35_GY85_HMC5883L_Magnetometer_08.ino
 and for this documentation to be complete, I also offer the code for the magnetometer, although not used in this project (who knows in another version?;)
 
-36 #arduSerie - J3TLC — TimeLapse Camera Project - JayThree TimeLapse CAMERA brought to life using a @Seeed Grove_CAM and @Sparkfun Pro_Micro. Wellcome! Jungletronics: https://goo.gl/NNHrc2 GDrive: https://drive.google.com/open?id=0B8iMbc-iQqlUMXBPZElMa2hUM1U file1: _36_RTC_Read_Write_Adjust_ArduinoBoard_00  file2: _36_SDCard_Write_Read_File_01  file3: _36_SDCard_Dump_File_02  File4: _36_Log_RTC_SDCard_04  file5: _36_Test_SerialCamera_CJ_OV528_05 file6: _36_Grove_Serial_TimeLapseCAM_06 
+36 #arduSerie - J3TLC — TimeLapse Camera Project - JayThree TimeLapse CAMERA brought to life using a @Seeed Grove_CAM and @Sparkfun Pro_Micro. Wellcome! Jungletronics: https://goo.gl/NNHrc2 GDrive: https://drive.google.com/open?id=0B8iMbc-iQqlUMXBPZElMa2hUM1U file1: _36_RTC_Read_Write_Adjust_ArduinoBoard_00  file2: _36_SDCard_Write_Read_File_01  file3: _36_SDCard_Dump_File_02  File4: _36_Log_RTC_SDCard_04  file5: _36_Test_SerialCamera_CJ_OV528_05 file6: _36_Grove_Serial_TimeLapseCAM_06 YouTube: Presenting     : https://youtu.be/xKKdBASA1wI Duration: 0:52 vid: 01
+Soldering Guide: https://youtu.be/v34RUw2zU8E Duration: 4:00 vid: 02
+Initial Testing: https://youtu.be/micVEoKVMIM Duration: 1:54 vid: 03
+Final testing  : https://youtu.be/ijD78AnUtDk Duration: 4:44 vid: 04
+InTheAfternoon : https://youtu.be/M8Z4J7vcboE Duration: 0:09 vid: 05
+SunsetWideAngle: https://youtu.be/DNkTlXtqQ_I Duration: 0:17 vid: 06
+InTheMorning   : https://youtu.be/bRO4C65nyAw Duration: 0:17 vid  07
 
