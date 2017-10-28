@@ -5,7 +5,7 @@
      INO File: _35_J3_GY85_IMU_15.ino
    Revision History:
      Sept, 2017
-       - v 1.0 - Medium webpage: https://goo.gl/R25hLc  & https://goo.gl/dReMhG
+       - v 1.0 - Medium webpage: https://goo.gl/4zmgGK
    Description:
          This code is used to establish or verify angles in some plane. It's for J3BC proj!
          This code is very long and sophisticated and was largely based and recompiled 
