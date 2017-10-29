@@ -143,7 +143,7 @@ void loop(){
   if(accelerometer_data_raw < -8200)accelerometer_data_raw = -8200;         //Prevent division by zero by limiting the acc data to +/-8200;
 
   angle_acc = asin((float)accelerometer_data_raw/8200.0)* 57.296;           //Calculate the current angle according to the accelerometer
-  Serial.println(angle_acc);
+  //Serial.println(angle_acc);
   if(start == 0 && angle_acc > -0.5&& angle_acc < 0.5){                     //If the accelerometer angle is almost 0
     angle_gyro = angle_acc;                                                 //Load the accelerometer angle in the angle_gyro variable
     start = 1;                                                              //Set the start variable to start the PID controller
