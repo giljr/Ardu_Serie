@@ -13,7 +13,8 @@
    Description:
          In this code we will unlock the accelerometer — ADXL335— off the GY-85 board!
    MCU:                  Arduino 1.8.2 - @16MHz       http://www.arduino.cc/
-   L3G4200D  Gyroscope:  Datasheet http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00265057.pdf
+   L3G4200D  Gyroscope:  Datasheet http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00265057.pdf[broken link] 
+   see : https://www.sparkfun.com/products/retired/10612
    Connections:
       See Official youtube channel vids: https://goo.gl/unfHZA
    Based on:  MEMS Accelerometer Gyroscope Magnetometer & Arduino
