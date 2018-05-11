@@ -50,6 +50,10 @@ void setup ()
 int readSensor (const byte which)
 {
   // select correct MUX channel
+  // expression1 = expression2 ? expression3 : expression4;
+  // expression2 is usually a conditional operator and evalutates to True or False. 
+  // If expression2 evaluates to logic True, expression3 is evaluated and its result assigned into expression1. 
+  // If expression2 evaluates to logic False, expression4 is evaluated and its outcome is assigned into expression1.
   digitalWrite (addressA, (which & 1) ? HIGH : LOW);  // low-order bit
   digitalWrite (addressB, (which & 2) ? HIGH : LOW);
   digitalWrite (addressC, (which & 4) ? HIGH : LOW);  // high-order bit
