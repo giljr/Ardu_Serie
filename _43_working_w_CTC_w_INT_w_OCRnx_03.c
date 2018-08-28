@@ -48,48 +48,49 @@
  * THE SOFTWARE.
  */ 
 #include <avr/io.h>
-#include <avr/interrupt.h>      // include int library  
+#include <avr/interrupt.h>             // include int library  
 
-								// initialize timer, interrupt and variable
+				       // initialize timer, interrupt and variable
 void timer2_init()
 {
-								// set up timer with prescaler = 1024 and CTC mode
+				       // set up timer with prescaler = 1024 and CTC mode
 	TCCR2A |= (1 << WGM21) | (0 << WGM20);
 	
-								// 1ª Modification: insert (1 << COM2A0)
+				       // 1ª Modification: insert (1 << COM2A0)
 	TCCR2B |= (1 << COM2A0) | (0 << WGM22) | (1 << CS22) | (1 << CS21) | (1 << CS20);	
    
    	TIMSK2 |= (1 << OCIE2A);	// enable CTC, Timer2, Ch A interruptions
 		
 	TCNT2 = 0;
-				                // initialize compare value to 10 Hz
+				       // initialize compare value to 10 Hz
 	OCR2A = 156;
 	
-	sei();						// set Global Interrupt Enable;
-								// Arduino.h courtesy:)
+	sei();			       // set Global Interrupt Enable;
+				       // Arduino.h courtesy:)
 }
 
-                                // 2ª Modification: Delete ISR altogether!
-                                // hence, toggle led here itself..
+                                       // 2ª Modification: Delete ISR altogether!
+                                       // hence, toggle led here itself..
 /*ISR (TIMER2_COMPA_vect)
 {
 	
-	PORTB ^= (1 << PINB5);      // toggles the inbuild_LED - Arduino pin 13
+	PORTB ^= (1 << PINB5);         // toggles the inbuild_LED - Arduino pin 13
 }*/
 
 
 int main(void)
 {
-				                //3ª Modification: connect led to pin PB3 - Arduino PIN D11
+				       //3ª Modification: connect led to pin PB3 - Arduino PIN D11
 	DDRB |= (1 << PINB3);
 	
-				                // initialize timer
+				       // initialize timer
 	timer2_init();
 	
-								// loop forever (or never?)
+				       // loop forever (or never?)
 	 while(1)
 	   {
-		                        // Nothing here :D
+		                       // Nothing here :D
 									
 	   }
+	
   }
