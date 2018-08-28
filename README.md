@@ -125,3 +125,16 @@ InTheAfternoon : https://youtu.be/M8Z4J7vcboE Duration: 0:09 vid: 05
 SunsetWideAngle: https://youtu.be/DNkTlXtqQ_I Duration: 0:17 vid: 06
 InTheMorning   : https://youtu.be/bRO4C65nyAw Duration: 0:17 vid  07
 
+43 #arduSerie - Arduino & Atmel Studio 7 — CTC Moder - Quick study on CTC (Clear Timer on Compare) - Description: will see step-by-step how to use the CTC Mode feature in our projects based on http://maxembedded.com/2011/07/avr-timers-ctc-mode/ by Mayank. Visit page: http://maxembedded.com/2011/07/avr-timers-ctc-mode/ GDrive: https://drive.google.com/open?id=1Ez3NqwGfYCq76XJ-B01P36AlXCyOS_Vh Jungletronics: https://medium.com/jungletronics/arduino-atmel-studio-7-ctc-mode-782e8fdc8c80
+Codes For Atmel Studio 7
+Working w/CTC Mode Part I - Atmega328p IC - Arduino MC
+file 1: _43_working_w_CTC_01
+Working w/CTC w/Interruption Mode Part II - Atmega328p IC - Arduino MC 
+file 2: _43_working_w_CTC_w_INT_02
+Working w/CTC w/Interruption w/ Mode Part III - Atmega328p IC - Arduino MC
+file 3: _43_working_w_CTC_w_INT_w_OCRnx_03
+Code For Arduino 1.8.5
+Working w/CTC Mode Part IV - Atmega328p IC - Arduino MC
+file 4: _43_timer2_toggle_LED_01.ino
+
+
