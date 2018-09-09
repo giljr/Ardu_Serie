@@ -137,16 +137,6 @@ Code For Arduino 1.8.5
 Working w/CTC Mode Part IV - Atmega328p IC - Arduino MC
 file 4: _43_timer2_toggle_LED_01.ino
 
-45 #arduSerie - Arduino Multi File Sketch — A clean Coding Technique In Arduino IDE - Description: Hi, Your code for the project is getting pretty long in the Arduino IDE? Is there a good way to split things up a bit using multiple files with headers and all that? yes! READ ON...based on Board: 1602 LCD Board Keypad Shield Blue Backlight For Arduino - The work of Arduino Magix : How to Use Arduino Tabs and Code Spliting in Arduino IDE - Download all Files from Google Drive GDrive: https://drive.google.com/drive/folders/1XFUW2bAYezpm6RgeAjp9wusVc0rrDe0O?usp=sharing Jungletronics: https://medium.com/jungletronics/arduino-multi-file-sketch-583a7833162c  Youtube: www.youtube.com/user/Giljr2012 
-Codes For Atmel Studio 7
-Working w/CTC Mode Part I - Atmega328p IC - Arduino MC
-file 1: _43_working_w_CTC_01
-Working w/CTC w/Interruption Mode Part II - Atmega328p IC - Arduino MC 
-file 2: _43_working_w_CTC_w_INT_02
-Working w/CTC w/Interruption w/ Mode Part III - Atmega328p IC - Arduino MC
-file 3: _43_working_w_CTC_w_INT_w_OCRnx_03
-Code For Arduino 1.8.5
-Working w/CTC Mode Part IV - Atmega328p IC - Arduino MC
-file 4: _43_timer2_toggle_LED_01.ino
+45 #arduSerie - Arduino Multi File Sketch — A clean Coding Technique In Arduino IDE - Description: Hi, Your code for the project is getting pretty long in the Arduino IDE? Is there a good way to split things up a bit using multiple files with headers and all that? yes! READ ON...based on Board: 1602 LCD Board Keypad Shield Blue Backlight For Arduino - The work of Arduino Magix : How to Use Arduino Tabs and Code Spliting in Arduino IDE - Download all Files from Google Drive GDrive: https://drive.google.com/drive/folders/1XFUW2bAYezpm6RgeAjp9wusVc0rrDe0O?usp=sharing Jungletronics: https://medium.com/jungletronics/arduino-multi-file-sketch-583a7833162c  Youtube: www.youtube.com/user/Giljr2012 files: _45_working_w_MultiFile_Sketch_00- 04 and _45_woking_w_MultiFile_Sketch_Templete
 
 
