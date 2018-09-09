@@ -27,7 +27,6 @@ class HC_SR04 {
     }
 
     void HC_Loop() {
-
                                       // Clears the trigPin
       digitalWrite(_trigPin, LOW);     //HC-SR04 Loop
       delayMicroseconds(2);           // Sets the trigPin on HIGH state for 10 micro seconds
@@ -38,15 +37,14 @@ class HC_SR04 {
       _duration = pulseIn(_echoPin, HIGH);
                                       // Calculating the distance
       _distanceCm = _duration * 0.034 / 2;
-      lcd.print(_distanceCm);
-      lcd.print(" Cm distance");
-
-
+      
     }
 
     void HC_Display() {
-      lcd.print("                ");
-      lcd.print("UP   ");
+      
+       lcd.print(_distanceCm);
+      lcd.print(" Cm distance");
+      lcd.print("                ");    
 
     }
 
