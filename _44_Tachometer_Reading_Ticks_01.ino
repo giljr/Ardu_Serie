@@ -58,7 +58,7 @@ void setup() {
   //pinMode(VCC, OUTPUT);             // VCC source current;   On Power bus  the speed increases up 740 RPM 
   //pinMode(GND, OUTPUT);             // GND ground reference; On Pin's set to VCC/GND the speed is 450 RPM 
   //digitalWrite(VCC, HIGH);          // enable pullup resistor for D5/PD5/T1 for tachometer input
-  digitalWrite(SGN, LOW);             // SIGNAL - tachometer
+  digitalWrite(SGN, HIGH);            // SIGNAL - tachometer
   //digitalWrite(GND, LOW);           // GND - Power Supply
   
                                       // timer/counter1 counts fan tachometer pulses 
