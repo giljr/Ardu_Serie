@@ -143,3 +143,5 @@ file 4: _43_timer2_toggle_LED_01.ino
 
 47 #arduSerie - J3C3 - Controlling Motor - Techniques For Driving Inductive Load - L9110S Chip - Description: What are the best options for controlling motors with inductive loads? based on Control de Motores - Que puente en H usar? by J.Aguirre https://youtu.be/rXAxxvEy-fc - Download all Files from Google Drive GDrive:https://drive.google.com/drive/folders/1JgAWERHB5bcBl7eV34BtYFrwKPLAlXUD?usp=sharing Jungletronics: https://medium.com/jungletronics/j3c3-controlling-motor-db024ea23bdb Youtube: www.youtube.com/user/Giljr2012 files: __47_L9110_test_motor_01 THROUGH _05
 
+48 #arduSerie - EASYDRIVER: 4-Wire-Stepper Motor Driver - Brian Schmalz Design on A3967 IC — Bi-Polar Motors — .75A@30v peak — Making Using This a Breeze!- Description: This time we will analyze EasyDriver: An Open Source Hardware Stepper Motor Drive. by http://www.schmalzhaus.com/EasyDriver/ - Download all Files from Google Drive: Jungletronics:https://medium.com/jungletronics/easydriver-4-wire-stepper-motor-driver-9f32b233efe6 Youtube: https://studio.youtube.com/channel/UCjA6p6AqpEAX431CyMmepHQ/videos files: _48_EASYDRIVER_test_motor_01.ino
+
