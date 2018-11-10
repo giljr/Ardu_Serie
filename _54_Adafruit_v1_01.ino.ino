@@ -10,7 +10,7 @@
 
   Date: Nov 2018
 
-  Description: Simply accelerate the DC Motor 5v forward to 10 ms 
+  Description: Simply accelerates the DC Motor 5v forward to 10 ms 
                and turn the motor to the reverse; Then repeat.
 
   Board: Adafruit Motor Shield v1
@@ -69,14 +69,3 @@ void loop()
   delay(10);                    // Wait 10 microseconds
 
 }
-
-
-
-
-
-
-
-
-
-
-
