@@ -5,37 +5,29 @@
             1.2A@25v & 3.2A@15v peak
   
   Ino File: _54_Adafruit_v1_01.ino
-
-  SparkFun Motor Driver
+  
   Flavour 01
 
   Date: Nov 2018
 
-  Description: This is the simplest TB6612FNG board connection on the Arduino.
-               The motor accelerates in one direction, then brakes, and then
-               accelerates in the opposite direction. I am using a small motor
-               and feeding it with 5 volts via VIN pin. Do not use the 5v pin
-               to power the motor. Certainly the motor will pull more than 40 mA
-               of current and can ruin the Arduino's chip ;/
+  Description: Simply accelerate the DC Motor 5v forward to 10 ms 
+               and turn the motor to the reverse; Then repeat.
 
-  Board: TB6612FNG - Driver IC for Dual DC motor
-  https://www.sparkfun.com/datasheets/Robotics/TB6612FNG.pdf?_ga=2.166970619.458189902.1538838626-1502777702.1510789918
-
+  Board: Adafruit Motor Shield v1
+  https://learn.adafruit.com/adafruit-motor-shield/overview
+  
   Connections: See Fritzing in Jungletronics:
-  https://medium.com/jungletronics/tb6612fng-dual-dc-motor-driver-690abd44465d
-
+ 
   Credits: This sketch was written by SparkFun Electronics,
            with lots of help from the Arduino community.
-           Visit http://learn.sparkfun.com/products/2 for SIK information.
+           Visit https://learn.sparkfun.com/ for more tutorials
            Visit http://www.arduino.cc to learn more about Arduino.
 
   Terms of Use:  This program is free software: you can redistribute it and/or modify
                  it under the terms of the GNU General Public License v3 as published by
-                 the Free Softw are Foundation - There is no guarantee whatsoever.
+                 the Free Softw are Foundation - There is no guarantee whatsoever :)
                  Use at your own risk!
 */
-
-
 
 #include <AFMotor.h>                 //Include library AF Motor
 
