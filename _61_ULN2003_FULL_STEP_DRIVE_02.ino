@@ -25,6 +25,7 @@
   https://www.amazon.com/Vipe-28BYJ-48-Arduino-ULN2003-Stepper/dp/B01N2XYLIV/ref=sr_1_15?s=electronics&ie=UTF8&qid=1542290153&sr=1-15&keywords=28BYJ-48+ULN2003+5V+Stepper+Motor+%2B+ULN2003+Driver
 
   Connections: See Fritzing in Jungletronics:
+  https://medium.com/jungletronics/uln2003-28byj-48-stepper-motor-f1cc5357eff
 
   Credits: This sketch was written by j3 from http://medium.com/jungletronics
 
