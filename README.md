@@ -151,3 +151,5 @@ file 4: _43_timer2_toggle_LED_01.ino
 
 53 #arduSerie - A4988 — Stepper Motor Driver Carrier - Allegro’s A4988 — Bipolar Stepper Motor Driver — 2A@35v peak Description: This breakout board for Allegro’s A4988 microstepping bipolar stepper motor driver features adjustable current limiting, over-current and over-temperature protection, and five different microstep resolutions (down to 1/16-step).  Goal: run Run on Nema 17 12 volts, .5 A. These motors are part of my project https://medium.com/jungletronics/jaythree-balancing-car-project-part-5-5-2aaa48924428 - Download all Files from Google Drive: Jungletronics: https://medium.com/jungletronics/a4988-stepper-motor-driver-carrier-bc25497a9d9c Youtube:  file: _53_A4988_StepperMotor_01.ino
 
+66 #arduSerie - Digispark — Easy Installations Procedures
+Faces problems installing the USB stack on win10? Description: Step-by-step for Easy Installations of Digispark board - Goal: run Digspark on Win10 - Jungletronics: https://medium.com/@J.3/digispark-easy-installations-procedures-cd0ced59a0a4 Youtube:  file: _66_DigiSpark_Blinking_LED_01.ino
