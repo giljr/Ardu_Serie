@@ -153,3 +153,5 @@ file 4: _43_timer2_toggle_LED_01.ino
 
 66 #arduSerie - Digispark — Easy Installations Procedures
 Faces problems installing the USB stack on win10? Description: Step-by-step for Easy Installations of Digispark board - Goal: run Digspark on Win10 - Jungletronics: https://medium.com/@J.3/digispark-easy-installations-procedures-cd0ced59a0a4 Youtube:  file: _66_DigiSpark_Blinking_LED_01.ino
+
+67 #arduSerie -Arduino Pro Mini — Flashing - Having Trouble Flashing ProMini? - Goal: Flash Arduin_67_Blinking_ProMini_01.inoo Pro  Mini-Jungletronics: https://medium.com/jungletronics/arduino-pro-mini-flashing-5c3c899ea76c Youtube:  file: _67_Blinking_ProMini_01.ino
