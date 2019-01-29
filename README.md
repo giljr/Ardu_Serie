@@ -155,3 +155,6 @@ file 4: _43_timer2_toggle_LED_01.ino
 Faces problems installing the USB stack on win10? Description: Step-by-step for Easy Installations of Digispark board - Goal: run Digspark on Win10 - Jungletronics: https://medium.com/@J.3/digispark-easy-installations-procedures-cd0ced59a0a4 Youtube:  file: _66_DigiSpark_Blinking_LED_01.ino
 
 67 #arduSerie -Arduino Pro Mini — Flashing - Having Trouble Flashing ProMini? - Goal: Flash Arduin_67_Blinking_ProMini_01.inoo Pro  Mini-Jungletronics: https://medium.com/jungletronics/arduino-pro-mini-flashing-5c3c899ea76c Youtube:  file: _67_Blinking_ProMini_01.ino
+
+68 #arduSerie -28BYJ-48 5v Stepper Motor — How many RPM Can I Spin This Thing? RPM Configurations & Industrial Conveyor Belt - Goal: I have studied all the possible configurations of 28BYJ-48 Stepper Motor available for hobbyists and now I share with you - Jungletronics: https://medium.com/jungletronics/28byj-48-stepper-motor-peak-rpm-658eae6afe2f  Youtube:  file: _68_28BYJ-48_FullStep_01.ino _68_StepperTest_Modified_02.ino _68_L293D_DualHBridge_03.ino
+
