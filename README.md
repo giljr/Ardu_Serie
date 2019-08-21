@@ -33,7 +33,7 @@ and my pages:
   * LEGO
   * Arduino For Kids, and more...
 
-Vids list:
+Projects list:
 
 Project TimeLapse Cam - Arduino Grove Camera - file: clouds_youtube_64x 
                   https://youtu.be/M8Z4J7vcboE?list=PLK3PeNcUzb8TwZuXZJgREj5nDbQxRLW_a
