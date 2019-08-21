@@ -1,44 +1,36 @@
 # Ardu_Series - Arduino Fun Factory Archieve
 Experiments with the opensource Arduino platform.
 
+Hi, this is about Arduino; It's a shareble Repository. Free.
+Here, the emphasy lies on the motto of the Maker Movement:
 
-Hi, this is an Arduino Free Personnal Experimentation Repository with emphasy on the 
-motto of the Maker Movement of *Learning By Doing*!!!
+```java
+Learning By Doing!
+```
+I Welcomed you to visit my [Youtube Playlist](https://www.youtube.com/playlist?list=PLK3PeNcUzb8TwZuXZJgREj5nDbQxRLW_a)
+and my pages, where I discuss all the points about the following codes, and hope for your interaction:
 
+ [Jungletronics](https://medium.com/jungletronics) (Arduino, RPi, PIC, Eagle, Blender, Unity3D, Pixy, and more)
+ 
+ [KidsTronics](https://medium.com/kidstronics) (MIT App Inventor, LEGO, Arduino For Kids, and more)
+ 
 I believe that the essential lessons can be learned about the systems - about the world - 
 from taking things apart, seeing how they work, and using this knowledge to create new and even more interenting things.
 
 This is the Levy's Hacker Ethic principles (that I value):
-* Access to computer - and anything that might teach you something about the way the world works - should be unlimeted abd total.
+* Access to computer - and anything that might teach you something about the way the world works - should be unlimited and total.
 Always yield to Hands-on Imperative!
 * Hackers should be judged by their hacking, not bogus criteria such as degrees, age, race, or position;
 * You can create art and beauty on a computer;
 * Computer can change your life for the better
 
 
-I Welcomed you to visit my [Youtube Playlist](https://www.youtube.com/playlist?list=PLK3PeNcUzb8TwZuXZJgREj5nDbQxRLW_a)
-and my pages:
 
- [Jungletronics](https://medium.com/jungletronics) 
-  * Arduino
-  * RPi
-  * PIC
-  * Eagle
-  * Blender
-  * Unity3D
-  * Pixy, and more...
- 
- [KidsTronics](https://medium.com/kidstronics)
-  * MIT App Inventor
-  * LEGO
-  * Arduino For Kids, and more...
+Projects Folder list:
 
-Projects list:
-
-Project TimeLapse Cam - Arduino Grove Camera - file: clouds_youtube_64x 
-                  https://youtu.be/M8Z4J7vcboE?list=PLK3PeNcUzb8TwZuXZJgREj5nDbQxRLW_a
+[BS_01](..\BS_01_TimeLapse Camera) - Project TimeLapse Camera - Blogspot - Link for the page & code - Video: [clouds_youtube_64x](https://youtu.be/M8Z4J7vcboE?list=PLK3PeNcUzb8TwZuXZJgREj5nDbQxRLW_a)
                   
-Project TimeLapse Cam - Arduino Grove Camera - file: morning_youtube_64x
+BS_02 -  Project TimeLapse Cam - Arduino Grove Camera - file: morning_youtube_64x
                   https://youtu.be/bRO4C65nyAw?list=PLK3PeNcUzb8TwZuXZJgREj5nDbQxRLW_a
                   
 Project TimeLapse Cam - Arduino Grove Camera - sunsetWideAngle youtube 64x
