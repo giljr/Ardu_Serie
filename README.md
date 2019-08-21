@@ -28,7 +28,7 @@ Always yield to Hands-on Imperative!
 
 Projects Folder list:
 
-[BS_01](..\BS_01_TimeLapse Camera) - Project TimeLapse Camera - Blogspot - Link for the page & code - Video: [clouds_youtube_64x](https://youtu.be/M8Z4J7vcboE?list=PLK3PeNcUzb8TwZuXZJgREj5nDbQxRLW_a)
+ [BS_01](../BS_01_TimeLapse Camera) - Project TimeLapse Camera - Blogspot - Link for the page & code - Video: [clouds_youtube_64x](https://youtu.be/M8Z4J7vcboE?list=PLK3PeNcUzb8TwZuXZJgREj5nDbQxRLW_a)
                   
 BS_02 -  Project TimeLapse Cam - Arduino Grove Camera - file: morning_youtube_64x
                   https://youtu.be/bRO4C65nyAw?list=PLK3PeNcUzb8TwZuXZJgREj5nDbQxRLW_a
