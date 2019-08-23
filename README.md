@@ -2,7 +2,7 @@
 > Hi, this is about [Arduino](https://www.arduino.cc/)
 Open like Arduino itself;
 Arduino is a low-cost (approx. $25-$30) open source programmable micro-controller that allows you 
-to build robots and *intellegent* machines.
+to build robots and *intelligent* machines.
 
 I Welcomed you to visit my [Youtube Playlist](https://www.youtube.com/playlist?list=PLK3PeNcUzb8TwZuXZJgREj5nDbQxRLW_a)
 and my WebPages: 
