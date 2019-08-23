@@ -33,6 +33,7 @@ Projects Folder list:
 
 
  [BS_00](https://github.com/giljr/Ardu_Serie/tree/master/BS_00_Top_27_Hobbyists_Chips) - Top 27 Hobbyists Chips - Blogspot - Links for the page & code 
+ 
  [BS_01](https://github.com/giljr/Ardu_Serie/tree/master/BS_01_TimeLapse_Camera) - Project TimeLapse Camera - Blogspot - Links for the page & code
                   
 BS_02 -  Project TimeLapse Cam - Arduino Grove Camera - file: morning_youtube_64x
