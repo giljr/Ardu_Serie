@@ -33,13 +33,13 @@ Projects Folder list:
 
  [Blogspot_Publication_N°_Year](http://jungletronics.blogspot.com) - Project's name - Description (inside folders you'll find links & codes) 
  
- [BS_-3_2014] - [**Top 27 Hobbyists Chips**](https://github.com/giljr/Ardu_Serie/tree/master/BS_00_Top_27_Hobbyists_Chips) - DESC.: We present in Proteus 27 integrated circuits for easy use by hobbyists in their projects.
+ [BS_-3_2014] - [**Top 27 Hobbyists Chips**](https://github.com/giljr/Ardu_Serie/tree/master/BS_00_Top_27_Hobbyists_Chips) - DESC.: App in Proteus: 27 integrated circuits for hobbyists!
  
- [BS_-2_2014] - [**LaserGun Project**](https://jungletronics.blogspot.com/2014/06/lasergun-project.html) - DESC.: An APP that can track and target an individual in motion in front of the kinect camera.
+ [BS_-2_2014] - [**LaserGun Project**](https://jungletronics.blogspot.com/2014/06/lasergun-project.html) - DESC.: APP tracks & targets an individual - using X-BOX kinect camera.
  
- [BS_-1_2014] - [**TimeLapse Camera**](https://github.com/giljr/Ardu_Serie/tree/master/BS_01_TimeLapse_Camera) - DESC.: JR TimeLapse Cam project! The camera lets you take pictures at predetermined intervals.
+ [BS_-1_2014] - [**TimeLapse Camera**](https://github.com/giljr/Ardu_Serie/tree/master/BS_01_TimeLapse_Camera) - DESC.: JR TimeLapse Cam project! The camera takes pictures at predetermined intervals.
  
- [BS_06_2016] - [**Expanding Arduino's Pin w/ DEMUX IC 4051 !!**](https://jungletronics.blogspot.com/2016/05/06-arduserie-expanding-arduinos-pin-w.html)  - DESC.: A device that allows you to expand the Arduino's number of pins available for input and output.
+ [BS_06_2016] - [**Expanding Arduino's Pin w/ DEMUX IC 4051 !!**](https://jungletronics.blogspot.com/2016/05/06-arduserie-expanding-arduinos-pin-w.html)  - DESC.: A chip that allows you to expand Arduino's i/o pins.
  
  [BS_07_2016] - [**Rotary Encoder Basics For Arduino**](https://jungletronics.blogspot.com/2016/05/07-arduserie-rotary-encoder-basics-for.html)  - DESC.: This device has a lot of advantages over a potentiometer.
  
