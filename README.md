@@ -51,7 +51,7 @@ Projects Folder list:
  
  [BS_11_2016] - [**Thermocoupler Laws**](https://jungletronics.blogspot.com/2016/06/11-arduserie-thermocoupler-laws.html) - DESC.: explainning the laws of thermodynamics using thermocoupler type-k.
  
- [BS_12_2016] - [**Thermocoupler Amplifier For Arduino**](https://jungletronics.blogspot.com/2016/06/12-arduserie-thermocoupler-amplifier.html) - Experiment with MAX 31855, a Breakout Board from [Adafruit](https://www.adafruit.com/).
+ [BS_12_2016] - [**Thermocoupler Amplifier For Arduino**](https://jungletronics.blogspot.com/2016/06/12-arduserie-thermocoupler-amplifier.html) - Experiment w/ MAX31855 from [Adafruit](https://www.adafruit.com/).
  
  [BS_13_2016] - [**Arduino 1-Wire Thermocouple in the kitchen**](https://jungletronics.blogspot.com/2016/06/13-arduserie-arduino-1-wire_88.html) - DESC.: An Awesome experiments with thermocouple in the home kitchen.
  
