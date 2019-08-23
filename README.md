@@ -34,17 +34,29 @@ Projects Folder list:
  [Blogspot_Publication_N°_Year](http://jungletronics.blogspot.com) - Project's name - Description (inside folders you'll find links & codes) 
  
  [BS_nl_2014](https://github.com/giljr/Ardu_Serie/tree/master/BS_00_Top_27_Hobbyists_Chips) - ** Top 27 Hobbyists Chips ** - -DESC.: We present in Proteus 27 integrated circuits for easy use by hobbyists in their projects.
+ 
  [BS_nl_2014](https://jungletronics.blogspot.com/2014/06/lasergun-project.html) - ** LaserGun Project ** -DESC.: An APP that can track and target an individual in motion in front of the kinect camera.
+ 
  [BS_nl_2014](https://github.com/giljr/Ardu_Serie/tree/master/BS_01_TimeLapse_Camera) - **  TimeLapse Camera **  -  - DESC.: JR TimeLapse Cam project! The camera lets you take pictures at predetermined intervals.
+ 
  [BS_06_2016] (https://jungletronics.blogspot.com/2016/05/06-arduserie-expanding-arduinos-pin-w.html) - ** Expanding Arduino's Pin w/ DEMUX IC 4051 !!**  - DESC.: A device that allows you to expand the Arduino's number of pins available for input and output.
+ 
  [BS_07_2016](https://jungletronics.blogspot.com/2016/05/07-arduserie-rotary-encoder-basics-for.html) - ** Rotary Encoder Basics For Arduino**  - DESC.: This device has a lot of advantages over a potentiometer.
+ 
  [BS_08_2016](https://jungletronics.blogspot.com/2016/05/08-arduserie-ardu-tacho-meter-v10.html) - ** Ardu Tacho Meter v1.0 **  - DESC.: Building a nice tachometer project.
+ 
  [BS_09_2016](https://jungletronics.blogspot.com/2016/06/09-arduserie-uni-h-bridge-module-for_3.html) - ** Uni H-Bridge Module For Arduino ** - DESC.: A test of L9110 Uno-Channel H-Bridge Module driver for Arduino.
+ 
  [BS_10_2016](https://jungletronics.blogspot.com/2016/06/10-arduserie-peltier-thermoelectric.html) - ** Peltier Thermoelectric Cooler ** - Experiment with the Thermoelectric coolers (TEC or Peltier pastile).
+ 
  [BS_11_2016](https://jungletronics.blogspot.com/2016/06/11-arduserie-thermocoupler-laws.html) - Thermocoupler Laws - DESC.: explainning the laws of thermodynamics using thermocoupler type-k.
+ 
  [BS_12_2016](https://jungletronics.blogspot.com/2016/06/12-arduserie-thermocoupler-amplifier.html) - ** Thermocoupler Amplifier For Arduino ** - Experiment with MAX 31855, a Breakout Board from [Adafruit](https://www.adafruit.com/).
+ 
  [BS_13_2016](https://jungletronics.blogspot.com/2016/06/13-arduserie-arduino-1-wire_88.html) - Arduino 1-Wire Thermocouple in the kitchen - DESC.: An Awesome experiments with thermocouple in the home kitchen.
+ 
  [BS_14_2016](https://jungletronics.blogspot.com/2016/07/14-arduseriepulse-sensor-for-arduino_41.html) - ** Pulse Sensor for Arduino ** - DESC.: A much-visited article about a popular pulsesensor.com device.
+ 
  [BS_16](https://jungletronics.blogspot.com/2016/09/16-arduserie-arduino-headless-setup.html) - ** Arduino Headless Setup & ESP8266 ** - DESC.: A working Simple Web page in Arduino breadboard for ESP8266.
   
  [BS_  ]() - Arduino Matrix Led Display Ping Pong
