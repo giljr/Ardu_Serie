@@ -1,5 +1,5 @@
 # Ardu_Series - Arduino Fun Factory Archieve
-> Hi, this is about [Arduino](https://www.arduino.cc/)
+> Hi, this is about [Arduino](https://www.arduino.cc/).
 Open like Arduino itself;
 Arduino is a low-cost (approx. $25-$30) open source programmable micro-controller that allows you 
 to build robots and *intelligent* machines.
@@ -31,7 +31,9 @@ Always yield to Hands-on Imperative!
 
 Projects Folder list:
 
- [BS_01](https://github.com/giljr/Ardu_Serie/tree/master/BS_01_TimeLapse_Camera) - Project TimeLapse Camera - Blogspot - Link for the page & code - Video: [clouds_youtube_64x](https://youtu.be/M8Z4J7vcboE?list=PLK3PeNcUzb8TwZuXZJgREj5nDbQxRLW_a)
+
+ [BS_00](https://github.com/giljr/Ardu_Serie/tree/master/BS_00_Top_27_Hobbyists_Chips) - Top 27 Hobbyists Chips - Blogspot - Links for the page & code 
+ [BS_01](https://github.com/giljr/Ardu_Serie/tree/master/BS_01_TimeLapse_Camera) - Project TimeLapse Camera - Blogspot - Links for the page & code
                   
 BS_02 -  Project TimeLapse Cam - Arduino Grove Camera - file: morning_youtube_64x
                   https://youtu.be/bRO4C65nyAw?list=PLK3PeNcUzb8TwZuXZJgREj5nDbQxRLW_a
