@@ -53,7 +53,7 @@ Projects Folder list:
  
  [BS_12_2016] - [**Thermocoupler Amplifier For Arduino**](https://jungletronics.blogspot.com/2016/06/12-arduserie-thermocoupler-amplifier.html) - Experiment w/ MAX31855 from [Adafruit](https://www.adafruit.com/).
  
- [BS_13_2016] - [**Arduino 1-Wire Thermocouple in the kitchen**](https://jungletronics.blogspot.com/2016/06/13-arduserie-arduino-1-wire_88.html) - DESC.: An Awesome experiments with thermocouple in the home kitchen.
+ [BS_13_2016] - [**Arduino 1-Wire Thermocouple in the kitchen**](https://jungletronics.blogspot.com/2016/06/13-arduserie-arduino-1-wire_88.html) - DESC.: An experiments w/ thermocouple at the kitchen.
  
  [BS_14_2016] - [**Pulse Sensor for Arduino**](https://jungletronics.blogspot.com/2016/07/14-arduseriepulse-sensor-for-arduino_41.html) - DESC.: A much-visited article about a popular pulsesensor.com device.
  
