@@ -10,6 +10,8 @@ and my Web Pages:
 
  [Jungletronics](https://medium.com/jungletronics) (Arduino, RPi, PIC, Eagle, Blender, Unity3D, Pixy, and more)
  
+ [BS_00_Top_27_Hobbyists_Chips](BS_00_Top_27_Hobbyists_Chips/)
+ 
  [KidsTronics](https://medium.com/kidstronics) (MIT App Inventor, LEGO, Arduino For Kids, and more)
  
 Where I Embrace Playful Experimentation, offering you an scaffolding opportunities to Code, Hack, 
