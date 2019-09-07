@@ -1,0 +1,1 @@
+Before running OSAcfg_Tool.exe, run install.bat to register the .ocx file.

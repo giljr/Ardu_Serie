@@ -1,0 +1,532 @@
+====================================================================================================
+06.03.2011 (__OSA_VERSION__ 110306)
+
+1. Bug fixed for WinAVR: local variables were not saved properly on WAIT services
+2. Bug fixed for mikroC PRO (pic18): inline assembler in _OS_JumpToTask did not compiled when
+   case sensitivity option enabled
+
+====================================================================================================
+26.12.2010 (__OSA_VERSION__ 101226)
+
+1. _OS_RETURN_NOSAVE corrected for PIC18: CCS, MCC18, mikroC PRO
+   (NOP added after call to _OS_ReturnNoSave)
+
+
+
+====================================================================================================
+08.12.2010 (__OSA_VERSION__ 101208)
+
+1. _OS_RETURN_NOSAVE corrected for HT-PICC18 (NOP added after call to _OS_ReturnNoSave)
+
+====================================================================================================
+22.11.2010 (__OSA_VERSION__ 101122) 
+
+1. Fixed bug in IAR's AVR port:
+    - 2 bytes stack pointer saving/restoring
+    - saving Y on context switch
+    - jumping to task when ROM > 64K
+
+
+====================================================================================================
+30.10.2010 (__OSA_VERSION__ 101030) 
+
+1. Another bug in qtimers fixed (error with force updating already run timer with zero time value)
+
+
+====================================================================================================
+25.10.2010 (__OSA_VERSION__ 101025) 
+
+1. Bug fixed: OS_Qtimer_Break did not deleted timer from the list
+2. Bug fixed: interrupt became disables after calling OS_Qtimer_Run for timer already presented in queue
+3. Definition of OS_Ttimer_Delay fixed
+
+====================================================================================================
+07.10.2010 (__OSA_VERSION__ 101007) 
+
+1. Port for STM8 added (IAR and Raisonance). Limitation: ROM <= 64K
+
+====================================================================================================
+00.10.2010 (__OSA_VERSION__ 101000) 
+
+1. Port for STM8 added (Cosmic). Limitation: ROM <= 64K
+2. All source have been updated and restructed to improve the visibility (some internal 
+   functions, macros and variables were renamed, all changes markers were removed)
+3. The dirrectory tree was restructed. It is recommended (but not nessesary) to install this version in empty foulder.
+4. Extended priority mode added (see manual "Events and priority" chapter)
+5. Bug fixed with Qtimer deleting
+
+====================================================================================================
+
+01.09.2010  (__OSAVERSION__   100901)
+
+1. Bug fixed: when task was deleted, the flag bReady still remained "1". Thus task could be run even after deleting.
+2. Added port for MCC18 extended mode
+
+====================================================================================================
+
+28.07.2010  (__OSAVERSION__   100728)
+
+1. OS_Task_IsEnable service added
+2. Bug fixed in osa_mikroc16.h: this file contained duplication of prototypes for OS_Task_IsEnable, OS_Task_IsPaused, OS_Task_GetPriority
+
+====================================================================================================
+
+01.07.2010  (__OSAVERSION__   100701)
+
+Bug fixed (dynamic timers and static timers): when 4-bytes timer initialized with value of 2-bytes variable, two high bytes are lost.
+
+====================================================================================================
+
+21.06.2010  (__OSAVERSION__   100612)
+
+OS_Qtimer_Create now clears Timeout bit 
+
+====================================================================================================
+
+12.06.2010  (__OSAVERSION__   100612)
+
+Removed queue services: OS_xxx_IsEmpty, OS_xxx_IsFree. Use inversion of OS_xxx_IsFull and OS_xxx_Check instead.
+
+====================================================================================================
+
+31.05.2010  (__OSAVERSION__   100531)
+
+ 1. Removed limitation for WinAVR: any optimization level can be used now
+ 2. Bug fixed for MCC18: queues with buffer size greater than 128 elements worked
+    incorrectly (see _OS_Queue_Send)
+ 3. OS_Csem_Check returns boolean value now
+ 4. Types __osa_xxx renamed to OST_XXX (old names still avialable)
+
+====================================================================================================
+
+10.05.2010  (__OSAVERSION__   100510)
+
+1. Bug fixed for mikroC16: All OS_xxx_Wait_TO services did not exited by timeout. 
+   OS_SchedRetPoint didn't set CanContinue flag.
+
+====================================================================================================
+
+26.04.2010  (__OSAVERSION__   100426)
+
+1. Bug fixed: since 100420 service OS_Task_Create did not work properly for PIC18 and AVR (all tasks had
+   zeroed starting address)
+
+====================================================================================================
+
+20.04.2010  (__OSAVERSION__   100420)
+
+1. For PICC18: Macro _OS_SetIndfWord corrected (for code size > 0x10000)
+2. Type of variable temp in _OS_XXX_Send changed __osa_word -> __osa_int16 
+   (Otherwise there was troubles with queue size greater than 128)
+3. For PICC16E, mikroC, CCS16, CCS18: Bug fixed in _OS_ClrReadySetClrCanContinue: 
+   OS_ENABLE_TTIMER->OS_ENABLE_TTIMERS 
+4. MikroC16: macros for context switching updated (see osa_mikorc16.h)
+5. CCS16: OS_SchedRepPoint corrected: _OS_bTaskCanContinue has never been set
+
+
+====================================================================================================
+
+17.03.2010  (__OSAVERSION__   100317)
+
+1. OS_FLAG_ATOMIC_WRITE_A corrected:
+        __OS_FLAG_DI_A->__OS_FLAG_DI
+        __OS_FLAG_RI_A->__OS_FLAG_RI
+
+====================================================================================================
+
+16.03.2010  (__OSAVERSION__   100316)
+
+1. Bug fixed under IAR for AVR: register Y saved incorrectly
+
+====================================================================================================
+
+14.03.2010  (__OSAVERSION__   100314)
+
+1. Added atomic flags writing
+2. Flags services renamed:
+    1->Set
+    0->Clear
+    1x->On
+    0x->Off
+    11->AllOn
+    0x->AllOff
+3. WinAVR code written with assembler.
+4. Due to WinAVR internal error it is possible to use OSA with -o0 optimization only
+5. Functions for queues, tasks, csems and system were moved to their own files
+6. Type OS_MSG_CB is volatile now
+7. OS_BSem is volatile now
+8. Added OS_ENABLE_INT_FLAG
+
+
+
+
+====================================================================================================
+12.03.2010  (__OSAVERSION__   100312)
+
+1. AVR: Atomic work with bit variables added
+
+
+====================================================================================================
+
+11.03.2010  (__OSAVERSION__   100311)
+
+1. Port for PIC16 enhanced added (PICC PRO 9.70 or higher)
+2. Port for WinAVR added
+3. Port for IAR (AVR) added
+4. Sevice OS_Task_Create_M added (for future purposes)
+5. Sevice OS_Task_Replace_P added: MCC18, MCC30, mikroC16, mikroC18, CCS16, CCS18
+6. Clearing "priority" removed from OS_Init
+7. _OS_Stimers is volatile now
+8. OST_TASK_STATE, OST_QTIMER_FLAGS and OST_DTIMER_FLAGS are volatile now
+9. Dtimers and Qtimers are disabled now when OS_ENABLE_ALL defined. They should be enabled manualy in osacfg.h
+10. OS_EnterInt() and OS_LeaveInt() now are empty marcos for all except PICC and PICC18
+11. OS_Task_GetCur() service added (same as OS_GetCurTask())
+12. _OST_INT_TYPE renamed to __osa_word (old name still allowed)
+13. OS_Task_GetCreated() service added
+
+
+
+====================================================================================================
+
+10.02.2010  (__OSAVERSION__   100210)
+
+
+1. New type of timers added - Qtimers (queue of timers). New services:
+        OS_Qtimer_Create
+        OS_Qtimer_Delete
+        OS_Qtimer_Run
+        OS_Qtimer_Break
+        OS_Qtimer_Delay
+        OS_Qtimer_Wait
+        OS_Qtimer_Get
+        OS_Qtimer_IsRun
+        OS_Qtimer_Check
+
+
+2. Added services for assignement static timers in run-time. New services:
+        OS_Stimer_Alloc
+        OS_Stimer_Found
+        OS_Stimer_Free
+
+   New constant: OS_STIMERS_ENABLE_ALLOCATION
+
+3. Added services for working with task timers (see osa_tasks.h). New services:
+        OS_Ttimer_Run
+        OS_Ttimer_Break
+        OS_Ttimer_Delay
+        OS_Ttimer_Wait
+        OS_Ttimer_Get
+        OS_Ttimer_IsRun
+        OS_Ttimer_Check
+        OS_Ttimer_Pause
+        OS_Ttimer_Continue
+
+5. OS_Init(): _OS_Dtimers.Next = 0 replaced with _OS_Dtimers.Flags.bNextEnable = 0
+6. Dtimer's functions moved to osa_dtimer.c file
+7. OS_(x)timer_Break services added. (x) = T, S, Q, D
+8. Bug fixed in common OS_DtimersWork: postfix ++ replaced with prefix ++
+9. Now it is possible to optimize code of work with static timers and task timers by speed
+  (default) or by size.
+   New constants: 
+        OS_STIMERS_OPTIMIZE_SIZE
+        OS_TTIMERS_OPTIMIZE_SIZE
+
+10. Bug fixed: qualifier OS_BANK mover after '*' in OS_Dtimers declaration
+11. Bug fixed in OS_Init: variable for cycle counter was formed incorrectly
+12. OS_Task_Create now saves position of new task's descriptor in _OS_temp
+13. Error #21 added (bad qtimer's size); Error #22 added (qtimers not supported with
+    12-bit PICs)
+
+
+
+
+====================================================================================================
+
+19.12.2009  (__OSAVERSION__   91219)
+
+_OS_Return replaced with OS_Yield in service OS_Task_Pause (the return address was not stored on exit task)
+ 
+====================================================================================================
+
+18.12.2009  (__OSAVERSION__   91218)
+
+OS_Task_Pause and OS_Task_Delete were corrected: these services made a comparison of _OS_CurTask's 
+and service argument's addresses, instead of comparing their values
+
+====================================================================================================
+
+10.12.2009  (__OSAVERSION__   91210)
+
+1. Services for work inside interrupt were corrected. Now is is allowed to use in ISR 
+   services with suffix "_I" only
+2. Added services:
+        OS_Bsem_Check_I
+        OS_Bsem_Reset_I
+        OS_Bsem_Set_I
+        OS_Bsem_Signal_I
+        OS_Bsem_Switch_I
+
+        OS_Csem_Accept_I
+        OS_Csem_Check_I
+        OS_Csem_Reset_I
+        OS_Csem_Set_I
+        OS_Csem_SetValue_I
+        OS_Csem_Signal_Now_I
+
+        OS_Flag_Check_00_I
+        OS_Flag_Check_0x_I
+        OS_Flag_Check_11_I
+        OS_Flag_Check_1x_I
+        OS_Flag_Init_I
+        OS_Flag_Set_0_I
+        OS_Flag_Set_1_I
+
+        OS_Msg_Accept_I
+        OS_Msg_Check_I
+        OS_Msg_Send_I
+
+        OS_Queue_Check_I
+        OS_Queue_IsEmpty_I
+        OS_Queue_IsFull_I
+        OS_Queue_Send_I
+
+        OS_Smsg_Accept_I
+        OS_Smsg_Check_I
+        OS_Smsg_Send_I
+
+        OS_Squeue_Check_I
+        OS_Squeue_IsEmpty_I
+        OS_Squeue_IsFull_I
+        OS_Squeue_Send_I
+3. Added OS_ENABLE_INT_BSEM constant
+4. Added empty service OS_Task_Reserve for different compilers compabitily
+5. OS_Csem_Signal now waits if counting semaphore is already atmaximum. Alternate service added: OS_Csem_Signal_Now
+
+Internal:
+1. Removed functions _OS_Smsg_Check and _OS_Csem_Check
+2. Added internal functions _OS_DI_INT and _OS_RI_INT
+3. For MCC30: Assignments in OS_Init and cirtical sections routines were reencoded to avoid warnings
+3. osa_picc12.c: routines SQueue renamed to Squeue
+
+====================================================================================================
+
+09.11.2009  (__OSAVERSION__   91109)
+
+1. Limitation for MCC30 removed: now OSA allows to allocate OSA code at high addresses of ROM (>0x10000)
+2. Corrected OS_Wait and OS_Wait_TO macro redefinitions for mikroC PRO
+
+====================================================================================================
+
+03.11.2009  (__OSAVERSION__   91103)
+
+1. Bug fixed: OS_Wait(expr) service did not work when low byte of 'expr' was zeroed. Same about 
+   OS_Flag_Wait for 16- and 32-bit flags when waiting higher than 7-th bits.
+2. OS_Task_Replace_P was added for PICC and PICC18. (Other compilers not support this service yet)
+3. Bug fixed for PIC12, PIC18, PIC24, dsPIC: OS_Yield executed after timeout in OS_xxx_Wait_TO 
+   could break the task (leave it forever).
+4. Increased speed of scheduler for non-priority mode (in OS_TASKS times)
+
+====================================================================================================
+
+29.10.2009  (__OSAVERSION__   91029)
+
+1. Type 'bit' replaced with '__osa_bool' for internal functions _OS_CheckSmsg and _OS_CheckEvent
+2. osa.h: added braces to OS_SET_TASK_IRP and OS_CLEAR_IRP macors
+
+====================================================================================================
+28.11.2009  (__OSAVERSION__   91028)
+
+1. Bug fixed: Compiler exited with error on OS_Queue_Clear() service
+2. mikroC PRO for PIC16: Added fast routines for IRP setting when OS_ADDRESS_TASK defined
+3. License added (BSD)
+
+====================================================================================================
+07.10.2009  (__OSAVERSION__   91007)
+
+1. microC PRO for PIC16 update: task descriptors can be allocated in bank2 or bank3 using OS_ADDESS_TASK
+   constant in osacgh.h
+
+====================================================================================================
+22.09.2009  (__OSAVERSION__	90922)
+
+1. mikroC for PIC16 added (work with bank0 and bank1 only)
+2. Removed #asm return #endasm from _OS_CLEAR_READY and _OS_CLEAR_READY_SET_CANCONTINUE
+
+====================================================================================================
+22.07.2009 	(__OSAVERSION__   90722)
+
+1. Service OS_Task_Define was added for CCS compilers
+
+====================================================================================================
+16.07.2009 	(__OSAVERSION__   90716)
+
+1. Bug fixed for CCS18: OS_InitDelay wrote incorrect value into INDF.
+2. Example for MCC18 added
+
+====================================================================================================
+07.07.2009 	(__OSAVERSION__   90707)
+
+1. Bug fixed: OS_EI was defined incorrectly for MCC18
+2. Macros for work with tasks did not work with CCS (now braces around parameter pTask are removed)
+
+====================================================================================================
+29.06.2009 	(__OSAVERSION__   90701)
+
+1. OSA ported to CCS compiler for PIC16 and PIC18 chips.
+2. Bug fixed: OS_Task_Create did not return OS_IsError when all descriptors are busy.
+3. Internal arrays renamed: OS_BSems -> OS_Bsem, OS_STimers -> OS_STimer.
+
+
+====================================================================================================
+25.06.2009 	(__OSAVERSION__   90700)
+
+1. OSA ported to mikroC PRO (version 2.15 or grater) for PIC18.
+2. Some cosmetic modifications:
+   1. OS_RI and OS_DI removed from common function _OS_Csem_Signal, since they are already present in macro 
+      OS_Csem_Signal.
+   2. Field cTempFSR1 removed from TCB for PICC18.
+   3. In common _OS_Task_Create function (in osa.c) added "OS_state = priority" when _OS_Cur_Task points
+      to new task.
+   4. _OS_Task_Create removed from osa_picc16.c and osa_picc18.h, since it is identical to common.
+   5. Dtimer's functions moved from osa_picc18.c and osa_mcc18.c into osa.c.
+   6. Internal services renamed:
+       _OS_GetRetPoint -> _OS_RETURN_SAVE
+       _OS_ReturnNoSave -> _OS_RETURN_NO_SAVE
+   7. Functions _OS_EnterCritical and _OS_LeaveCritical moved from osa_picc18.c and osa_mcc18.c into 
+      osa.c
+
+====================================================================================================
+18.06.2009	(__OSAVERSION__   90618)
+
+1. Bug fixed: simple message could be skipped when sending expression as simple msg.
+2. Added alternate service names: OS_Smsg_ for OS_SMsg_ and OS_Squeue for OS_SQueue.
+3. All processor specific services and definitions moved from common files into "port\" foulder.
+4. Include sections moved from "osa.*" files into "port\osa_include.*" files.
+5. Renamed some internal macros for dinamic timers.
+6. Improoved new way to save GIE flags in queue and csem routines.
+
+====================================================================================================
+06.04.2009	(__OSAVERSION__   90406)
+
+1. Internal service OS_IsSMsgFree() declaration corrected (it was declared incorrectly when 
+   sizeof(OST_SMSG) != 1).
+2. Bug fixed in OSAcfg_Tool: when file opened by "Browse..." button all fields became default.
+
+====================================================================================================
+02.04.2009	(__OSAVERSION__   90402)
+
+1. Assembler directives "equ" replaced with "set" in osa_picc18.h
+2. In 'osa.c' symbol '>' replaced with '!=' when checking OS_SMSG_SIZE and OS_CSEM_SIZE. These two
+   constants are defined as "0" for MCC18.
+
+====================================================================================================
+21.03.2009	(__OSAVERSION__   90321)
+
+1. Fixed bug for MCC30: there was a possibility of blocking task after OS_xxx_Wait_TO timeout occured.
+2. Fixed bug for PICC18 and MCC18: interrupts were disabled after OS_Dtimer_Delete execution.
+3. Some code modifications for called from interrupt services
+
+====================================================================================================
+03.03.2009	(__OSAVERSION__   90303)
+
+1. OSAcfg_Tool bug corrected: enabling critical section had no effect.
+
+====================================================================================================
+26.02.2009	(__OSAVERSION__   90226)
+
+1. Bug fixed: OS_Task_Replace did not tell to linker that created task will be called indirectly.
+   At this reason call-tree was built incorrectly.
+
+====================================================================================================
+22.01.2009	(__OSAVERSION__   90200)
+
+
+Most services and some constants and types are renamed. New naming scheme is: 
+OS_<object>_<action>_<suffix>, where:
+
+object	- is an object name (like Csem, Bsem, Msg, Queue, Dtimer ect.);
+action	- what do we do with object (Set, Clear, Wait ect.)
+suffix  - additional info (##I## - works in interrupt, ##TO## - check timeout, ect.)
+
+  - This modification was made to simplify membering all services and to simplify programming when using context substituting editor.
+  - To view all names replacements see file "osa\kernel\osa_oldnames.h"
+  - Renaming in OSA:
+    * Object names:
+      * SMsg -> Smsg
+      * QMsg -> Queue
+      * QSMsg -> SQueue
+      * CSem -> Csem
+      * BSem -> Bsem
+      * DTimer -> Dtimer
+      * STimer -> Stimer
+    * Constants:
+      * OS_ENABLE_QMSG -> OS_ENABLE_QUEUE
+      * OS_ENABLE_QSMSG -> OS_ENABLE_SQUEUE
+      * OS_ENABLE_INT_QMSG -> OS_ENABLE_INT_QUEUE
+    * Types:
+      * OST_PMSG -> OST_MSG_CB
+      * OST_QMSG -> OST_QUEUE
+      * OST_QSMSG -> OST_QSMSG
+  - Types of MSG and SMSG now can be changed only througth OS_MSG_TYPE and OS_SMSG_TYPE constants.
+  - Source code was formatted to be most friendly to programmer
+  - New OSAcfg_Tool aviable to work with old- and new-styled names.
+
+OSA 90200 is compatibile to all project written with older versions. There is only one exception: 
+types of MSG and SMSG can not be modified directly in OSAcfg.h. If they will, compiler will exit 
+with "OSA error #14" or "OSA error #15" (see [[en:osa:ref:appendix:errorlist|error list]]. This 
+problem is fixed by changing in SAcfg.h OST_MSG->OS_MSG_TYPE and OST_SMSG->OS_SMSG_TYPE.
+
+
+====================================================================================================
+15.01.2009	(__OSAVERSION__   90115)
+
+1. Bug fixed: HT-PICC have a bug with assembler optimization when inline assembler used. In rare cases 
+   due to this bug, situation with incorrect RP1:RP0 settings could occure when returinng to task after 
+   context switching. This bug has been worked arround by replacing assembler MACRO with C-MACRO
+   (see MACRO _goto_OS_SchedRetPoint and _OS_GetReturnPoint in osa_picc16.h)
+   
+
+====================================================================================================
+09.01.2009	(__OSAVERSION__   90109)
+
+1. Bug fixed: since 81227 non-priority mode did not work properly.
+2. Corrected macros fr STimers in osa_picc16.h (specifier OS_STIMERS_BANK was skipped)
+
+====================================================================================================
+27.12.2008	(__OSAVERSION__   81227)
+
+1. Constant OS_ENABLE_INT_SEVICE was renamed to OS_ENABLE_INT_ALL (old name kept too)
+2. It is possible now to define ENABLE_INT for each type of services:
+   - OS_ENABLE_INT_CSEM
+   - OS_ENABLE_INT_MSG
+   - OS_ENABLE_INT_SMSG
+   - OS_ENABLE_INT_QMSG
+   (Constant OS_ENABLE_ALL does not include OS_ENEBALE_INT_xxx!)
+3. Services for work in interrupts can be used with same services from task (i.e. OS_IntSignalCSem 
+   and OS_SignalCSem can be used in one program now)
+4. It is possible now to pause, continue and delete (or stop) task from external tasks. Services added:
+   - OS_GetCurTask()
+   - OS_DeleteTask(pTask)
+   - OS_PauseTask(pTask)
+   - OS_ContinueTask(pTask)
+   Added macro "this_task" wich means pointer to task being executed at now.
+5. Task priority can be changed outside task. 
+   - OS_SetTaskPriority - (NEW PARAMETERS!!!)
+   - OS_GetTaskPriority - (NEW PARAMETERS!!!)
+6. All task services were replaced into "tasks.h"
+
+====================================================================================================
+06.12.2008	(__OSAVERSION__   81206)
+
+1. Bug fixed: project unabled to built when defined old style constant OS_PTIMER_SIZE.
+2. Bug fixed: OS_GetDTimer was not defined properly.
+
+====================================================================================================
+26.11.2008	(__OSAVERSION__   81126)
+1.  All dynamic timers services OS_xxxPTimer renamed to OS_xxxDTimer. Old names are still supported 
+    for compability.
+
+====================================================================================================
+25.10.2008	(__OSAVERSION__   81025)
+
+1.  All comments are translated in english.
