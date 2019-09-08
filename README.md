@@ -62,7 +62,7 @@ This is the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolut
  
  [#74](_73_Eagle_02/) EagleSeries - [**EAGLE Episode 2**](https://medium.com/jungletronics/installing-eagle-terminology-c7ff62602acc) - [ELG_01](https://drive.google.com/open?id=1glSErC3Z7V3EHNY10lqdtn_ep_Lis6mO) - *Concepts & Installations* - [video](https://youtu.be/SLnq33xqd54) 
  
- [#73](_73_Eagle_01/) EagleSeries - [**EAGLE Episode 1**](https://medium.com/jungletronics/eagle-series-homemade-pcb-569c15d10c65) — [ELG_00](https://drive.google.com/open?id=1j1ZnmvNf14CLKtocdpnEGOG6cMC16Tpz) - *Homemade PCB Series: Intro & Motivations* - []video](https://youtu.be/e1ERSU91-PY) 
+ [#73](_73_Eagle_01/) EagleSeries - [**EAGLE Episode 1**](https://medium.com/jungletronics/eagle-series-homemade-pcb-569c15d10c65) — [ELG_00](https://drive.google.com/open?id=1j1ZnmvNf14CLKtocdpnEGOG6cMC16Tpz) - *Homemade PCB Series: Intro & Motivations* - [video](https://youtu.be/e1ERSU91-PY) 
   
  [#72](_71_SolarTurretV2/) ArduSeries - [**Solar Turret V2— PCB— Part II - Designing Printed Circuit Boards — PCB**](https://medium.com/jungletronics/solar-turret-version-2-part-ii-c1de67beb7b4) - *MVP - Minimal Viable Product* 
  
@@ -80,7 +80,7 @@ This is the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolut
 
  [#64](_64_BTS7960B/) arduSeries - [**BTS 7960B**](https://medium.com/jungletronics/bts-7960b-high-current-pn-half-bridge-cc428153f82a) - High Current PN Half Bridge - *High Current Motor Drive Applications - NovalithIC T M*
  
- [#63](_63_MonsterShield/) arduSeries - [**VNH2SP30 — SF Monster Moto Shield**] - *Use This Board In Extreme High-Demand Application — Full-Bridge Motor Drivers —30A@16v peak* 
+ [#63](_63_MonsterShield/) arduSeries - [**VNH2SP30 — SF Monster Moto Shield**](https://medium.com/jungletronics/vnh2sp30-monster-moto-shield-745893d518a9) - *Use This Board In Extreme High-Demand Application — Full-Bridge Motor Drivers —30A@16v peak* 
  
  [#62](_62_L9110/) arduSeries - [**L9110 H-bridge module**]() - DC Stepper Motor Driver Board -.8A@12 v peak** - *This is a simple test of this module*
  
@@ -116,7 +116,7 @@ This is the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolut
  
  [#36](_36_Time_LapseCAM/) arduSeries - [**J3TLC — TimeLapse Camera Project**](https://goo.gl/NNHrc2) - *A robot that balancing itself!* 
  
- [#35](_35_Balacing Car/) arduSeries - [**J3 Balacing Car** - Parts 1 2 3 4 & 5 - *A robot that balancing itself! - Based on the YABR by* [Joop Brokking](https://goo.gl/R25hLc)
+ [#35](_35_BalacingCar/) arduSeries - [**J3 Balacing Car**](https://medium.com/jungletronics/jaythree-balancing-car-project-part-5-5-2aaa48924428) - Parts 1 2 3 4 & 5 - *A robot that balancing itself! - Based on the YABR by* [Joop Brokking](https://goo.gl/R25hLc)
 
  [#34](_34_GY85/) arduSeries - [**GY-85**](https://goo.gl/rdL4uY) — *A quick datasheet study ADXL335 How it Works - We'll unlock the accelerometer — ADXL335* 
 
