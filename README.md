@@ -83,7 +83,7 @@ This is the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolut
  
  [#62](_62_L9110/) arduSeries - [**L9110 H-bridge module**](https://medium.com/jungletronics/l9110-h-bridge-module-4c9bbb038200) - DC Stepper Motor Driver Board -.8A@12 v peak** - *This is a simple test of this module*
  
- [#61](_61_ULN2003/) arduSeries - [** ULN2003 & 28BYJ-48 Stepper Motor**](https://medium.com/jungletronics/uln2003-28byj-48-stepper-motor-f1cc5357eff) - 7 ch Darlington Sink Driver .6A@50v peak - *Full Step Drive: we're going to fire two phase at a time*
+ [#61](_61_ULN2003/) arduSeries - [**ULN2003 & 28BYJ-48 Stepper Motor**](https://medium.com/jungletronics/uln2003-28byj-48-stepper-motor-f1cc5357eff) - 7 ch Darlington Sink Driver .6A@50v peak - *Full Step Drive: we're going to fire two phase at a time*
  
  [#60](_60_IFR520/) arduSeries - [**IFR 520 MOS-Module**](https://medium.com/jungletronics/ifr-520-mos-module-dorobot-4a3dd45ba2b7) + DoRobot Switch Heavy DC Loads-10A@100v peak - *Switches the circuit every 2 seconds on and off*
  
