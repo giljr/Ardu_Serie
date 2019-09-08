@@ -1,42 +1,46 @@
-# Ardu_Series - Arduino Fun Factory Archieve
-> Hi, this is all about [Arduino](https://www.arduino.cc/. Open, like Arduino itself!
+## Arduino Fun Factory Archieve
+Hi, this is all about [Arduino](https://www.arduino.cc) , open like Arduino itself!
+Arduino is a :tada: low-cost (approx. $25-$30) :tada: open source programmable micro-controller that allows you to build robots and *intelligent* machines: 
 
-Arduino is a low-cost (approx. $25-$30) open source programmable micro-controller that allows you to build robots and *intelligent* machines.
+:rocket:
 ```
-Arduino is the Apollo Project of the maker movement :rocket:
+Arduino is the Apollo Project 
+
+of the maker movement
 ```
-You're more then welcome to visit my [Youtube Channel Playlist](https://www.youtube.com/playlist?list=PLK3PeNcUzb8TwZuXZJgREj5nDbQxRLW_a)
-and my Web Pages: 
+You're more then welcome to visit my Web Pages: 
 
  [Jungletronics](https://medium.com/jungletronics) (Arduino, RPi, PIC, Eagle, Blender, Unity3D, Pixy, and more)
  
- [BS_00_Top_27_Hobbyists_Chips](BS_00_Top_27_Hobbyists_Chips/)
- 
  [KidsTronics](https://medium.com/kidstronics) (MIT App Inventor, LEGO, Arduino For Kids, and more)
+ 
+And my [Youtube Channel Playlist](https://www.youtube.com/playlist?list=PLK3PeNcUzb8TwZuXZJgREj5nDbQxRLW_a)
  
 Where I Embrace Playful Experimentation, offering you an scaffolding opportunities to Code, Hack, 
 and Tinker too, and eventually you may *toss me some feedback* :blush:
 
-Here, the emphasy lies on this motto of the Maker Movement:
+Here, the emphasy lies on this motto of the Maker Movement: 
+
+:bulb:
 ```
-Learning By Doing! :bulb:
+Learning By Doing!
 ``` 
 
 I believe that the essential lessons can be learned about the systems - about the world - 
 from taking things apart, seeing how they work, and using this knowledge to create new and even more interenting things.
 
-This is the [Levy,Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolution-Steven-Levy/dp/1449388396)'s **Hackers Ethic** principles (that I've valued most):
+This is the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolution-Steven-Levy/dp/1449388396)'s **Hackers Ethic** principles (that I've valued most):
 * *Access to computer* - and anything that might teach you something about the way the world works - should be unlimited and total.
 * Always *yield to Hands-on Imperative*!
 * *Hackers should be judged* by their hacking, not bogus criteria such as degrees, age, race, or position;
 * You can *create art and beauty* on a computer;
 * Computer can *change your life for the better*.
 
->[Google Drive](https://drive.google.com/open?id=0B8iMbc-iQqlULW1HZXFiNnBEZUE) gives you access to all project's files by numbers, such as Fritzing, Proteus, and more:)
+>[Google Drive](https://drive.google.com/open?id=0B8iMbc-iQqlULW1HZXFiNnBEZUE) This gives you access to all project's files by numbers, such as Fritzing, Proteus, and more:)
 
-##Projects Arduino Series List (from 2016 until now)
+### Projects Arduino Series List (from 2016 until now)
   
- [83](_83_74HC4067/) arduSeries - [**74HC4067 — DeMux For Arduino**](https://medium.com/jungletronics/74hc4067-demux-for-arduino-7f7892975edf) - *A multiplexer of this sort really just acts as a 16 to one 1 switch*  
+ [#83](_83_74HC4067/) arduSeries - [**74HC4067 — DeMux For Arduino**](https://medium.com/jungletronics/74hc4067-demux-for-arduino-7f7892975edf) - *A multiplexer of this sort really just acts as a 16 to one 1 switch*  
   
  [#82](_82_SharpIR/) arduSeries - [**Sharp IR Sensor — 0A41SK**](https://medium.com/jungletronics/sharp-ir-sensor-0a41sk-41c2b3848e39) - *4–30cm Infrared IR Distance Measuring Sensor*
 
@@ -44,31 +48,29 @@ This is the [Levy,Steven(2010)](https://www.amazon.com/Hackers-Computer-Revoluti
 
  [#80](_80_4ChTracker/) arduSeries - [**4-Channel Line Tracker Sensor**](https://medium.com/jungletronics/4-channel-line-tracker-sensor-e6f9a0dad304) - *Ensures a Successful & Accurately Navigation For Your Robot*
  
- [#79](https://youtu.be/wWcOoGcZYZI) arduSeries - [**Prusa Went Wrong**](https://medium.com/jungletronics/prussa-went-wrong-mini-cnc-project-bcff41ff303d) — Mini-CNC Project - *10 Most Common Pitfall YOU CAN AVOID — Episode 2*
+ [#79](_79_WhatsWrong_Prusa/) arduSeries - [**Prusa Went Wrong**](https://medium.com/jungletronics/prussa-went-wrong-mini-cnc-project-bcff41ff303d) — Mini-CNC Project - *10 Most Common Pitfall YOU CAN AVOID — Episode 2* - [video](https://youtu.be/RQ_3eqvhWr8)
  
  [#78](_78_Prusa_Tiny/) arduSeries - [**Mini-Prusurinha Printer - A Funny Tiny Prusa Printer — Episode 1**](https://medium.com/jungletronics/mini-prussirinha-printer-d616dde8ae46) - *How it works using Arduino Micro, Processing, Inscape Apps*
  
- [#77](https://youtu.be/2WRh8Lu5_l4) rduSeries - [**Unboxing Sensor & Plugs Pressure Sensor, JST Connectors and Barrel Jack**](https://medium.com/jungletronics/unboxing-sensor-plugs-aa5caffb4384) 
+ [#77](_77_UnboxSensorPlugs/) arduSeries - [**Unboxing Sensor & Plugs Pressure Sensor, JST Connectors and Barrel Jack**](https://medium.com/jungletronics/unboxing-sensor-plugs-aa5caffb4384) - [video](https://youtu.be/2WRh8Lu5_l4) 
  
- [#76](https://youtu.be/w3DsD_mwsL8) arduSeries - [**Arduino Meets Pixy**](https://medium.com/jungletronics/arduino-meets-pixy-36138c474912) - *How-To Get Up & Running Flying Pixy!*
+ [#76](_76_PixyCam/) arduSeries - [**Arduino Meets Pixy**](https://medium.com/jungletronics/arduino-meets-pixy-36138c474912) - *How-To Get Up & Running Flying Pixy!* - [video](https://youtu.be/w3DsD_mwsL8) 
  
- [#05](https://youtu.be/gRsiuOdpVMA) EagleSeries - [**Eagle Episode 4**](https://medium.com/jungletronics/eagle-project-simple-pcb-etchant-7bac26ac035f) - *Simple PCB Etchant - The Whole Process*
+ [#75_4](_73_Eagle_04/) EagleSeries - [**Eagle Episode 4**](https://medium.com/jungletronics/eagle-project-simple-pcb-etchant-7bac26ac035f) - *Simple PCB Etchant - The Whole Process* - [video](https://youtu.be/gRsiuOdpVMA) 
   
- [#04](https://youtu.be/R25o4irzqTY) EagleSeries - [**Eagle Episode 4**](https://medium.com/jungletronics/eagle-project-simple-pcb-etchant-7bac26ac035f) - *Simple PCB Etchant - The Whole Process*
+ [#75](_73_Eagle_03/) EagleSeries - [**Eagle Episode 3**](https://medium.com/jungletronics/first-project-in-eagle-555s-flasher-d4d1fa822537) - First Project in Eagle — 555’s Flasher - *Using 555 IC & Discrete Components*
  
- [#03](https://youtu.be/g8AdpwRkVj0) EagleSeries - [**Eagle Episode 3**](https://medium.com/jungletronics/first-project-in-eagle-555s-flasher-d4d1fa822537) - First Project in Eagle — 555’s Flasher - *Using 555 IC & Discrete Components*
+ [#74](_73_Eagle_02/) EagleSeries - [**EAGLE Episode 2**](https://medium.com/jungletronics/installing-eagle-terminology-c7ff62602acc) - [ELG_01](https://drive.google.com/open?id=1glSErC3Z7V3EHNY10lqdtn_ep_Lis6mO) - *Concepts & Installations* - [video](https://youtu.be/SLnq33xqd54) 
  
- [#02](https://youtu.be/SLnq33xqd54) EagleSeries - [**EAGLE Episode 2**](https://medium.com/jungletronics/installing-eagle-terminology-c7ff62602acc) - [ELG_01](https://drive.google.com/open?id=1glSErC3Z7V3EHNY10lqdtn_ep_Lis6mO) - *Concepts & Installations*
- 
- [#01](https://youtu.be/e1ERSU91-PY) EagleSeries - [**EAGLE Episode 1**](https://medium.com/jungletronics/eagle-series-homemade-pcb-569c15d10c65) — [ELG_00](https://drive.google.com/open?id=1j1ZnmvNf14CLKtocdpnEGOG6cMC16Tpz) - *Homemade PCB Series: Intro & Motivations*
+ [#73](_73_Eagle_01/) EagleSeries - [**EAGLE Episode 1**](https://medium.com/jungletronics/eagle-series-homemade-pcb-569c15d10c65) — [ELG_00](https://drive.google.com/open?id=1j1ZnmvNf14CLKtocdpnEGOG6cMC16Tpz) - *Homemade PCB Series: Intro & Motivations* - []video](https://youtu.be/e1ERSU91-PY) 
   
  [#72](_71_SolarTurretV2/) ArduSeries - [**Solar Turret V2— PCB— Part II - Designing Printed Circuit Boards — PCB**](https://medium.com/jungletronics/solar-turret-version-2-part-ii-c1de67beb7b4) - *MVP - Minimal Viable Product* 
  
  [#71](_71_SolarTurretV2/) arduSeries - [**Solar Turret — Version 2 — The PCB - Whip Up A Printed Circuit Boards — Part I**](https://medium.com/jungletronics/solar-turret-version-2-the-pcb-435607e4b66c) - *Prototyping PCB step-by-step* 
  
- [#70](_70_SolarTurretV11/) arduSeries - [**Solar Turret v 1.2 - More Responsible Than Ever!**](https://medium.com/jungletronics/solar-turret-v-1-2-113fc9723f81) - *Refactoring Solar Turret*
+ [#70](_70_SolarTurretV11/) arduSeries - [**Solar Turret v 1.2** - More Responsible Than Ever!](https://medium.com/jungletronics/solar-turret-v-1-2-113fc9723f81) - *Refactoring Solar Turret*
  
- [#69](_69_SolarTurretV11/) ArduSeries - [**Solar Turret V 1.1 Improving Design 4 Learning More](https://medium.com/jungletronics/solar-turret-v-1-1-6a5283023104)** - *Revisiting project #100 to make a PCB*
+ [#69](_69_SolarTurretV11/) ArduSeries - [**Solar Turret V 1.1** Improving Design 4 Learning More](https://medium.com/jungletronics/solar-turret-v-1-1-6a5283023104)** - *Revisiting project #100 to make a PCB*
    
  [#68](_68_28BYJ48/) arduSeries - [**28BYJ-48 5v Stepper Motor — How many RPM Can I Spin This Thing?**](https://medium.com/jungletronics/28byj-48-stepper-motor-peak-rpm-658eae6afe2f) RPM Configurations & Industrial Conveyor Belt? - *All the possible configurations of 28BYJ-48 Stepper Motor available for hobbyists' essay*
   
@@ -78,7 +80,7 @@ This is the [Levy,Steven(2010)](https://www.amazon.com/Hackers-Computer-Revoluti
 
  [#64](_64_BTS7960B/) arduSeries - [**BTS 7960B**](https://medium.com/jungletronics/bts-7960b-high-current-pn-half-bridge-cc428153f82a) - High Current PN Half Bridge - *High Current Motor Drive Applications - NovalithIC T M*
  
- [#63](_63_MonsterShield/) arduSeries - [**VNH2SP30 — Monster Moto Shield**] - *Use This Board In Extreme High-Demand Application — Full-Bridge Motor Drivers —30A@16v peak* 
+ [#63](_63_MonsterShield/) arduSeries - [**VNH2SP30 — SF Monster Moto Shield**] - *Use This Board In Extreme High-Demand Application — Full-Bridge Motor Drivers —30A@16v peak* 
  
  [#62](_62_L9110/) arduSeries - [**L9110 H-bridge module**]() - DC Stepper Motor Driver Board -.8A@12 v peak** - *This is a simple test of this module*
  
@@ -98,11 +100,11 @@ This is the [Levy,Steven(2010)](https://www.amazon.com/Hackers-Computer-Revoluti
   
  [#48](_48_EasyDriver/) arduSeries - [**EASYDRIVER**](https://medium.com/jungletronics/easydriver-4-wire-stepper-motor-driver-9f32b233efe6) : 4-Wire-Stepper Motor Driver - Brian Schmalz Design on A3967 IC — Bi-Polar Motors — .75A@30v peak — *Making Use of this [Schmalzhaus](http://www.schmalzhaus.com/EasyDriver/) Driver a Breeze!* 
  
- [#47_a](_47_MotorDrives/) - [**Quick Intro To Motor Drivers**](https://medium.com/jungletronics/quick-intro-to-motor-drivers-322e4929db44) - *An Overview How-to’s For Hobbyist Guide*
+ [#47_a](_47_MotorDrives/) arduSeries - [**Quick Intro To Motor Drivers**](https://medium.com/jungletronics/quick-intro-to-motor-drivers-322e4929db44) - *An Overview How-to’s For Hobbyist Guide*
   
  [#47](_47_L9100S/) arduSeries - [**L9100S**](https://medium.com/jungletronics/j3c3-controlling-motor-db024ea23bdb) — Toy Driver Easy To Use —.8A@12v peak - *Toy-low-voltage-h-bridge-easy-to-use-motor-driver* 
 
- [#46](https://youtu.be/iXBeAEAZlP8) arduSeries - Meet DoRobot — [**Assembly Techniques J3C3**](https://medium.com/jungletronics/meet-j3c3-3383e9254afd) - *JayThree Caterpillar-Crawler-Chassis v 1.0 mounting procedures*
+ [#46](_46_J3C3/) arduSeries - Meet DoRobot — [**Assembly Techniques J3C3**](https://medium.com/jungletronics/meet-j3c3-3383e9254afd) - *JayThree Caterpillar-Crawler-Chassis v 1.0 mounting procedures* - [video](https://youtu.be/iXBeAEAZlP8)
  
  [#45](_45_Multifile/) arduSeries - [**Arduino Multi File Sketch**](https://medium.com/jungletronics/arduino-multi-file-sketch-583a7833162c) - *How to Use Arduino Tabs and Code Spliting in Arduino IDE*
 
@@ -110,11 +112,11 @@ This is the [Levy,Steven(2010)](https://www.amazon.com/Hackers-Computer-Revoluti
 
  [#43](_43_CTC/) arduSeries - [**Arduino & Atmel Studio 7**](https://medium.com/jungletronics/arduino-atmel-studio-7-ctc-mode-782e8fdc8c80) - CTC Mode - *Quick study on CTC (Clear Timer on Compare)* - *Step-by-step how to use the CTC Mode - based on [Mayank](http://maxembedded.com/2011/07/avr-timers-ctc-mode/)*
 
- [#37](_37_Osa/) arduSeries - [OSA / RTOS — Quick Intro — Part 2/3](https://medium.com/jungletronics/osa-rtos-quick-intro-part-1-3-8ee833b6a099)  - *Real-Time Operating System for Microchip PIC-controllers*
+ [#37](_37_Osa/) arduSeries - [**OSA / RTOS — Quick Intro — Part 2/3**](https://medium.com/jungletronics/osa-rtos-quick-intro-part-1-3-8ee833b6a099)  - *Real-Time Operating System for Microchip PIC-controllers*
  
  [#36](_36_Time_LapseCAM/) arduSeries - [**J3TLC — TimeLapse Camera Project**](https://goo.gl/NNHrc2) - *A robot that balancing itself!* 
  
- [#35](_35_Balacing Car/) arduSeries - [**J3 Balacing Car** - Parts 1 2 3 4 & 5 - *A robot that balancing itself! - Based on the YABR by [Joop Brokking](https://goo.gl/R25hLc)*
+ [#35](_35_Balacing Car/) arduSeries - [**J3 Balacing Car** - Parts 1 2 3 4 & 5 - *A robot that balancing itself! - Based on the YABR by* [Joop Brokking](https://goo.gl/R25hLc)
 
  [#34](_34_GY85/) arduSeries - [**GY-85**](https://goo.gl/rdL4uY) — *A quick datasheet study ADXL335 How it Works - We'll unlock the accelerometer — ADXL335* 
 
@@ -128,13 +130,13 @@ This is the [Levy,Steven(2010)](https://www.amazon.com/Hackers-Computer-Revoluti
 
  [#29](_29_ATtiny85/) arduSeries - [**ATtiny85 Easy Flashing Through Arduino**](http://highlowtech.org/?p=1695) - Programming ATtiny85 in 10 steps - *How to program ATtiny85*
 
- [#28](_28_PingPong/) arduSeries - [**Arduino & SoundCard Oscilloscope: Pong Game - How It Works**](https://goo.gl/ON9NIr") - *Pong Game w/ Sound Card Oscilloscope from [Christian Zeitnitz](https://www.zeitnitz.eu/scope_en)*
+ [#28](_28_PingPong/) arduSeries - [**Arduino & SoundCard Oscilloscope: Pong Game - How It Works**](https://youtu.be/Syas7W4Jft8) - *Pong Game w/ Sound Card Oscilloscope from [Christian Zeitnitz](https://www.zeitnitz.eu/scope_en)*
 
- [#27](_27_Assembly/) arduSeries - [**Meeting Assembly**](https://goo.gl/7qKbqS") — Hello World Arduino on Atmel Studio 7  - *Arduino’s blink program working in assembly - Atmel Studio 7 IDE*
+ [#27](_27_Assembly/) arduSeries - [**Meeting Assembly**](https://youtu.be/pInCtpDUz98) — Hello World Arduino on Atmel Studio 7  - *Arduino’s blink program working in assembly - Atmel Studio 7 IDE*
 
- [#26](_26_Studio7/) arduSeries - [**How to load programs to an Arduino UNO from Atmel Studio 7**](https://goo.gl/PSxDth") - *Studio 7: A powerfull IDE for your Arduino's Project* 
+ [#26](_26_Studio7/) arduSeries - [**How to load programs to an Arduino UNO from Atmel Studio 7**](https://youtu.be/hbPcWfWOJZY) - *A powerfull IDE for your Arduino's Project* 
 
- [#25](_25_PongGame/) arduSeries - [**Ping-Pong Game Explained!!!**]-(https://goo.gl/aAKGuD") - Simulation on Atmel Studio 7   - *Learn: Configuration of the Timer Interrupt; How this cool Code works inside; Analyzing & Dividing code to conquer; Calculate the Overflow Timer on Arduino Helped by Atmel Studio 7 Simulator*
+ [#25](_25_PongGame/) arduSeries - [**Ping-Pong Game Explained!!!**](https://goo.gl/aAKGuD") - Simulation on Atmel Studio 7   - *Learn: Configuration of the Timer Interrupt; How this cool Code works inside; Analyzing & Dividing code to conquer; Calculate the Overflow Timer on Arduino Helped by Atmel Studio 7 Simulator*
 
  [#24](_24_Compass/) arduSeries - [**abC Project: Arduino, Bluetooth and Compass V1.0**](https://goo.gl/gHFGIi) - *A compass connected to the arduino via bluetooth*
 
@@ -156,7 +158,7 @@ This is the [Levy,Steven(2010)](https://www.amazon.com/Hackers-Computer-Revoluti
 
  [#15](_15_PCF8591P/) arduSeries - [**Arduino Ripple Board w/ PCF8591P**](https://youtu.be/oNpPBxcHSXw) - *Extending Arduino's Pins w/ IC [PCF8591P](https://www.nxp.com/docs/en/data-sheet/PCF8591.pdf)*
 
- [#13](_13_Thermocouple/) arduSeries - [**Arduino 1-Wire Thermocouple in the kitchen**] - *How to install Thermocouple in the oven's kitchen* 
+ [#13](_13_Thermocouple/) arduSeries - [**Arduino 1-Wire Thermocouple in the kitchen**](https://youtu.be/IGvR1Yq6DLI) - *How to install Thermocouple in the oven's kitchen* 
 
  [#09](_09_Uni-H-Bridge/) arduSeries - [**Uni H-Bridge Module For Arduino**](http://jungletronics.blogspot.com/2016/06/09-arduserie-uni-h-bridge-module-for_3.html) - *L9110 Chip - Testing Uni-H-Bridge Module for Arduino* 
 
@@ -172,16 +174,20 @@ This is the [Levy,Steven(2010)](https://www.amazon.com/Hackers-Computer-Revoluti
                  
  [#03](_03_Keypad/) arduSeries - [**DIY 4 x 4 16-Key Numeric Keypad TEST!!**](https://youtu.be/cVpLxHNI_x8) - *How this (or any) keypad works*
 
- [#02](_02_7Seg/) ardu_series - [**8 Digit 7 Segment Display*](https://youtu.be/CKetrf3Mv9s) - *Working w/ 7-seg display & Arduino*
+ [#02](_02_7Seg/) ardu_series - [**8 Digit 7 Segment Display**](https://youtu.be/CKetrf3Mv9s) - *Working w/ 7-seg display & Arduino*
                    
  [#01](_01_PongGame/) arduSeries - [**Pong Game w/ IC 74HC138**](https://jungletronics.blogspot.com/2015/10/arduino-matrix-led-display-ping-pong.html) - *An study of the theory needed to mount the game in Arduino*
 
  [#00](_00_NFC_PN532/) arduSeries - [**NFC ITEAD PN532 & LCD**](https://youtu.be/PHUNECa4oso) - *Mifarecard & NFC Module ITEAD PN532 + ARDUINO = Security Access* 
 
+ 
+ 
 
-##Projects blogspot list (from 2014 until 2016):
+### Projects blogspot list (from 2014 until 2016):
+ 
  **Legend:**
- [**Blogspot_Publication_N°_Year**](http://jungletronics.blogspot.com) - **Project's name** - ription (inside folders you'll find codes & links)
+ 
+ [**Blogspot_Publication_N°_Year**](http://jungletronics.blogspot.com) - **Project's name** - Description (inside init-folders you'll find codes & links)
    
 
  [#BS_16_2016](BS_16_ESP8266/) - [**Arduino Headless Setup & ESP8266**](https://jungletronics.blogspot.com/2016/09/16-arduserie-arduino-headless-setup.html) - *A working Simple Web w/ ESP8266.*
