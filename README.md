@@ -1,8 +1,6 @@
 ## Arduino Fun Factory Archieve
 Hi, this is all about [Arduino](https://www.arduino.cc) , open like Arduino itself!
-Arduino is a :tada: low-cost (approx. $25-$30) :tada: open source programmable micro-controller that allows you to build robots and *intelligent* machines: 
-
-:rocket:
+Arduino is a :tada: low-cost (approx. $25-$30) open source programmable micro-controller that allows you to build robots and *intelligent* machines: :rocket:
 ```
 Arduino is the Apollo Project 
 
@@ -70,7 +68,7 @@ This is the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolut
  
  [#70](_70_SolarTurretV11/) arduSeries - [**Solar Turret v 1.2** - More Responsible Than Ever!](https://medium.com/jungletronics/solar-turret-v-1-2-113fc9723f81) - *Refactoring Solar Turret*
  
- [#69](_69_SolarTurretV11/) ArduSeries - [**Solar Turret V 1.1** Improving Design 4 Learning More](https://medium.com/jungletronics/solar-turret-v-1-1-6a5283023104)** - *Revisiting project #100 to make a PCB*
+ [#69](_69_SolarTurretV11/) ArduSeries - [**Solar Turret V 1.1** Improving Design 4 Learning More](https://medium.com/jungletronics/solar-turret-v-1-1-6a5283023104) - *Revisiting project #100 to make a PCB*
    
  [#68](_68_28BYJ48/) arduSeries - [**28BYJ-48 5v Stepper Motor — How many RPM Can I Spin This Thing?**](https://medium.com/jungletronics/28byj-48-stepper-motor-peak-rpm-658eae6afe2f) RPM Configurations & Industrial Conveyor Belt? - *All the possible configurations of 28BYJ-48 Stepper Motor available for hobbyists' essay*
   
