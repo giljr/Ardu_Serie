@@ -113,21 +113,21 @@ This is the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolut
 
  [#37](_37_Osa/) arduSeries - [**OSA / RTOS — Quick Intro — Part 2/3**](https://medium.com/jungletronics/osa-rtos-quick-intro-part-1-3-8ee833b6a099)  - *Real-Time Operating System for Microchip PIC-controllers*
  
- [#36](_36_Time_LapseCAM/) arduSeries - [**J3TLC — TimeLapse Camera Project**](https://goo.gl/NNHrc2) - *A robot that balancing itself!* 
+ [#36](_36_Time_LapseCAM/) arduSeries - [**J3TLC — TimeLapse Camera Project**](https://medium.com/jungletronics/jaythree-timelapse-camera-6d08ea73b3a5) - *A robot that balancing itself!* 
  
  [#35](_35_BalacingCar/) arduSeries - [**J3 Balacing Car**](https://medium.com/jungletronics/jaythree-balancing-car-project-part-5-5-2aaa48924428) - Parts 1 2 3 4 & 5 - *A robot that balancing itself! - Based on the YABR by* [Joop Brokking](https://goo.gl/R25hLc)
 
- [#34](_34_GY85/) arduSeries - [**GY-85**](https://goo.gl/rdL4uY) — *A quick datasheet study ADXL335 How it Works - We'll unlock the accelerometer — ADXL335* 
+ [#34](_34_GY85/) arduSeries - [**GY-85**](https://medium.com/jungletronics/gy-85-a-quick-datasheet-study-79019bb36fbf) — *A quick datasheet study ADXL335 How it Works - We'll unlock the accelerometer — ADXL335* 
 
- [#33](_33_nRF24L0/) arduSeries - [**nRF24L0**](https://goo.gl/H8i0rT) — Popular RF module using with Arduino ! Radio Hello World Sketches - *Setting up for 2 radios* 
+ [#33](_33_nRF24L0/) arduSeries - [**nRF24L0**](https://medium.com/jungletronics/nrf24l0-popular-rf-module-using-with-arduino-596dcdc7803b) — Popular RF module using with Arduino ! Radio Hello World Sketches - *Setting up for 2 radios* 
 
- [#32](_32_Sonar/) arduSeries - [**Sonar Judge The Distance Circuit**](https://goo.gl/BhLG8C) : Circuito ‘Golpe de Vista’ - *Circuit for tighter garages*
+ [#32](_32_Sonar/) arduSeries - [**Sonar Judge The Distance Circuit**](https://medium.com/jungletronics/sonar-judge-the-distance-circuit-circuito-golpe-de-vista-arduserie-32-6dda5ee9b606) : Circuito ‘Golpe de Vista’ - *Circuit for tighter garages*
 
- [#31](_31_Shift_Regs/) arduSeries - [**Shift Registers Types: 74HC595 & 74HC164**](https://goo.gl/GcZxCR) - Shift Registers — How it Works! - *What is the difference between 74hc595 and 74hc164?*
+ [#31](_31_Shift_Regs/) arduSeries - [**Shift Registers Types: 74HC595 & 74HC164**](https://medium.com/jungletronics/shift-registers-types-74hc595-74hc164-34879fa3d21a) - Shift Registers — How it Works! - *What is the difference between 74hc595 and 74hc164?*
 
- [#30](_30_Fast_Rainbow/) arduSeries - [**Fast Rainbow Circuit : Three PWM Signal w/ ATtiny85**](https://goo.gl/ltXjBC)  - *Getting 3 PWM from ATtiny85* - [GitHub](https://github.com/giljr/Ardu_Serie)
+ [#30](_30_Fast_Rainbow/) arduSeries - [**Fast Rainbow Circuit : Three PWM Signal w/ ATtiny85**](https://medium.com/jungletronics/fast-rainbow-circuit-f0dddd5ee28)  - *Getting 3 PWM from ATtiny85*
 
- [#29](_29_ATtiny85/) arduSeries - [**ATtiny85 Easy Flashing Through Arduino**](http://highlowtech.org/?p=1695) - Programming ATtiny85 in 10 steps - *How to program ATtiny85*
+ [#29](_29_ATtiny85/) arduSeries - [**ATtiny85 Easy Flashing Through Arduino**](https://youtu.be/9BPAZhSGuug) - Programming ATtiny85 in 10 steps - *How to program ATtiny85* - [nice page](http://highlowtech.org/?p=1695)
 
  [#28](_28_PingPong/) arduSeries - [**Arduino & SoundCard Oscilloscope: Pong Game - How It Works**](https://youtu.be/Syas7W4Jft8) - *Pong Game w/ Sound Card Oscilloscope from [Christian Zeitnitz](https://www.zeitnitz.eu/scope_en)*
 
@@ -135,15 +135,15 @@ This is the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolut
 
  [#26](_26_Studio7/) arduSeries - [**How to load programs to an Arduino UNO from Atmel Studio 7**](https://youtu.be/hbPcWfWOJZY) - *A powerfull IDE for your Arduino's Project* 
 
- [#25](_25_PongGame/) arduSeries - [**Ping-Pong Game Explained!!!**](https://goo.gl/aAKGuD") - Simulation on Atmel Studio 7   - *Learn: Configuration of the Timer Interrupt; How this cool Code works inside; Analyzing & Dividing code to conquer; Calculate the Overflow Timer on Arduino Helped by Atmel Studio 7 Simulator*
+ [#25](_25_PongGame/) arduSeries - [**Ping-Pong Game Explained!!!**](https://youtu.be/X6yPxE8C60s) - Simulation on Atmel Studio 7   - *Learn: Configuration of the Timer Interrupt; How this cool Code works inside; Analyzing & Dividing code to conquer; Calculate the Overflow Timer on Arduino Helped by Atmel Studio 7 Simulator*
 
- [#24](_24_Compass/) arduSeries - [**abC Project: Arduino, Bluetooth and Compass V1.0**](https://goo.gl/gHFGIi) - *A compass connected to the arduino via bluetooth*
+ [#24](_24_Compass/) arduSeries - [**abC Project: Arduino, Bluetooth and Compass V1.0**](https://medium.com/jungletronics/abc-project-arduino-bluetooth-and-compass-v1-0-dcd5cc99bbdf#.fu3i8twj9) - *A compass connected to the arduino via bluetooth*
 
- [#23](_23_PID/) arduSeries - [**HowTo Control Devices With PID Library**](https://goo.gl/tgtW9B) - *Controlling the speed of an exhaust fan by the pid method - PID Library by Brett Beauregard and Front-End v03 using Processing.org version 3.1.*
+ [#23](_23_PID/) arduSeries - [**HowTo Control Devices With PID Library**](https://medium.com/jungletronics/pid-sample-for-arduino-260eae8975a4#.5f5d3ex90) - *Controlling the speed of an exhaust fan by the pid method - PID Library by Brett Beauregard and Front-End v03 using Processing.org version 3.1.*
 
- [#100](_100_Solar/) arduSeries - [**J3 Solar Tracker Turret V1.0**](https://goo.gl/ZAnbBz) - a 100th YouTube Video!!! - *Solar Tracker Turret v1.0, based on [Arduino Sun Tracker Turret © CC0](https://create.arduino.cc/projecthub/robotgeek-projects-team/arduino-sun-tracker-turret-06cba9?utm_source=newsletter&utm_campaign=Nov15&utm_medium=banner&utm_content=solartr)*
+ [#100](_100_Solar/) arduSeries - [**J3 Solar Tracker Turret V1.0**](https://medium.com/jungletronics/j3-solar-tracker-turret-v1-0-43094210a869#.hc55e541j) - a 100th YouTube Video!!! - *Solar Tracker Turret v1.0, based on [Arduino Sun Tracker Turret © CC0](https://create.arduino.cc/projecthub/robotgeek-projects-team/arduino-sun-tracker-turret-06cba9?utm_source=newsletter&utm_campaign=Nov15&utm_medium=banner&utm_content=solartr)*
 
- [#21](_21_J5/) arduSeries - [**Making Ideas Shine with Johnny-Five!!!**](https://goo.gl/UTsGrD)- - *Hello world for J5* 
+ [#21](_21_J5/) arduSeries - [**Making Ideas Shine with Johnny-Five!!!**](https://medium.com/jungletronics/making-ideas-shine-with-johnny-five-9b7630bbce33#.67tagp87s)- *Hello world for J5* 
  
  [#20](_20_NodeMCULua/) arduSeries - [**Your First NodeMCU/Lua Script Flash on ESP8266!!!**](https://medium.com/jungletronics/your-first-nodemcu-lua-script-flash-on-esp8266-e614b33a6de1) - *Hello world for NodeMCU/Lua* 
  
@@ -165,7 +165,7 @@ This is the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolut
 
  [#07](_07_RotaryEncoder/) arduSeries - [**Rotary Encoder Basics For Arduino**](https://youtu.be/6ok3mH7tmN4) - *How Rotary Encoder works*
 
- [#06](_06_IC4051_DEMUX/) arduSeries - [**Expanding Arduino's Pin w/ DEMUX IC 4051**]() - *Using IC 4051 as demulator and uultplexer*
+ [#06](_06_IC4051_DEMUX/) arduSeries - [**Expanding Arduino's Pin w/ DEMUX IC 4051**](https://jungletronics.blogspot.com/search?q=demux) - *Using IC 4051 as demulator and uultplexer*
                                                     
  [#05](_05_DD_ARD_YU/) arduSeries - [**DD_ARD_YU v1.0 - Digital Dimmer ARDuino for YoU!**](https://youtu.be/-1Vl_qlzZng) - *An awesome dimmer w/ Arduino!*
                                                                    
