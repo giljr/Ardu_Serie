@@ -4,7 +4,7 @@ Arduino is a :tada: low-cost (approx. $25-$30) open source programmable micro-co
 ```
 Arduino is the Apollo Project 
 
-of the maker movement
+   of the maker movement
 ```
 You're more then welcome to visit my Web Pages: 
 
@@ -12,6 +12,8 @@ You're more then welcome to visit my Web Pages:
  [KidsTronics](https://medium.com/kidstronics) (MIT App Inventor, LEGO, Arduino For Kids, and more)
  
 And my [Youtube Channel Playlist](https://www.youtube.com/playlist?list=PLK3PeNcUzb8TwZuXZJgREj5nDbQxRLW_a)
+
+Or my old Atlassian,Inc. Repo: https://bitbucket.org/gilj3/
  
 Where I Embrace Playful Experimentation, offering you an scaffolding opportunities to Code, Hack, 
 and Tinker too, and eventually you may *toss me some feedback* :blush:
@@ -79,11 +81,11 @@ This is the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolut
  
  [#63](_63_MonsterShield/) arduSeries - [**VNH2SP30 — SF Monster Moto Shield**](https://medium.com/jungletronics/vnh2sp30-monster-moto-shield-745893d518a9) - *Use This Board In Extreme High-Demand Application — Full-Bridge Motor Drivers —30A@16v peak* 
  
- [#62](_62_L9110/) arduSeries - [**L9110 H-bridge module**]() - DC Stepper Motor Driver Board -.8A@12 v peak** - *This is a simple test of this module*
+ [#62](_62_L9110/) arduSeries - [**L9110 H-bridge module**](https://medium.com/jungletronics/l9110-h-bridge-module-4c9bbb038200) - DC Stepper Motor Driver Board -.8A@12 v peak** - *This is a simple test of this module*
  
  [#61](_61_ULN2003/) arduSeries - [** ULN2003 & 28BYJ-48 Stepper Motor**](https://medium.com/jungletronics/uln2003-28byj-48-stepper-motor-f1cc5357eff) - 7 ch Darlington Sink Driver .6A@50v peak - *Full Step Drive: we're going to fire two phase at a time*
  
- [#60](_60_IFR520/) arduSeries - [**IFR 520 MOS-Module**](https://medium.com/jungletronics/ifr-520-mos-module-dorobot-4a3dd45ba2b7) + DoRobot Switch Heavy DC Loads-10A@100v peak-**] - *Switches the circuit every 2 seconds on and off*
+ [#60](_60_IFR520/) arduSeries - [**IFR 520 MOS-Module**](https://medium.com/jungletronics/ifr-520-mos-module-dorobot-4a3dd45ba2b7) + DoRobot Switch Heavy DC Loads-10A@100v peak - *Switches the circuit every 2 seconds on and off*
  
  [#59](_59_DRV8825/) arduSeries - [**DRV8825**](https://medium.com/jungletronics/drv8825-high-current-stepper-motor-driver-carrier-b51eead97fe8) — High Current Stepper Motor Driver Carrier - Stepper Motor—Bipolar Mode—2.5A@45v peak - *A simple and robust driver for car balance project*
  
@@ -95,7 +97,7 @@ This is the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolut
 
  [#49](_49_TB6612FNG/) arduSeries - [**TB6612FNG**](https://medium.com/jungletronics/tb6612fng-dual-dc-motor-driver-690abd44465d) - *Dual DC Motor Driver + DoRobot SparkFun Motor Driver — 3.2A@13.5v peak*
   
- [#48](_48_EasyDriver/) arduSeries - [**EASYDRIVER**](https://medium.com/jungletronics/easydriver-4-wire-stepper-motor-driver-9f32b233efe6) : 4-Wire-Stepper Motor Driver - Brian Schmalz Design on A3967 IC — Bi-Polar Motors — .75A@30v peak — *Making Use of this [Schmalzhaus](http://www.schmalzhaus.com/EasyDriver/) Driver a Breeze!* 
+ [#48](_48_EasyDriver/) arduSeries - [**EASYDRIVER**](https://medium.com/jungletronics/easydriver-4-wire-stepper-motor-driver-9f32b233efe6) : 4-Wire-Stepper Motor Driver - Brian Schmalz Design on A3967 IC — Bi-Polar Motors — .75A@30v peak — *Making Use of this [Schmalzhaus](http://www.schmalzhaus.com/EasyDriver/)'s Driver a Breeze!* 
  
  [#47_a](_47_MotorDrives/) arduSeries - [**Quick Intro To Motor Drivers**](https://medium.com/jungletronics/quick-intro-to-motor-drivers-322e4929db44) - *An Overview How-to’s For Hobbyist Guide*
   
@@ -209,13 +211,13 @@ This is the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolut
  
  [#BS_-1_2015](BS_01_Matrix/) - [**Arduino Matrix Led Display Ping Pong**](http://jungletronics.blogspot.com/2015/10/arduino-matrix-led-display-ping-pong.html) - *Simple Arduino Pong Game – LED Matrix 8x8 - 74HC138 IC.*
  
- [#BS_-2_2014](BS_01_TimeLapse_Camera/) - [**TimeLapse Camera**](https://github.com/giljr/Ardu_Serie/tree/master/BS_01_TimeLapse_Camera) - *JR TimeLapse Cam project! The camera takes pictures at predetermined intervals.*
+ [#BS_-2_2014](BS_01_TimeLapse_Camera/) - [**TimeLapse Camera**](http://jungletronics.blogspot.com/2014/06/blog-post.html) - *JR TimeLapse Cam project! The camera takes pictures at predetermined intervals.*
  
  [#BS_-3_2014](BS_03_Kinect/) - [**Kinect LaserGun Project**](https://jungletronics.blogspot.com/2014/06/lasergun-project.html) - *APP tracks & targets an individual - using X-BOX kinect camera.*
  
  [#BS_-4_2014](BS_04_27_Chip/) - [**Top 27 Hobbyists Chips**](http://jungletronics.blogspot.com/2014/09/top-27-hobbyists-chips.html?q=27) - *Apps in Proteus: 27 integrated circuits for hobbyists!*
    
- 
+ [#BS_BS_00_2014](BS_00_Ardu_Micellaneus) - [**Old Arduino codes back to 2014](https://bitbucket.org/gilj3/miscellaneous/src/master/)** - *When I was new·bie:)*
  
  
 
