@@ -217,7 +217,7 @@ This is the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolut
  
  [#BS_-4_2014](BS_04_27_Chip/) - [**Top 27 Hobbyists Chips**](http://jungletronics.blogspot.com/2014/09/top-27-hobbyists-chips.html?q=27) - *Apps in Proteus: 27 integrated circuits for hobbyists!*
    
- [#BS_BS_00_2014](BS_00_Ardu_Micellaneus) - [**Old Arduino codes back to 2014](https://bitbucket.org/gilj3/miscellaneous/src/master/)** - *When I was new·bie:)*
+ [#BS_BS_00_2014](BS_00_Ardu_Micellaneus) - [**Old Arduino codes back to 2014**](https://bitbucket.org/gilj3/miscellaneous/src/master/) - *When I was new·bie:)*
  
  
 
