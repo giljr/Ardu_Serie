@@ -53,11 +53,11 @@ These are the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revol
  
  [#76](_76_PixyCam/) #arduSeries - [**Arduino Meets Pixy**](https://medium.com/jungletronics/arduino-meets-pixy-36138c474912) - *How-To Get Up & Running Flying Pixy!* - [video](https://youtu.be/w3DsD_mwsL8) 
  
- [#75_4](_73_Eagle_04/) #EagleSeries - [**Eagle Episode 4**](https://medium.com/jungletronics/eagle-project-simple-pcb-etchant-7bac26ac035f) - *Simple PCB Etchant - The Whole Process* - [video](https://youtu.be/gRsiuOdpVMA) 
+ [#75_4](_73_Eagle_01/) #EagleSeries - [**Eagle Episode 4**](https://medium.com/jungletronics/eagle-project-simple-pcb-etchant-7bac26ac035f) - *Simple PCB Etchant - The Whole Process* - [video](https://youtu.be/gRsiuOdpVMA) 
   
- [#75](_73_Eagle_03/) #EagleSeries - [**Eagle Episode 3**](https://medium.com/jungletronics/first-project-in-eagle-555s-flasher-d4d1fa822537) - First Project in Eagle — 555’s Flasher - *Using 555 IC & Discrete Components* - [video](https://youtu.be/SLnq33xqd54)
+ [#75](_73_Eagle_01/) #EagleSeries - [**Eagle Episode 3**](https://medium.com/jungletronics/first-project-in-eagle-555s-flasher-d4d1fa822537) - First Project in Eagle — 555’s Flasher - *Using 555 IC & Discrete Components* - [video](https://youtu.be/SLnq33xqd54)
  
- [#74](_73_Eagle_02/) #EagleSeries - [**EAGLE Episode 2**](https://medium.com/jungletronics/installing-eagle-terminology-c7ff62602acc) - [ELG_01](https://drive.google.com/open?id=1glSErC3Z7V3EHNY10lqdtn_ep_Lis6mO) - *Concepts & Installations* - [video](https://youtu.be/SLnq33xqd54) 
+ [#74](_73_Eagle_01/) #EagleSeries - [**EAGLE Episode 2**](https://medium.com/jungletronics/installing-eagle-terminology-c7ff62602acc) - [ELG_01](https://drive.google.com/open?id=1glSErC3Z7V3EHNY10lqdtn_ep_Lis6mO) - *Concepts & Installations* - [video](https://youtu.be/SLnq33xqd54) 
  
  [#73](_73_Eagle_01/) #EagleSeries - [**EAGLE Episode 1**](https://medium.com/jungletronics/eagle-series-homemade-pcb-569c15d10c65) — [ELG_00](https://drive.google.com/open?id=1j1ZnmvNf14CLKtocdpnEGOG6cMC16Tpz) - *Homemade PCB Series: Intro & Motivations* - [video](https://youtu.be/e1ERSU91-PY) 
   
