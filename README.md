@@ -18,9 +18,7 @@ Or my old Atlassian,Inc. Repo: https://bitbucket.org/gilj3/
 Where I Embrace Playful Experimentation, offering you an scaffolding opportunities to Code, Hack, 
 and Tinker too, and eventually you may *toss me some feedback* :blush:
 
-Here, the emphasy lies on this motto of the Maker Movement: 
-
-:bulb:
+Here, the emphasy lies on this motto of the Maker Movement: :art:
 ```
 Learning By Doing!
 ``` 
@@ -28,16 +26,16 @@ Learning By Doing!
 I believe that the essential lessons can be learned about the systems - about the world - 
 from taking things apart, seeing how they work, and using this knowledge to create new and even more interenting things.
 
-This is the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolution-Steven-Levy/dp/1449388396)'s **Hackers Ethic** principles (that I've valued most):
+These are the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolution-Steven-Levy/dp/1449388396)'s **Hackers Ethic** principles (that I've valued most):
 * *Access to computer* - and anything that might teach you something about the way the world works - should be unlimited and total.
 * Always *yield to Hands-on Imperative*!
-* *Hackers should be judged* by their hacking, not bogus criteria such as degrees, age, race, or position;
+* *Hackers should be judged by their hacking*, not bogus criteria such as degrees, age, race, or position;
 * You can *create art and beauty* on a computer;
 * Computer can *change your life for the better*.
 
->[Google Drive](https://drive.google.com/open?id=0B8iMbc-iQqlULW1HZXFiNnBEZUE) This gives you access to all project's files by numbers, such as Fritzing, Proteus, and more:)
+>[Google Drive](https://drive.google.com/open?id=0B8iMbc-iQqlULW1HZXFiNnBEZUE) This gives you access to all the project's files. Please, search by # for artifacts, such as Code, Fritzing, Proteus, Schemas and more \o/
 
-### Projects Arduino Series List (from 2016 until now)
+### Projects Arduino Series List (from 2016 until now) :ant:
   
  [#83](_83_74HC4067/) #arduSeries - [**74HC4067 — DeMux For Arduino**](https://medium.com/jungletronics/74hc4067-demux-for-arduino-7f7892975edf) - *A multiplexer of this sort really just acts as a 16 to one 1 switch*  
   
@@ -63,7 +61,7 @@ This is the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolut
  
  [#73](_73_Eagle_01/) #EagleSeries - [**EAGLE Episode 1**](https://medium.com/jungletronics/eagle-series-homemade-pcb-569c15d10c65) — [ELG_00](https://drive.google.com/open?id=1j1ZnmvNf14CLKtocdpnEGOG6cMC16Tpz) - *Homemade PCB Series: Intro & Motivations* - [video](https://youtu.be/e1ERSU91-PY) 
   
- [#72](_71_SolarTurretV2/) #ArduSeries - [**Solar Turret V2— PCB— Part II - Designing Printed Circuit Boards — PCB**](https://medium.com/jungletronics/solar-turret-version-2-part-ii-c1de67beb7b4) - *MVP - Minimal Viable Product* 
+ [#72](_71_SolarTurretV2/) #ArduSeries - [**Solar Turret V2— PCB— Part II - Designing Printed Circuit Boards — PCB**](https://medium.com/jungletronics/solar-turret-version-2-part-ii-c1de67beb7b4) - *MVP - Minimal Viable Product - Pompermaier's design board* 
  
  [#71](_71_SolarTurretV2/) #arduSeries - [**Solar Turret — Version 2 — The PCB - Whip Up A Printed Circuit Boards — Part I**](https://medium.com/jungletronics/solar-turret-version-2-the-pcb-435607e4b66c) - *Prototyping PCB step-by-step* 
  
@@ -89,9 +87,9 @@ This is the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolut
  
  [#59](_59_DRV8825/) #arduSeries - [**DRV8825**](https://medium.com/jungletronics/drv8825-high-current-stepper-motor-driver-carrier-b51eead97fe8) — High Current Stepper Motor Driver Carrier - Stepper Motor—Bipolar Mode—2.5A@45v peak - *A simple and robust driver for car balance project*
  
- [#54](_54_AMS/) #arduSeries - [**Adafruit Motor Shield v1 & v2**](https://medium.com/jungletronics/adafruit-motor-shield-v1-v2-2fa1430edaf9) - 1.2A@25v & 3.2A@15v peak - *How to accelerate at haff speed two DC Motor 12v*
+ [#54](_54_AMS/) #arduSeries - [**Adafruit Motor Shield v1 & v2**](https://medium.com/jungletronics/adafruit-motor-shield-v1-v2-2fa1430edaf9) - 1.2A@25v & 3.2A@15v peak - *How to accelerate at half speed two DC Motor 12v*
 
- [#53](_53_A4988/) #arduSeries - [**A4988**](https://medium.com/jungletronics/a4988-stepper-motor-driver-carrier-bc25497a9d9c) — Stepper Motor Driver Carrier - Allegro’s A4988—Bipolar Stepper Motor Driver—2A@35v peak - *A breakout board for Allegro’s A4988 driver features' essay* - [Balancing Car Project](https://medium.com/jungletronics/jaythree-balancing-car-project-part-5-5-2aaa48924428)
+ [#53](_53_A4988/) #arduSeries - [**A4988**](https://medium.com/jungletronics/a4988-stepper-motor-driver-carrier-bc25497a9d9c) — Stepper Motor Driver Carrier - Allegro’s A4988—Bipolar Stepper Motor Driver—2A@35v peak - *A breakout board for Allegro’s A4988 driver features' essay* - [Driver used in my Balancing Car Project](https://medium.com/jungletronics/jaythree-balancing-car-project-part-5-5-2aaa48924428)
 
  [#52](_52_L298N/) #arduSeries - [**L298N**](https://medium.com/jungletronics/l298n-dual-full-bridge-driver-337321f593ee) — Dual Full-Bridge Driver - Darlington Transistor Arrays Based—3A@50v peak -*Running two 12v 350 RPM motors from J 3 Caterpillar-Crawler-Chassis v 1.0 on one L298N Driver*
 
@@ -99,41 +97,41 @@ This is the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolut
   
  [#48](_48_EasyDriver/) #arduSeries - [**EASYDRIVER**](https://medium.com/jungletronics/easydriver-4-wire-stepper-motor-driver-9f32b233efe6) : 4-Wire-Stepper Motor Driver - Brian Schmalz Design on A3967 IC — Bi-Polar Motors — .75A@30v peak — *Making Use of this [Schmalzhaus](http://www.schmalzhaus.com/EasyDriver/)'s Driver a Breeze!* 
  
- [#47_a](_47_MotorDrives/) #arduSeries - [**Quick Intro To Motor Drivers**](https://medium.com/jungletronics/quick-intro-to-motor-drivers-322e4929db44) - *An Overview How-to’s For Hobbyist Guide*
+ [#47_a](_47_MotorDrives/) #arduSeries - [**Quick Intro To Motor Drivers**](https://medium.com/jungletronics/quick-intro-to-motor-drivers-322e4929db44) - *An Overview How-to choose a Motor driver 4 Hobbyist's Guidance*
   
  [#47](_47_L9100S/) #arduSeries - [**L9100S**](https://medium.com/jungletronics/j3c3-controlling-motor-db024ea23bdb) — Toy Driver Easy To Use —.8A@12v peak - *Toy-low-voltage-h-bridge-easy-to-use-motor-driver* 
 
- [#46](_46_J3C3/) #arduSeries - Meet DoRobot — [**Assembly Techniques J3C3**](https://medium.com/jungletronics/meet-j3c3-3383e9254afd) - *JayThree Caterpillar-Crawler-Chassis v 1.0 mounting procedures* - [video](https://youtu.be/iXBeAEAZlP8)
+ [#46](_46_J3C3/) #arduSeries - Meet DoRobot — [**Assembly Techniques J3C3**](https://medium.com/jungletronics/meet-j3c3-3383e9254afd) - *JayThree Caterpillar-Crawler-Chassis v 1.0 mounting procedures* - [25 Bucks Chinese Caterpillar Robot Mouting Video](https://youtu.be/iXBeAEAZlP8)
  
- [#45](_45_Multifile/) #arduSeries - [**Arduino Multi File Sketch**](https://medium.com/jungletronics/arduino-multi-file-sketch-583a7833162c) - *How to Use Arduino Tabs and Code Spliting in Arduino IDE*
+ [#45](_45_Multifile/) #arduSeries - [**Arduino Multi File Sketch**](https://medium.com/jungletronics/arduino-multi-file-sketch-583a7833162c) - *How to Use Arduino Tabs and Code Splitting in Arduino IDE*
 
- [#44[(_44_FunSpeed/) #arduSeries - [**Quick Fun Speed Lab**](https://medium.com/jungletronics/quick-fun-speed-lab-39b0cbc53303) - Closed Loop Motion Control - *We’ll use a common 80mm computer cooling 3-wire fan in these experiments*
+ [#44](_44_FunSpeed/) #arduSeries - [**Quick Fun Speed Lab**](https://medium.com/jungletronics/quick-fun-speed-lab-39b0cbc53303) - Closed Loop Motion Control - *Using the third wire of a common 80mm computer cooling fan*
 
  [#43](_43_CTC/) #arduSeries - [**Arduino & Atmel Studio 7**](https://medium.com/jungletronics/arduino-atmel-studio-7-ctc-mode-782e8fdc8c80) - CTC Mode - *Quick study on CTC (Clear Timer on Compare)* - *Step-by-step how to use the CTC Mode - based on [Mayank](http://maxembedded.com/2011/07/avr-timers-ctc-mode/)*
 
  [#37](_37_Osa/) #arduSeries - [**OSA / RTOS — Quick Intro — Part 2/3**](https://medium.com/jungletronics/osa-rtos-quick-intro-part-1-3-8ee833b6a099)  - *Real-Time Operating System for Microchip PIC-controllers*
  
- [#36](_36_Time_LapseCAM/) #arduSeries - [**J3TLC — TimeLapse Camera Project**](https://medium.com/jungletronics/jaythree-timelapse-camera-6d08ea73b3a5) - *A robot that balancing itself!* 
+ [#36](_36_Time_LapseCAM/) #arduSeries - [**J3TLC — TimeLapse Camera Project**](https://medium.com/jungletronics/jaythree-timelapse-camera-6d08ea73b3a5) - *An Arduino Self-Balancing Robot - ASBR!* 
  
- [#35](_35_BalacingCar/) #arduSeries - [**J3 Balacing Car**](https://medium.com/jungletronics/jaythree-balancing-car-project-part-5-5-2aaa48924428) - Parts 1 2 3 4 & 5 - *A robot that balancing itself! - Based on the YABR by* [Joop Brokking](https://goo.gl/R25hLc)
+ [#35](_35_BalacingCar/) #arduSeries - [**J3 Balacing Car**](https://medium.com/jungletronics/jaythree-balancing-car-project-part-5-5-2aaa48924428) - Parts 1 2 3 4 & 5 - *An Arduino Self-Balancing Robot! - Based on the YABR by* [Joop Brokking](https://goo.gl/R25hLc)
 
  [#34](_34_GY85/) #arduSeries - [**GY-85**](https://medium.com/jungletronics/gy-85-a-quick-datasheet-study-79019bb36fbf) — *A quick datasheet study ADXL335 How it Works - We'll unlock the accelerometer — [ADXL335](https://www.sparkfun.com/products/9269)* 
 
  [#33](_33_nRF24L0/) #arduSeries - [**nRF24L0**](https://medium.com/jungletronics/nrf24l0-popular-rf-module-using-with-arduino-596dcdc7803b) — Popular RF module using with Arduino ! Radio Hello World Sketches - *Setting up for 2 radios* 
 
- [#32](_32_Sonar/) #arduSeries - [**Sonar Judge The Distance Circuit**](https://medium.com/jungletronics/sonar-judge-the-distance-circuit-circuito-golpe-de-vista-arduserie-32-6dda5ee9b606) : Circuito ‘Golpe de Vista’ - *Circuit for tighter garages*
+ [#32](_32_Sonar/) #arduSeries - [**Sonar Judge The Distance Circuit**](https://medium.com/jungletronics/sonar-judge-the-distance-circuit-circuito-golpe-de-vista-arduserie-32-6dda5ee9b606) : Circuito ‘Golpe de Vista’ - *Helper Circuit for any tighter garages*
 
  [#31](_31_Shift_Regs/) #arduSeries - [**Shift Registers Types: 74HC595 & 74HC164**](https://medium.com/jungletronics/shift-registers-types-74hc595-74hc164-34879fa3d21a) - Shift Registers — How it Works! - *What is the difference between 74hc595 and 74hc164?*
 
  [#30](_30_Fast_Rainbow/) #arduSeries - [**Fast Rainbow Circuit : Three PWM Signal w/ ATtiny85**](https://medium.com/jungletronics/fast-rainbow-circuit-f0dddd5ee28)  - *Getting 3 PWM from ATtiny85*
 
- [#29](_29_ATtiny85/) #arduSeries - [**ATtiny85 Easy Flashing Through Arduino**](https://youtu.be/9BPAZhSGuug) - Programming ATtiny85 in 10 steps - *How to program ATtiny85* - [nice page](http://highlowtech.org/?p=1695)
+ [#29](_29_ATtiny85/) #arduSeries - [**ATtiny85 Easy Flashing Through Arduino**](https://youtu.be/9BPAZhSGuug) - Programming ATtiny85 in 10 steps - *How to program ATtiny85* - [visit this nice page](http://highlowtech.org/?p=1695)
 
  [#28](_28_PingPong/) #arduSeries - [**Arduino & SoundCard Oscilloscope: Pong Game - How It Works**](https://youtu.be/Syas7W4Jft8) - *Pong Game w/ Sound Card Oscilloscope from [Christian Zeitnitz](https://www.zeitnitz.eu/scope_en)*
 
  [#27](_27_Assembly/) #arduSeries - [**Meeting Assembly**](https://youtu.be/pInCtpDUz98) — Hello World Arduino on Atmel Studio 7  - *Arduino’s blink program working in assembly - Atmel Studio 7 IDE*
 
- [#26](_26_Studio7/) #arduSeries - [**How to load programs to an Arduino UNO from Atmel Studio 7**](https://youtu.be/hbPcWfWOJZY) - *A powerfull IDE for your Arduino's Project* 
+ [#26](_26_Studio7/) #arduSeries - [**How to load programs to an Arduino UNO from Atmel Studio 7**](https://medium.com/jungletronics/how-to-load-programs-to-an-arduino-uno-from-atmel-studio-7-83c8dd8d175d) - *A powerfull IDE for your Arduino's Project* - [video](https://youtu.be/hbPcWfWOJZY)  
 
  [#25](_25_PongGame/) #arduSeries - [**Ping-Pong Game Explained!!!**](https://youtu.be/X6yPxE8C60s) - Simulation on Atmel Studio 7   - *Learn: Configuration of the Timer Interrupt; How this cool Code works inside; Analyzing & Dividing code to conquer; Calculate the Overflow Timer on Arduino Helped by Atmel Studio 7 Simulator*
 
@@ -165,7 +163,7 @@ This is the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolut
 
  [#07](_07_RotaryEncoder/) #arduSeries - [**Rotary Encoder Basics For Arduino**](https://youtu.be/6ok3mH7tmN4) - *How Rotary Encoder works*
 
- [#06](_06_IC4051_DEMUX/) #arduSeries - [**Expanding Arduino's Pin w/ DEMUX IC 4051**](https://jungletronics.blogspot.com/search?q=demux) - *Using IC 4051 as demulator and uultplexer*
+ [#06](_06_IC4051_DEMUX/) #arduSeries - [**Expanding Arduino's Pin w/ DEMUX IC 4051**](https://jungletronics.blogspot.com/search?q=demux) - *Using IC 4051 as demulator and multplexer*
                                                     
  [#05](_05_DD_ARD_YU/) #arduSeries - [**DD_ARD_YU v1.0 - Digital Dimmer ARDuino for YoU!**](https://youtu.be/-1Vl_qlzZng) - *An awesome dimmer w/ Arduino!*
                                                                    
@@ -182,7 +180,7 @@ This is the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revolut
  
  
 
-### Projects blogspot list (from 2014 until 2016):
+### Projects blogspot list (from 2014 until 2016): :moyai:
  
  **Legend:**
  
