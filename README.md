@@ -101,7 +101,7 @@ These are the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revol
   
  [#47](_47_L9100S/) #arduSeries - [**L9100S**](https://medium.com/jungletronics/j3c3-controlling-motor-db024ea23bdb) — Toy Driver Easy To Use —.8A@12v peak - *Toy-low-voltage-h-bridge-easy-to-use-motor-driver* 
 
- [#46](_46_J3C3/) #arduSeries - Meet DoRobot — [**Assembly Techniques J3C3**](https://medium.com/jungletronics/meet-j3c3-3383e9254afd) - *JayThree Caterpillar-Crawler-Chassis v 1.0 mounting procedures* - [25 Bucks Chinese Caterpillar Robot Mouting Video](https://youtu.be/iXBeAEAZlP8)
+ [#46](_46_J3C3/) #arduSeries - Meet DoRobot — [**Assembly Techniques J3C3**](https://medium.com/jungletronics/meet-j3c3-3383e9254afd) - *JayThree Caterpillar-Crawler-Chassis v 1.0 mounting procedures* - [25 Bucks Chinese Caterpillar Robot Mounting Video](https://youtu.be/iXBeAEAZlP8)
  
  [#45](_45_Multifile/) #arduSeries - [**Arduino Multi File Sketch**](https://medium.com/jungletronics/arduino-multi-file-sketch-583a7833162c) - *How to Use Arduino Tabs and Code Splitting in Arduino IDE*
 
@@ -111,9 +111,9 @@ These are the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revol
 
  [#37](_37_Osa/) #arduSeries - [**OSA / RTOS — Quick Intro — Part 2/3**](https://medium.com/jungletronics/osa-rtos-quick-intro-part-1-3-8ee833b6a099)  - *Real-Time Operating System for Microchip PIC-controllers*
  
- [#36](_36_Time_LapseCAM/) #arduSeries - [**J3TLC — TimeLapse Camera Project**](https://medium.com/jungletronics/jaythree-timelapse-camera-6d08ea73b3a5) - *An Arduino Self-Balancing Robot - ASBR!* 
+ [#36](_36_Time_LapseCAM/) #arduSeries - [**J3TLC — TimeLapse Camera Project**](https://medium.com/jungletronics/jaythree-timelapse-camera-6d08ea73b3a5) - *An Arduino Timelapse Camera!* 
  
- [#35](_35_BalacingCar/) #arduSeries - [**J3 Balacing Car**](https://medium.com/jungletronics/jaythree-balancing-car-project-part-5-5-2aaa48924428) - Parts 1 2 3 4 & 5 - *An Arduino Self-Balancing Robot! - Based on the YABR by* [Joop Brokking](https://goo.gl/R25hLc)
+ [#35](_35_BalacingCar/) #arduSeries - [**J3 Balacing Car**](https://medium.com/jungletronics/jaythree-balancing-car-project-part-5-5-2aaa48924428) - Parts 1 2 3 4 & 5 - *An Arduino Self-Balancing Robot - ASBR! - Based on the YABR by* [Joop Brokking](https://goo.gl/R25hLc)
 
  [#34](_34_GY85/) #arduSeries - [**GY-85**](https://medium.com/jungletronics/gy-85-a-quick-datasheet-study-79019bb36fbf) — *A quick datasheet study ADXL335 How it Works - We'll unlock the accelerometer — [ADXL335](https://www.sparkfun.com/products/9269)* 
 
@@ -125,7 +125,7 @@ These are the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revol
 
  [#30](_30_Fast_Rainbow/) #arduSeries - [**Fast Rainbow Circuit : Three PWM Signal w/ ATtiny85**](https://medium.com/jungletronics/fast-rainbow-circuit-f0dddd5ee28)  - *Getting 3 PWM from ATtiny85*
 
- [#29](_29_ATtiny85/) #arduSeries - [**ATtiny85 Easy Flashing Through Arduino**](https://youtu.be/9BPAZhSGuug) - Programming ATtiny85 in 10 steps - *How to program ATtiny85* - [visit this nice page](http://highlowtech.org/?p=1695)
+ [#29](_29_ATtiny85/) #arduSeries - [**ATtiny85 Easy Flashing Through Arduino**](https://youtu.be/9BPAZhSGuug) - Programming ATtiny85 in 10 steps - *How to program ATtiny85* - [Please, visit this nice page!](http://highlowtech.org/?p=1695)
 
  [#28](_28_PingPong/) #arduSeries - [**Arduino & SoundCard Oscilloscope: Pong Game - How It Works**](https://youtu.be/Syas7W4Jft8) - *Pong Game w/ Sound Card Oscilloscope from [Christian Zeitnitz](https://www.zeitnitz.eu/scope_en)*
 
@@ -155,7 +155,7 @@ These are the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revol
 
  [#15](_15_PCF8591P/) #arduSeries - [**Arduino Ripple Board w/ PCF8591P**](https://youtu.be/oNpPBxcHSXw) - *Extending Arduino's Pins w/ IC [PCF8591P](https://www.nxp.com/docs/en/data-sheet/PCF8591.pdf)*
 
- [#13](_13_Thermocouple/) #arduSeries - [**Arduino 1-Wire Thermocouple in the kitchen**](https://youtu.be/IGvR1Yq6DLI) - *How to install Thermocouple in the oven's kitchen* 
+ [#13](_13_Thermocouple/) #arduSeries - [**Arduino 1-Wire Thermocouple in the kitchen**](https://youtu.be/IGvR1Yq6DLI) - *How to install Thermocouple in the oven kitchen cabinet* 
 
  [#09](_09_Uni-H-Bridge/) #arduSeries - [**Uni H-Bridge Module For Arduino**](http://jungletronics.blogspot.com/2016/06/09-arduserie-uni-h-bridge-module-for_3.html) - *L9110 Chip - Testing Uni-H-Bridge Module for Arduino* 
 
