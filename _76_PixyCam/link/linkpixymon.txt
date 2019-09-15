@@ -1,0 +1,3 @@
+https://docs.pixycam.com/wiki/doku.php?id=start
+https://docs.pixycam.com/wiki/doku.php?id=wiki:v1:start
+https://docs.pixycam.com/wiki/doku.php?id=wiki:v1:install_pixymon_on_windows_vista_7_8
