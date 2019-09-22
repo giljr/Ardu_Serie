@@ -217,6 +217,11 @@ These are the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revol
    
  [#BS_BS_00_2014](BS_00_Ardu_Micellaneus) - [**Old Arduino codes back to 2014**](https://bitbucket.org/gilj3/miscellaneous/src/master/) - *When I was new·bie:)*
  
+
+### License
+
+[![License: CC BY-NC-ND 3.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%203.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/3.0/)
+ 
  
 
  
