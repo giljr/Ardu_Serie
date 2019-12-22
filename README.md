@@ -39,13 +39,13 @@ These are the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revol
 
  [#88](_88_Counter_LogicAnalyzer/) #arduSeries - [**Binary Counter — Logic Analyzer**](https://medium.com/jungletronics/binary-counter-logic-analyzer-74872e6db7b9) — *Make an 8-bit counter code w/ Arduino & how-to-use Logic Analyzer 24 Mhz 8 Channels*
    
- [#83](/) #arduSeries - [**74HC4067 — DeMux For Arduino**](https://medium.com/jungletronics/74hc4067-demux-for-arduino-7f7892975edf) - *A multiplexer of this sort really just acts as a 16 to one 1 switch*  
+ [#83](README.md/) #arduSeries - [**74HC4067 — DeMux For Arduino**](https://medium.com/jungletronics/74hc4067-demux-for-arduino-7f7892975edf) - *A multiplexer of this sort really just acts as a 16 to one 1 switch*  
   
- [#82](/) #arduSeries - [**Sharp IR Sensor — 0A41SK**](https://medium.com/jungletronics/sharp-ir-sensor-0a41sk-41c2b3848e39) - *4–30cm Infrared IR Distance Measuring Sensor*
+ [#82](README.md/) #arduSeries - [**Sharp IR Sensor — 0A41SK**](https://medium.com/jungletronics/sharp-ir-sensor-0a41sk-41c2b3848e39) - *4–30cm Infrared IR Distance Measuring Sensor*
 
- [#81](/) #arduSeries - [**HC-SR04 Ultrasound Sensor**](https://medium.com/jungletronics/hc-sr04-ultrasound-sensor-4-arduino-3cb60b673ad0) 4-Arduino - *Ultra Simple Test Experiment*
+ [#81](README.md/) #arduSeries - [**HC-SR04 Ultrasound Sensor**](https://medium.com/jungletronics/hc-sr04-ultrasound-sensor-4-arduino-3cb60b673ad0) 4-Arduino - *Ultra Simple Test Experiment*
 
- [#80](/) #arduSeries - [**4-Channel Line Tracker Sensor**](https://medium.com/jungletronics/4-channel-line-tracker-sensor-e6f9a0dad304) - *Ensures a Successful & Accurately Navigation For Your Robot*
+ [#80](README.md/) #arduSeries - [**4-Channel Line Tracker Sensor**](https://medium.com/jungletronics/4-channel-line-tracker-sensor-e6f9a0dad304) - *Ensures a Successful & Accurately Navigation For Your Robot*
  
  [#79](_79_WhatsWrong_Prusa/) #arduSeries - [**Prusa Went Wrong**](https://medium.com/jungletronics/prussa-went-wrong-mini-cnc-project-bcff41ff303d) — Mini-CNC Project - *10 Most Common Pitfall YOU CAN AVOID — Episode 2* - [video](https://youtu.be/RQ_3eqvhWr8)
  
