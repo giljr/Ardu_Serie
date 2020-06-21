@@ -182,7 +182,7 @@ These are the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revol
  
  
 
-### Projects blogspot list (from 2014 until 2016): :moyai:
+### Projects blogspot list (from 2014 until 2016): :notebook_with_decorative_cover:
  
  **Legend:**
  
